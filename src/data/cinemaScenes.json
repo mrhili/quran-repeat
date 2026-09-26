@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-11T13:51:16.189Z",
+  "items": [
+    {
+      "id": "chawn",
+      "name": "يوتوب",
+      "description": "قالب فيديو صامت؛ ضع رابط الفيديو ثم اختبره.",
+      "backgroundType": "youtube",
+      "className": "cinema-scene-custom-chawn",
+      "animation": "fade-rise",
+      "source": "local",
+      "enabled": true,
+      "config": {
+        "cssBackground": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=tJVk3Rb_8pU",
+        "youtubeId": "tJVk3Rb_8pU",
+        "overlay": "rgba(2, 6, 23, 0.0)"
+      },
+      "textStyle": {
+        "color": "#434242",
+        "accent": "#fbbf24",
+        "shadow": "0 2px 2px rgba(0, 0, 0, 0.98), 0 -1px 2px rgba(0, 0, 0, 0.82), 2px 0 2px rgba(0, 0, 0, 0.82), -2px 0 2px rgba(0, 0, 0, 0.82), 0 0 18px rgba(0, 0, 0, 0.74)",
+        "backdrop": "transparent",
+        "fontScale": 1,
+        "position": "center",
+        "cardStyle": "none",
+        "fontFamily": "var(--font-quran), \"Amiri\", \"Scheherazade New\", \"Noto Naskh Arabic\", \"Traditional Arabic\", serif"
+      }
+    }
+  ],
+  "templates": []
+}

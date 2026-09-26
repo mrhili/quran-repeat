@@ -1,0 +1,6946 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-28T22:58:22.125Z",
+  "edition": {
+    "textDataset": "Quran-Data",
+    "textDatasetVersion": "2.0",
+    "structureEdition": "quran-uthmani",
+    "reading": "قراءة عاصم",
+    "narration": "رواية حفص",
+    "script": "الرسم العثماني",
+    "verseCount": 6236,
+    "pageCount": 604,
+    "source": "https://api.alquran.cloud/v1/quran/quran-uthmani"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "name": {
+        "ar": "الفاتحة",
+        "en": "The Opening",
+        "transliteration": "Al-Fatihah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 7,
+      "wordsCount": 29,
+      "lettersCount": 139,
+      "pageStart": 1,
+      "pageEnd": 1,
+      "juz": [
+        1
+      ],
+      "hizb": [
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "name": {
+        "ar": "البقرة",
+        "en": "The Cow",
+        "transliteration": "Al-Baqarah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 286,
+      "wordsCount": 6144,
+      "lettersCount": 25613,
+      "pageStart": 2,
+      "pageEnd": 49,
+      "juz": [
+        1,
+        2,
+        3
+      ],
+      "hizb": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "number": 3,
+      "name": {
+        "ar": "آل عمران",
+        "en": "The Family of Imraan",
+        "transliteration": "Ali 'Imran"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 200,
+      "wordsCount": 3503,
+      "lettersCount": 14605,
+      "pageStart": 50,
+      "pageEnd": 76,
+      "juz": [
+        3,
+        4
+      ],
+      "hizb": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "number": 4,
+      "name": {
+        "ar": "النساء",
+        "en": "The Women",
+        "transliteration": "An-Nisa"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 176,
+      "wordsCount": 3745,
+      "lettersCount": 16030,
+      "pageStart": 77,
+      "pageEnd": 106,
+      "juz": [
+        4,
+        5,
+        6
+      ],
+      "hizb": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "number": 5,
+      "name": {
+        "ar": "المائدة",
+        "en": "The Table",
+        "transliteration": "Al-Ma'idah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 120,
+      "wordsCount": 2837,
+      "lettersCount": 11892,
+      "pageStart": 106,
+      "pageEnd": 127,
+      "juz": [
+        6,
+        7
+      ],
+      "hizb": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "number": 6,
+      "name": {
+        "ar": "الأنعام",
+        "en": "The Cattle",
+        "transliteration": "Al-An'am"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 165,
+      "wordsCount": 3055,
+      "lettersCount": 12418,
+      "pageStart": 128,
+      "pageEnd": 150,
+      "juz": [
+        7,
+        8
+      ],
+      "hizb": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "number": 7,
+      "name": {
+        "ar": "الأعراف",
+        "en": "The Heights",
+        "transliteration": "Al-A'raf"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 206,
+      "wordsCount": 3344,
+      "lettersCount": 14071,
+      "pageStart": 151,
+      "pageEnd": 176,
+      "juz": [
+        8,
+        9
+      ],
+      "hizb": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "number": 8,
+      "name": {
+        "ar": "الأنفال",
+        "en": "The Spoils of War",
+        "transliteration": "Al-Anfal"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 75,
+      "wordsCount": 1243,
+      "lettersCount": 5299,
+      "pageStart": 177,
+      "pageEnd": 186,
+      "juz": [
+        9,
+        10
+      ],
+      "hizb": [
+        18,
+        19
+      ]
+    },
+    {
+      "number": 9,
+      "name": {
+        "ar": "التوبة",
+        "en": "The Repentance",
+        "transliteration": "At-Tawbah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 129,
+      "wordsCount": 2506,
+      "lettersCount": 10873,
+      "pageStart": 187,
+      "pageEnd": 207,
+      "juz": [
+        10,
+        11
+      ],
+      "hizb": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "number": 10,
+      "name": {
+        "ar": "يونس",
+        "en": "Jonas",
+        "transliteration": "Yunus"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 109,
+      "wordsCount": 1841,
+      "lettersCount": 7425,
+      "pageStart": 208,
+      "pageEnd": 221,
+      "juz": [
+        11
+      ],
+      "hizb": [
+        21,
+        22
+      ]
+    },
+    {
+      "number": 11,
+      "name": {
+        "ar": "هود",
+        "en": "Hud",
+        "transliteration": "Hud"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 123,
+      "wordsCount": 1947,
+      "lettersCount": 7633,
+      "pageStart": 221,
+      "pageEnd": 235,
+      "juz": [
+        11,
+        12
+      ],
+      "hizb": [
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "number": 12,
+      "name": {
+        "ar": "يوسف",
+        "en": "Joseph",
+        "transliteration": "Yusuf"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 111,
+      "wordsCount": 1795,
+      "lettersCount": 7125,
+      "pageStart": 235,
+      "pageEnd": 248,
+      "juz": [
+        12,
+        13
+      ],
+      "hizb": [
+        24,
+        25
+      ]
+    },
+    {
+      "number": 13,
+      "name": {
+        "ar": "الرعد",
+        "en": "The Thunder",
+        "transliteration": "Ar-Ra'd"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 43,
+      "wordsCount": 854,
+      "lettersCount": 3450,
+      "pageStart": 249,
+      "pageEnd": 255,
+      "juz": [
+        13
+      ],
+      "hizb": [
+        25,
+        26
+      ]
+    },
+    {
+      "number": 14,
+      "name": {
+        "ar": "إبراهيم",
+        "en": "Abraham",
+        "transliteration": "Ibrahim"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 52,
+      "wordsCount": 831,
+      "lettersCount": 3461,
+      "pageStart": 255,
+      "pageEnd": 261,
+      "juz": [
+        13
+      ],
+      "hizb": [
+        26
+      ]
+    },
+    {
+      "number": 15,
+      "name": {
+        "ar": "الحجر",
+        "en": "The Rock",
+        "transliteration": "Al-Hijr"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 99,
+      "wordsCount": 658,
+      "lettersCount": 2797,
+      "pageStart": 262,
+      "pageEnd": 267,
+      "juz": [
+        14
+      ],
+      "hizb": [
+        27
+      ]
+    },
+    {
+      "number": 16,
+      "name": {
+        "ar": "النحل",
+        "en": "The Bee",
+        "transliteration": "An-Nahl"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 128,
+      "wordsCount": 1845,
+      "lettersCount": 7642,
+      "pageStart": 267,
+      "pageEnd": 281,
+      "juz": [
+        14
+      ],
+      "hizb": [
+        27,
+        28
+      ]
+    },
+    {
+      "number": 17,
+      "name": {
+        "ar": "الإسراء",
+        "en": "The Night Journey",
+        "transliteration": "Al-Isra"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 111,
+      "wordsCount": 1559,
+      "lettersCount": 6480,
+      "pageStart": 282,
+      "pageEnd": 293,
+      "juz": [
+        15
+      ],
+      "hizb": [
+        29,
+        30
+      ]
+    },
+    {
+      "number": 18,
+      "name": {
+        "ar": "الكهف",
+        "en": "The Cave",
+        "transliteration": "Al-Kahf"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 110,
+      "wordsCount": 1583,
+      "lettersCount": 6425,
+      "pageStart": 293,
+      "pageEnd": 304,
+      "juz": [
+        15,
+        16
+      ],
+      "hizb": [
+        30,
+        31
+      ]
+    },
+    {
+      "number": 19,
+      "name": {
+        "ar": "مريم",
+        "en": "Mary",
+        "transliteration": "Maryam"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 98,
+      "wordsCount": 972,
+      "lettersCount": 3835,
+      "pageStart": 305,
+      "pageEnd": 312,
+      "juz": [
+        16
+      ],
+      "hizb": [
+        31
+      ]
+    },
+    {
+      "number": 20,
+      "name": {
+        "ar": "طه",
+        "en": "Taahaa",
+        "transliteration": "Taha"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 135,
+      "wordsCount": 1354,
+      "lettersCount": 5288,
+      "pageStart": 312,
+      "pageEnd": 321,
+      "juz": [
+        16
+      ],
+      "hizb": [
+        32
+      ]
+    },
+    {
+      "number": 21,
+      "name": {
+        "ar": "الأنبياء",
+        "en": "The Prophets",
+        "transliteration": "Al-Anbya"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 112,
+      "wordsCount": 1174,
+      "lettersCount": 4925,
+      "pageStart": 322,
+      "pageEnd": 331,
+      "juz": [
+        17
+      ],
+      "hizb": [
+        33
+      ]
+    },
+    {
+      "number": 22,
+      "name": {
+        "ar": "الحج",
+        "en": "The Pilgrimage",
+        "transliteration": "Al-Hajj"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 78,
+      "wordsCount": 1279,
+      "lettersCount": 5196,
+      "pageStart": 332,
+      "pageEnd": 341,
+      "juz": [
+        17
+      ],
+      "hizb": [
+        34
+      ]
+    },
+    {
+      "number": 23,
+      "name": {
+        "ar": "المؤمنون",
+        "en": "The Believers",
+        "transliteration": "Al-Mu'minun"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 118,
+      "wordsCount": 1840,
+      "lettersCount": 4802,
+      "pageStart": 342,
+      "pageEnd": 349,
+      "juz": [
+        18
+      ],
+      "hizb": [
+        35
+      ]
+    },
+    {
+      "number": 24,
+      "name": {
+        "ar": "النور",
+        "en": "The Light",
+        "transliteration": "An-Nur"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 64,
+      "wordsCount": 1317,
+      "lettersCount": 5596,
+      "pageStart": 350,
+      "pageEnd": 359,
+      "juz": [
+        18
+      ],
+      "hizb": [
+        35,
+        36
+      ]
+    },
+    {
+      "number": 25,
+      "name": {
+        "ar": "الفرقان",
+        "en": "The Criterion",
+        "transliteration": "Al-Furqan"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 77,
+      "wordsCount": 896,
+      "lettersCount": 3786,
+      "pageStart": 359,
+      "pageEnd": 366,
+      "juz": [
+        18,
+        19
+      ],
+      "hizb": [
+        36,
+        37
+      ]
+    },
+    {
+      "number": 26,
+      "name": {
+        "ar": "الشعراء",
+        "en": "The Poets",
+        "transliteration": "Ash-Shu'ara"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 227,
+      "wordsCount": 1322,
+      "lettersCount": 5517,
+      "pageStart": 367,
+      "pageEnd": 376,
+      "juz": [
+        19
+      ],
+      "hizb": [
+        37,
+        38
+      ]
+    },
+    {
+      "number": 27,
+      "name": {
+        "ar": "النمل",
+        "en": "The Ant",
+        "transliteration": "An-Naml"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 93,
+      "wordsCount": 1165,
+      "lettersCount": 4679,
+      "pageStart": 377,
+      "pageEnd": 385,
+      "juz": [
+        19,
+        20
+      ],
+      "hizb": [
+        38,
+        39
+      ]
+    },
+    {
+      "number": 28,
+      "name": {
+        "ar": "القصص",
+        "en": "The Stories",
+        "transliteration": "Al-Qasas"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 88,
+      "wordsCount": 1441,
+      "lettersCount": 5791,
+      "pageStart": 385,
+      "pageEnd": 396,
+      "juz": [
+        20
+      ],
+      "hizb": [
+        39,
+        40
+      ]
+    },
+    {
+      "number": 29,
+      "name": {
+        "ar": "العنكبوت",
+        "en": "The Spider",
+        "transliteration": "Al-'Ankabut"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 69,
+      "wordsCount": 982,
+      "lettersCount": 4200,
+      "pageStart": 396,
+      "pageEnd": 404,
+      "juz": [
+        20,
+        21
+      ],
+      "hizb": [
+        40,
+        41
+      ]
+    },
+    {
+      "number": 30,
+      "name": {
+        "ar": "الروم",
+        "en": "The Romans",
+        "transliteration": "Ar-Rum"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 60,
+      "wordsCount": 819,
+      "lettersCount": 3388,
+      "pageStart": 404,
+      "pageEnd": 410,
+      "juz": [
+        21
+      ],
+      "hizb": [
+        41
+      ]
+    },
+    {
+      "number": 31,
+      "name": {
+        "ar": "لقمان",
+        "en": "Luqman",
+        "transliteration": "Luqman"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 34,
+      "wordsCount": 550,
+      "lettersCount": 2121,
+      "pageStart": 411,
+      "pageEnd": 414,
+      "juz": [
+        21
+      ],
+      "hizb": [
+        41,
+        42
+      ]
+    },
+    {
+      "number": 32,
+      "name": {
+        "ar": "السجدة",
+        "en": "The Prostration",
+        "transliteration": "As-Sajdah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 30,
+      "wordsCount": 374,
+      "lettersCount": 1523,
+      "pageStart": 415,
+      "pageEnd": 417,
+      "juz": [
+        21
+      ],
+      "hizb": [
+        42
+      ]
+    },
+    {
+      "number": 33,
+      "name": {
+        "ar": "الأحزاب",
+        "en": "The Clans",
+        "transliteration": "Al-Ahzab"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 73,
+      "wordsCount": 1303,
+      "lettersCount": 5618,
+      "pageStart": 418,
+      "pageEnd": 427,
+      "juz": [
+        21,
+        22
+      ],
+      "hizb": [
+        42,
+        43
+      ]
+    },
+    {
+      "number": 34,
+      "name": {
+        "ar": "سبأ",
+        "en": "Sheba",
+        "transliteration": "Saba"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 54,
+      "wordsCount": 884,
+      "lettersCount": 3510,
+      "pageStart": 428,
+      "pageEnd": 434,
+      "juz": [
+        22
+      ],
+      "hizb": [
+        43,
+        44
+      ]
+    },
+    {
+      "number": 35,
+      "name": {
+        "ar": "فاطر",
+        "en": "The Originator",
+        "transliteration": "Fatir"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 45,
+      "wordsCount": 780,
+      "lettersCount": 3159,
+      "pageStart": 434,
+      "pageEnd": 440,
+      "juz": [
+        22
+      ],
+      "hizb": [
+        44
+      ]
+    },
+    {
+      "number": 36,
+      "name": {
+        "ar": "يس",
+        "en": "Yaseen",
+        "transliteration": "Ya-Sin"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 83,
+      "wordsCount": 733,
+      "lettersCount": 2988,
+      "pageStart": 440,
+      "pageEnd": 445,
+      "juz": [
+        22,
+        23
+      ],
+      "hizb": [
+        44,
+        45
+      ]
+    },
+    {
+      "number": 37,
+      "name": {
+        "ar": "الصافات",
+        "en": "Those drawn up in Ranks",
+        "transliteration": "As-Saffat"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 182,
+      "wordsCount": 865,
+      "lettersCount": 3790,
+      "pageStart": 446,
+      "pageEnd": 452,
+      "juz": [
+        23
+      ],
+      "hizb": [
+        45,
+        46
+      ]
+    },
+    {
+      "number": 38,
+      "name": {
+        "ar": "ص",
+        "en": "The letter Saad",
+        "transliteration": "Sad"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 88,
+      "wordsCount": 735,
+      "lettersCount": 2991,
+      "pageStart": 453,
+      "pageEnd": 458,
+      "juz": [
+        23
+      ],
+      "hizb": [
+        46
+      ]
+    },
+    {
+      "number": 39,
+      "name": {
+        "ar": "الزمر",
+        "en": "The Groups",
+        "transliteration": "Az-Zumar"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 75,
+      "wordsCount": 1177,
+      "lettersCount": 4741,
+      "pageStart": 458,
+      "pageEnd": 467,
+      "juz": [
+        23,
+        24
+      ],
+      "hizb": [
+        46,
+        47
+      ]
+    },
+    {
+      "number": 40,
+      "name": {
+        "ar": "غافر",
+        "en": "The Forgiver",
+        "transliteration": "Ghafir"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 85,
+      "wordsCount": 1228,
+      "lettersCount": 4984,
+      "pageStart": 467,
+      "pageEnd": 476,
+      "juz": [
+        24
+      ],
+      "hizb": [
+        47,
+        48
+      ]
+    },
+    {
+      "number": 41,
+      "name": {
+        "ar": "فصلت",
+        "en": "Explained in detail",
+        "transliteration": "Fussilat"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 54,
+      "wordsCount": 796,
+      "lettersCount": 3282,
+      "pageStart": 477,
+      "pageEnd": 482,
+      "juz": [
+        24,
+        25
+      ],
+      "hizb": [
+        48,
+        49
+      ]
+    },
+    {
+      "number": 42,
+      "name": {
+        "ar": "الشورى",
+        "en": "Consultation",
+        "transliteration": "Ash-Shuraa"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 53,
+      "wordsCount": 860,
+      "lettersCount": 3431,
+      "pageStart": 483,
+      "pageEnd": 489,
+      "juz": [
+        25
+      ],
+      "hizb": [
+        49
+      ]
+    },
+    {
+      "number": 43,
+      "name": {
+        "ar": "الزخرف",
+        "en": "Ornaments of gold",
+        "transliteration": "Az-Zukhruf"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 89,
+      "wordsCount": 825,
+      "lettersCount": 3703,
+      "pageStart": 489,
+      "pageEnd": 495,
+      "juz": [
+        25
+      ],
+      "hizb": [
+        49,
+        50
+      ]
+    },
+    {
+      "number": 44,
+      "name": {
+        "ar": "الدخان",
+        "en": "The Smoke",
+        "transliteration": "Ad-Dukhan"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 59,
+      "wordsCount": 346,
+      "lettersCount": 1439,
+      "pageStart": 496,
+      "pageEnd": 498,
+      "juz": [
+        25
+      ],
+      "hizb": [
+        50
+      ]
+    },
+    {
+      "number": 45,
+      "name": {
+        "ar": "الجاثية",
+        "en": "Crouching",
+        "transliteration": "Al-Jathiyah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 37,
+      "wordsCount": 488,
+      "lettersCount": 2014,
+      "pageStart": 499,
+      "pageEnd": 502,
+      "juz": [
+        25
+      ],
+      "hizb": [
+        50
+      ]
+    },
+    {
+      "number": 46,
+      "name": {
+        "ar": "الأحقاف",
+        "en": "The Dunes",
+        "transliteration": "Al-Ahqaf"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 35,
+      "wordsCount": 646,
+      "lettersCount": 2602,
+      "pageStart": 502,
+      "pageEnd": 506,
+      "juz": [
+        26
+      ],
+      "hizb": [
+        51
+      ]
+    },
+    {
+      "number": 47,
+      "name": {
+        "ar": "محمد",
+        "en": "Muhammad",
+        "transliteration": "Muhammad"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 38,
+      "wordsCount": 542,
+      "lettersCount": 2360,
+      "pageStart": 507,
+      "pageEnd": 510,
+      "juz": [
+        26
+      ],
+      "hizb": [
+        51
+      ]
+    },
+    {
+      "number": 48,
+      "name": {
+        "ar": "الفتح",
+        "en": "The Victory",
+        "transliteration": "Al-Fath"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 29,
+      "wordsCount": 560,
+      "lettersCount": 2456,
+      "pageStart": 511,
+      "pageEnd": 515,
+      "juz": [
+        26
+      ],
+      "hizb": [
+        51,
+        52
+      ]
+    },
+    {
+      "number": 49,
+      "name": {
+        "ar": "الحجرات",
+        "en": "The Inner Apartments",
+        "transliteration": "Al-Hujurat"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 18,
+      "wordsCount": 353,
+      "lettersCount": 1493,
+      "pageStart": 515,
+      "pageEnd": 517,
+      "juz": [
+        26
+      ],
+      "hizb": [
+        52
+      ]
+    },
+    {
+      "number": 50,
+      "name": {
+        "ar": "ق",
+        "en": "The letter Qaaf",
+        "transliteration": "Qaf"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 45,
+      "wordsCount": 373,
+      "lettersCount": 1473,
+      "pageStart": 518,
+      "pageEnd": 520,
+      "juz": [
+        26
+      ],
+      "hizb": [
+        52
+      ]
+    },
+    {
+      "number": 51,
+      "name": {
+        "ar": "الذاريات",
+        "en": "The Winnowing Winds",
+        "transliteration": "Adh-Dhariyat"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 60,
+      "wordsCount": 360,
+      "lettersCount": 1510,
+      "pageStart": 520,
+      "pageEnd": 523,
+      "juz": [
+        26,
+        27
+      ],
+      "hizb": [
+        52,
+        53
+      ]
+    },
+    {
+      "number": 52,
+      "name": {
+        "ar": "الطور",
+        "en": "The Mount",
+        "transliteration": "At-Tur"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 49,
+      "wordsCount": 312,
+      "lettersCount": 1293,
+      "pageStart": 523,
+      "pageEnd": 525,
+      "juz": [
+        27
+      ],
+      "hizb": [
+        53
+      ]
+    },
+    {
+      "number": 53,
+      "name": {
+        "ar": "النجم",
+        "en": "The Star",
+        "transliteration": "An-Najm"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 62,
+      "wordsCount": 359,
+      "lettersCount": 1405,
+      "pageStart": 526,
+      "pageEnd": 528,
+      "juz": [
+        27
+      ],
+      "hizb": [
+        53
+      ]
+    },
+    {
+      "number": 54,
+      "name": {
+        "ar": "القمر",
+        "en": "The Moon",
+        "transliteration": "Al-Qamar"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 55,
+      "wordsCount": 342,
+      "lettersCount": 1438,
+      "pageStart": 528,
+      "pageEnd": 531,
+      "juz": [
+        27
+      ],
+      "hizb": [
+        53
+      ]
+    },
+    {
+      "number": 55,
+      "name": {
+        "ar": "الرحمن",
+        "en": "The Beneficent",
+        "transliteration": "Ar-Rahman"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 78,
+      "wordsCount": 352,
+      "lettersCount": 1585,
+      "pageStart": 531,
+      "pageEnd": 534,
+      "juz": [
+        27
+      ],
+      "hizb": [
+        54
+      ]
+    },
+    {
+      "number": 56,
+      "name": {
+        "ar": "الواقعة",
+        "en": "The Inevitable",
+        "transliteration": "Al-Waqi'ah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 96,
+      "wordsCount": 379,
+      "lettersCount": 1692,
+      "pageStart": 534,
+      "pageEnd": 537,
+      "juz": [
+        27
+      ],
+      "hizb": [
+        54
+      ]
+    },
+    {
+      "number": 57,
+      "name": {
+        "ar": "الحديد",
+        "en": "The Iron",
+        "transliteration": "Al-Hadid"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 29,
+      "wordsCount": 575,
+      "lettersCount": 2475,
+      "pageStart": 537,
+      "pageEnd": 541,
+      "juz": [
+        27
+      ],
+      "hizb": [
+        54
+      ]
+    },
+    {
+      "number": 58,
+      "name": {
+        "ar": "المجادلة",
+        "en": "The Pleading Woman",
+        "transliteration": "Al-Mujadila"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 22,
+      "wordsCount": 475,
+      "lettersCount": 1991,
+      "pageStart": 542,
+      "pageEnd": 545,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        55
+      ]
+    },
+    {
+      "number": 59,
+      "name": {
+        "ar": "الحشر",
+        "en": "The Exile",
+        "transliteration": "Al-Hashr"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 24,
+      "wordsCount": 447,
+      "lettersCount": 1913,
+      "pageStart": 545,
+      "pageEnd": 548,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        55
+      ]
+    },
+    {
+      "number": 60,
+      "name": {
+        "ar": "الممتحنة",
+        "en": "She that is to be examined",
+        "transliteration": "Al-Mumtahanah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 13,
+      "wordsCount": 352,
+      "lettersCount": 1519,
+      "pageStart": 549,
+      "pageEnd": 551,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        55
+      ]
+    },
+    {
+      "number": 61,
+      "name": {
+        "ar": "الصف",
+        "en": "The Ranks",
+        "transliteration": "As-Saf"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 14,
+      "wordsCount": 226,
+      "lettersCount": 936,
+      "pageStart": 551,
+      "pageEnd": 552,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        55
+      ]
+    },
+    {
+      "number": 62,
+      "name": {
+        "ar": "الجمعة",
+        "en": "Friday",
+        "transliteration": "Al-Jumu'ah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 11,
+      "wordsCount": 177,
+      "lettersCount": 749,
+      "pageStart": 553,
+      "pageEnd": 554,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        56
+      ]
+    },
+    {
+      "number": 63,
+      "name": {
+        "ar": "المنافقون",
+        "en": "The Hypocrites",
+        "transliteration": "Al-Munafiqun"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 11,
+      "wordsCount": 180,
+      "lettersCount": 780,
+      "pageStart": 554,
+      "pageEnd": 555,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        56
+      ]
+    },
+    {
+      "number": 64,
+      "name": {
+        "ar": "التغابن",
+        "en": "Mutual Disillusion",
+        "transliteration": "At-Taghabun"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 18,
+      "wordsCount": 242,
+      "lettersCount": 1066,
+      "pageStart": 556,
+      "pageEnd": 557,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        56
+      ]
+    },
+    {
+      "number": 65,
+      "name": {
+        "ar": "الطلاق",
+        "en": "Divorce",
+        "transliteration": "At-Talaq"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 12,
+      "wordsCount": 279,
+      "lettersCount": 1170,
+      "pageStart": 558,
+      "pageEnd": 559,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        56
+      ]
+    },
+    {
+      "number": 66,
+      "name": {
+        "ar": "التحريم",
+        "en": "The Prohibition",
+        "transliteration": "At-Tahrim"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 12,
+      "wordsCount": 254,
+      "lettersCount": 1067,
+      "pageStart": 560,
+      "pageEnd": 561,
+      "juz": [
+        28
+      ],
+      "hizb": [
+        56
+      ]
+    },
+    {
+      "number": 67,
+      "name": {
+        "ar": "الملك",
+        "en": "The Sovereignty",
+        "transliteration": "Al-Mulk"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 30,
+      "wordsCount": 337,
+      "lettersCount": 1316,
+      "pageStart": 562,
+      "pageEnd": 564,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        57
+      ]
+    },
+    {
+      "number": 68,
+      "name": {
+        "ar": "القلم",
+        "en": "The Pen",
+        "transliteration": "Al-Qalam"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 52,
+      "wordsCount": 301,
+      "lettersCount": 1258,
+      "pageStart": 564,
+      "pageEnd": 566,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        57
+      ]
+    },
+    {
+      "number": 69,
+      "name": {
+        "ar": "الحاقة",
+        "en": "The Reality",
+        "transliteration": "Al-Haqqah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 52,
+      "wordsCount": 261,
+      "lettersCount": 1107,
+      "pageStart": 566,
+      "pageEnd": 568,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        57
+      ]
+    },
+    {
+      "number": 70,
+      "name": {
+        "ar": "المعارج",
+        "en": "The Ascending Stairways",
+        "transliteration": "Al-Ma'arij"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 44,
+      "wordsCount": 217,
+      "lettersCount": 947,
+      "pageStart": 568,
+      "pageEnd": 570,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        57
+      ]
+    },
+    {
+      "number": 71,
+      "name": {
+        "ar": "نوح",
+        "en": "Nooh",
+        "transliteration": "Nuh"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 28,
+      "wordsCount": 227,
+      "lettersCount": 950,
+      "pageStart": 570,
+      "pageEnd": 571,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        57
+      ]
+    },
+    {
+      "number": 72,
+      "name": {
+        "ar": "الجن",
+        "en": "the Jinn",
+        "transliteration": "Al-Jinn"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 28,
+      "wordsCount": 286,
+      "lettersCount": 1089,
+      "pageStart": 572,
+      "pageEnd": 573,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        58
+      ]
+    },
+    {
+      "number": 73,
+      "name": {
+        "ar": "المزمل",
+        "en": "The Enshrouded One",
+        "transliteration": "Al-Muzzammil"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 20,
+      "wordsCount": 200,
+      "lettersCount": 840,
+      "pageStart": 574,
+      "pageEnd": 575,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        58
+      ]
+    },
+    {
+      "number": 74,
+      "name": {
+        "ar": "المدثر",
+        "en": "The Cloaked One",
+        "transliteration": "Al-Muddaththir"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 56,
+      "wordsCount": 256,
+      "lettersCount": 1015,
+      "pageStart": 575,
+      "pageEnd": 577,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        58
+      ]
+    },
+    {
+      "number": 75,
+      "name": {
+        "ar": "القيامة",
+        "en": "The Resurrection",
+        "transliteration": "Al-Qiyamah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 40,
+      "wordsCount": 164,
+      "lettersCount": 664,
+      "pageStart": 577,
+      "pageEnd": 578,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        58
+      ]
+    },
+    {
+      "number": 76,
+      "name": {
+        "ar": "الإنسان",
+        "en": "Man",
+        "transliteration": "Al-Insan"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 31,
+      "wordsCount": 243,
+      "lettersCount": 1165,
+      "pageStart": 578,
+      "pageEnd": 580,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        58
+      ]
+    },
+    {
+      "number": 77,
+      "name": {
+        "ar": "المرسلات",
+        "en": "The Emissaries",
+        "transliteration": "Al-Mursalat"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 50,
+      "wordsCount": 181,
+      "lettersCount": 815,
+      "pageStart": 580,
+      "pageEnd": 581,
+      "juz": [
+        29
+      ],
+      "hizb": [
+        58
+      ]
+    },
+    {
+      "number": 78,
+      "name": {
+        "ar": "النبأ",
+        "en": "The Emissaries",
+        "transliteration": "An-Naba"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 40,
+      "wordsCount": 174,
+      "lettersCount": 766,
+      "pageStart": 582,
+      "pageEnd": 583,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 79,
+      "name": {
+        "ar": "النازعات",
+        "en": "Those who drag forth",
+        "transliteration": "An-Nazi'at"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 46,
+      "wordsCount": 179,
+      "lettersCount": 762,
+      "pageStart": 583,
+      "pageEnd": 584,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 80,
+      "name": {
+        "ar": "عبس",
+        "en": "He frowned",
+        "transliteration": "'Abasa"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 42,
+      "wordsCount": 133,
+      "lettersCount": 538,
+      "pageStart": 585,
+      "pageEnd": 585,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 81,
+      "name": {
+        "ar": "التكوير",
+        "en": "The Overthrowing",
+        "transliteration": "At-Takwir"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 29,
+      "wordsCount": 104,
+      "lettersCount": 425,
+      "pageStart": 586,
+      "pageEnd": 586,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 82,
+      "name": {
+        "ar": "الانفطار",
+        "en": "The Cleaving",
+        "transliteration": "Al-Infitar"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 19,
+      "wordsCount": 81,
+      "lettersCount": 326,
+      "pageStart": 587,
+      "pageEnd": 587,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 83,
+      "name": {
+        "ar": "المطففين",
+        "en": "Defrauding",
+        "transliteration": "Al-Mutaffifin"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 36,
+      "wordsCount": 169,
+      "lettersCount": 740,
+      "pageStart": 587,
+      "pageEnd": 589,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 84,
+      "name": {
+        "ar": "الانشقاق",
+        "en": "The Splitting Open",
+        "transliteration": "Al-Inshiqaq"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 25,
+      "wordsCount": 108,
+      "lettersCount": 436,
+      "pageStart": 589,
+      "pageEnd": 589,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 85,
+      "name": {
+        "ar": "البروج",
+        "en": "The Constellations",
+        "transliteration": "Al-Buruj"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 22,
+      "wordsCount": 109,
+      "lettersCount": 459,
+      "pageStart": 590,
+      "pageEnd": 590,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 86,
+      "name": {
+        "ar": "الطارق",
+        "en": "The Morning Star",
+        "transliteration": "At-Tariq"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 17,
+      "wordsCount": 61,
+      "lettersCount": 249,
+      "pageStart": 591,
+      "pageEnd": 591,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        59
+      ]
+    },
+    {
+      "number": 87,
+      "name": {
+        "ar": "الأعلى",
+        "en": "The Most High",
+        "transliteration": "Al-A'la"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 19,
+      "wordsCount": 72,
+      "lettersCount": 293,
+      "pageStart": 591,
+      "pageEnd": 592,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 88,
+      "name": {
+        "ar": "الغاشية",
+        "en": "The Overwhelming",
+        "transliteration": "Al-Ghashiyah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 26,
+      "wordsCount": 92,
+      "lettersCount": 378,
+      "pageStart": 592,
+      "pageEnd": 592,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 89,
+      "name": {
+        "ar": "الفجر",
+        "en": "The Dawn",
+        "transliteration": "Al-Fajr"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 30,
+      "wordsCount": 139,
+      "lettersCount": 573,
+      "pageStart": 593,
+      "pageEnd": 594,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 90,
+      "name": {
+        "ar": "البلد",
+        "en": "The City",
+        "transliteration": "Al-Balad"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 20,
+      "wordsCount": 82,
+      "lettersCount": 335,
+      "pageStart": 594,
+      "pageEnd": 594,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 91,
+      "name": {
+        "ar": "الشمس",
+        "en": "The Sun",
+        "transliteration": "Ash-Shams"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 15,
+      "wordsCount": 54,
+      "lettersCount": 249,
+      "pageStart": 595,
+      "pageEnd": 595,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 92,
+      "name": {
+        "ar": "الليل",
+        "en": "The Night",
+        "transliteration": "Al-Layl"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 21,
+      "wordsCount": 71,
+      "lettersCount": 312,
+      "pageStart": 595,
+      "pageEnd": 596,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 93,
+      "name": {
+        "ar": "الضحى",
+        "en": "The Morning Hours",
+        "transliteration": "Ad-Duhaa"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 11,
+      "wordsCount": 40,
+      "lettersCount": 164,
+      "pageStart": 596,
+      "pageEnd": 596,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 94,
+      "name": {
+        "ar": "الشرح",
+        "en": "The Consolation",
+        "transliteration": "Ash-Sharh"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 8,
+      "wordsCount": 27,
+      "lettersCount": 102,
+      "pageStart": 596,
+      "pageEnd": 596,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 95,
+      "name": {
+        "ar": "التين",
+        "en": "The Fig",
+        "transliteration": "At-Tin"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 8,
+      "wordsCount": 34,
+      "lettersCount": 156,
+      "pageStart": 597,
+      "pageEnd": 597,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 96,
+      "name": {
+        "ar": "العلق",
+        "en": "The Clot",
+        "transliteration": "Al-'Alaq"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 19,
+      "wordsCount": 72,
+      "lettersCount": 281,
+      "pageStart": 597,
+      "pageEnd": 597,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 97,
+      "name": {
+        "ar": "القدر",
+        "en": "The Power, Fate",
+        "transliteration": "Al-Qadr"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 5,
+      "wordsCount": 30,
+      "lettersCount": 112,
+      "pageStart": 598,
+      "pageEnd": 598,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 98,
+      "name": {
+        "ar": "البينة",
+        "en": "The Evidence",
+        "transliteration": "Al-Bayyinah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 8,
+      "wordsCount": 94,
+      "lettersCount": 412,
+      "pageStart": 598,
+      "pageEnd": 599,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 99,
+      "name": {
+        "ar": "الزلزلة",
+        "en": "The Earthquakee",
+        "transliteration": "Az-Zalzalah"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 8,
+      "wordsCount": 36,
+      "lettersCount": 156,
+      "pageStart": 599,
+      "pageEnd": 599,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 100,
+      "name": {
+        "ar": "العاديات",
+        "en": "The Chargers",
+        "transliteration": "Al-'Adiyat"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 11,
+      "wordsCount": 40,
+      "lettersCount": 164,
+      "pageStart": 599,
+      "pageEnd": 600,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 101,
+      "name": {
+        "ar": "القارعة",
+        "en": "The Calamity",
+        "transliteration": "Al-Qari'ah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 11,
+      "wordsCount": 36,
+      "lettersCount": 158,
+      "pageStart": 600,
+      "pageEnd": 600,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 102,
+      "name": {
+        "ar": "التكاثر",
+        "en": "Competition",
+        "transliteration": "At-Takathur"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 8,
+      "wordsCount": 28,
+      "lettersCount": 122,
+      "pageStart": 600,
+      "pageEnd": 600,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 103,
+      "name": {
+        "ar": "العصر",
+        "en": "The Declining Day, Epoch",
+        "transliteration": "Al-'Asr"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 3,
+      "wordsCount": 14,
+      "lettersCount": 70,
+      "pageStart": 601,
+      "pageEnd": 601,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 104,
+      "name": {
+        "ar": "الهمزة",
+        "en": "The Traducer",
+        "transliteration": "Al-Humazah"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 9,
+      "wordsCount": 33,
+      "lettersCount": 133,
+      "pageStart": 601,
+      "pageEnd": 601,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 105,
+      "name": {
+        "ar": "الفيل",
+        "en": "The Elephant",
+        "transliteration": "Al-Fil"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 5,
+      "wordsCount": 23,
+      "lettersCount": 96,
+      "pageStart": 601,
+      "pageEnd": 601,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 106,
+      "name": {
+        "ar": "قريش",
+        "en": "Quraysh",
+        "transliteration": "Quraysh"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 4,
+      "wordsCount": 17,
+      "lettersCount": 73,
+      "pageStart": 602,
+      "pageEnd": 602,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 107,
+      "name": {
+        "ar": "الماعون",
+        "en": "Almsgiving",
+        "transliteration": "Al-Ma'un"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 7,
+      "wordsCount": 25,
+      "lettersCount": 112,
+      "pageStart": 602,
+      "pageEnd": 602,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 108,
+      "name": {
+        "ar": "الكوثر",
+        "en": "Abundance",
+        "transliteration": "Al-Kawthar"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 3,
+      "wordsCount": 10,
+      "lettersCount": 42,
+      "pageStart": 602,
+      "pageEnd": 602,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 109,
+      "name": {
+        "ar": "الكافرون",
+        "en": "The Disbelievers",
+        "transliteration": "Al-Kafirun"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 6,
+      "wordsCount": 27,
+      "lettersCount": 95,
+      "pageStart": 603,
+      "pageEnd": 603,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 110,
+      "name": {
+        "ar": "النصر",
+        "en": "Divine Support",
+        "transliteration": "An-Nasr"
+      },
+      "revelationPlace": {
+        "ar": "مدنية",
+        "en": "medinan"
+      },
+      "versesCount": 3,
+      "wordsCount": 19,
+      "lettersCount": 79,
+      "pageStart": 603,
+      "pageEnd": 603,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 111,
+      "name": {
+        "ar": "المسد",
+        "en": "The Palm Fibre",
+        "transliteration": "Al-Masad"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 5,
+      "wordsCount": 29,
+      "lettersCount": 81,
+      "pageStart": 603,
+      "pageEnd": 603,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 112,
+      "name": {
+        "ar": "الإخلاص",
+        "en": "Sincerity",
+        "transliteration": "Al-Ikhlas"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 4,
+      "wordsCount": 15,
+      "lettersCount": 47,
+      "pageStart": 604,
+      "pageEnd": 604,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 113,
+      "name": {
+        "ar": "الفلق",
+        "en": "The Dawn",
+        "transliteration": "Al-Falaq"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 5,
+      "wordsCount": 23,
+      "lettersCount": 71,
+      "pageStart": 604,
+      "pageEnd": 604,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    },
+    {
+      "number": 114,
+      "name": {
+        "ar": "الناس",
+        "en": "Mankind",
+        "transliteration": "An-Nas"
+      },
+      "revelationPlace": {
+        "ar": "مكية",
+        "en": "meccan"
+      },
+      "versesCount": 6,
+      "wordsCount": 20,
+      "lettersCount": 80,
+      "pageStart": 604,
+      "pageEnd": 604,
+      "juz": [
+        30
+      ],
+      "hizb": [
+        60
+      ]
+    }
+  ],
+  "juz": [
+    {
+      "number": 1,
+      "type": "juz",
+      "start": "1:1",
+      "end": "2:141",
+      "verseCount": 148,
+      "pageStart": 1,
+      "pageEnd": 21,
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "number": 2,
+      "type": "juz",
+      "start": "2:142",
+      "end": "2:252",
+      "verseCount": 111,
+      "pageStart": 22,
+      "pageEnd": 41,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 3,
+      "type": "juz",
+      "start": "2:253",
+      "end": "3:92",
+      "verseCount": 126,
+      "pageStart": 42,
+      "pageEnd": 62,
+      "chapters": [
+        2,
+        3
+      ]
+    },
+    {
+      "number": 4,
+      "type": "juz",
+      "start": "3:93",
+      "end": "4:23",
+      "verseCount": 131,
+      "pageStart": 62,
+      "pageEnd": 81,
+      "chapters": [
+        3,
+        4
+      ]
+    },
+    {
+      "number": 5,
+      "type": "juz",
+      "start": "4:24",
+      "end": "4:147",
+      "verseCount": 124,
+      "pageStart": 82,
+      "pageEnd": 101,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 6,
+      "type": "juz",
+      "start": "4:148",
+      "end": "5:81",
+      "verseCount": 110,
+      "pageStart": 102,
+      "pageEnd": 121,
+      "chapters": [
+        4,
+        5
+      ]
+    },
+    {
+      "number": 7,
+      "type": "juz",
+      "start": "5:82",
+      "end": "6:110",
+      "verseCount": 149,
+      "pageStart": 121,
+      "pageEnd": 141,
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "number": 8,
+      "type": "juz",
+      "start": "6:111",
+      "end": "7:87",
+      "verseCount": 142,
+      "pageStart": 142,
+      "pageEnd": 161,
+      "chapters": [
+        6,
+        7
+      ]
+    },
+    {
+      "number": 9,
+      "type": "juz",
+      "start": "7:88",
+      "end": "8:40",
+      "verseCount": 159,
+      "pageStart": 162,
+      "pageEnd": 181,
+      "chapters": [
+        7,
+        8
+      ]
+    },
+    {
+      "number": 10,
+      "type": "juz",
+      "start": "8:41",
+      "end": "9:92",
+      "verseCount": 127,
+      "pageStart": 182,
+      "pageEnd": 201,
+      "chapters": [
+        8,
+        9
+      ]
+    },
+    {
+      "number": 11,
+      "type": "juz",
+      "start": "9:93",
+      "end": "11:5",
+      "verseCount": 151,
+      "pageStart": 201,
+      "pageEnd": 221,
+      "chapters": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "number": 12,
+      "type": "juz",
+      "start": "11:6",
+      "end": "12:52",
+      "verseCount": 170,
+      "pageStart": 222,
+      "pageEnd": 241,
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "number": 13,
+      "type": "juz",
+      "start": "12:53",
+      "end": "14:52",
+      "verseCount": 154,
+      "pageStart": 242,
+      "pageEnd": 261,
+      "chapters": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "number": 14,
+      "type": "juz",
+      "start": "15:1",
+      "end": "16:128",
+      "verseCount": 227,
+      "pageStart": 262,
+      "pageEnd": 281,
+      "chapters": [
+        15,
+        16
+      ]
+    },
+    {
+      "number": 15,
+      "type": "juz",
+      "start": "17:1",
+      "end": "18:74",
+      "verseCount": 185,
+      "pageStart": 282,
+      "pageEnd": 301,
+      "chapters": [
+        17,
+        18
+      ]
+    },
+    {
+      "number": 16,
+      "type": "juz",
+      "start": "18:75",
+      "end": "20:135",
+      "verseCount": 269,
+      "pageStart": 302,
+      "pageEnd": 321,
+      "chapters": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "number": 17,
+      "type": "juz",
+      "start": "21:1",
+      "end": "22:78",
+      "verseCount": 190,
+      "pageStart": 322,
+      "pageEnd": 341,
+      "chapters": [
+        21,
+        22
+      ]
+    },
+    {
+      "number": 18,
+      "type": "juz",
+      "start": "23:1",
+      "end": "25:20",
+      "verseCount": 202,
+      "pageStart": 342,
+      "pageEnd": 361,
+      "chapters": [
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "number": 19,
+      "type": "juz",
+      "start": "25:21",
+      "end": "27:55",
+      "verseCount": 339,
+      "pageStart": 362,
+      "pageEnd": 381,
+      "chapters": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "number": 20,
+      "type": "juz",
+      "start": "27:56",
+      "end": "29:45",
+      "verseCount": 171,
+      "pageStart": 382,
+      "pageEnd": 401,
+      "chapters": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "number": 21,
+      "type": "juz",
+      "start": "29:46",
+      "end": "33:30",
+      "verseCount": 178,
+      "pageStart": 402,
+      "pageEnd": 421,
+      "chapters": [
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 22,
+      "type": "juz",
+      "start": "33:31",
+      "end": "36:27",
+      "verseCount": 169,
+      "pageStart": 422,
+      "pageEnd": 441,
+      "chapters": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "number": 23,
+      "type": "juz",
+      "start": "36:28",
+      "end": "39:31",
+      "verseCount": 357,
+      "pageStart": 442,
+      "pageEnd": 461,
+      "chapters": [
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "number": 24,
+      "type": "juz",
+      "start": "39:32",
+      "end": "41:46",
+      "verseCount": 175,
+      "pageStart": 462,
+      "pageEnd": 481,
+      "chapters": [
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "number": 25,
+      "type": "juz",
+      "start": "41:47",
+      "end": "45:37",
+      "verseCount": 246,
+      "pageStart": 482,
+      "pageEnd": 502,
+      "chapters": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "number": 26,
+      "type": "juz",
+      "start": "46:1",
+      "end": "51:30",
+      "verseCount": 195,
+      "pageStart": 502,
+      "pageEnd": 521,
+      "chapters": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "number": 27,
+      "type": "juz",
+      "start": "51:31",
+      "end": "57:29",
+      "verseCount": 399,
+      "pageStart": 522,
+      "pageEnd": 541,
+      "chapters": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "number": 28,
+      "type": "juz",
+      "start": "58:1",
+      "end": "66:12",
+      "verseCount": 137,
+      "pageStart": 542,
+      "pageEnd": 561,
+      "chapters": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "number": 29,
+      "type": "juz",
+      "start": "67:1",
+      "end": "77:50",
+      "verseCount": 431,
+      "pageStart": 562,
+      "pageEnd": 581,
+      "chapters": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "number": 30,
+      "type": "juz",
+      "start": "78:1",
+      "end": "114:6",
+      "verseCount": 564,
+      "pageStart": 582,
+      "pageEnd": 604,
+      "chapters": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ]
+    }
+  ],
+  "hizb": [
+    {
+      "number": 1,
+      "type": "hizb",
+      "start": "1:1",
+      "end": "2:74",
+      "verseCount": 81,
+      "pageStart": 1,
+      "pageEnd": 11,
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "number": 2,
+      "type": "hizb",
+      "start": "2:75",
+      "end": "2:141",
+      "verseCount": 67,
+      "pageStart": 11,
+      "pageEnd": 21,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 3,
+      "type": "hizb",
+      "start": "2:142",
+      "end": "2:202",
+      "verseCount": 61,
+      "pageStart": 22,
+      "pageEnd": 31,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 4,
+      "type": "hizb",
+      "start": "2:203",
+      "end": "2:252",
+      "verseCount": 50,
+      "pageStart": 32,
+      "pageEnd": 41,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 5,
+      "type": "hizb",
+      "start": "2:253",
+      "end": "3:14",
+      "verseCount": 48,
+      "pageStart": 42,
+      "pageEnd": 51,
+      "chapters": [
+        2,
+        3
+      ]
+    },
+    {
+      "number": 6,
+      "type": "hizb",
+      "start": "3:15",
+      "end": "3:92",
+      "verseCount": 78,
+      "pageStart": 51,
+      "pageEnd": 62,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 7,
+      "type": "hizb",
+      "start": "3:93",
+      "end": "3:170",
+      "verseCount": 78,
+      "pageStart": 62,
+      "pageEnd": 72,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 8,
+      "type": "hizb",
+      "start": "3:171",
+      "end": "4:23",
+      "verseCount": 53,
+      "pageStart": 72,
+      "pageEnd": 81,
+      "chapters": [
+        3,
+        4
+      ]
+    },
+    {
+      "number": 9,
+      "type": "hizb",
+      "start": "4:24",
+      "end": "4:87",
+      "verseCount": 64,
+      "pageStart": 82,
+      "pageEnd": 92,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 10,
+      "type": "hizb",
+      "start": "4:88",
+      "end": "4:147",
+      "verseCount": 60,
+      "pageStart": 92,
+      "pageEnd": 101,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 11,
+      "type": "hizb",
+      "start": "4:148",
+      "end": "5:26",
+      "verseCount": 55,
+      "pageStart": 102,
+      "pageEnd": 112,
+      "chapters": [
+        4,
+        5
+      ]
+    },
+    {
+      "number": 12,
+      "type": "hizb",
+      "start": "5:27",
+      "end": "5:81",
+      "verseCount": 55,
+      "pageStart": 112,
+      "pageEnd": 121,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 13,
+      "type": "hizb",
+      "start": "5:82",
+      "end": "6:35",
+      "verseCount": 74,
+      "pageStart": 121,
+      "pageEnd": 131,
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "number": 14,
+      "type": "hizb",
+      "start": "6:36",
+      "end": "6:110",
+      "verseCount": 75,
+      "pageStart": 132,
+      "pageEnd": 141,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 15,
+      "type": "hizb",
+      "start": "6:111",
+      "end": "6:165",
+      "verseCount": 55,
+      "pageStart": 142,
+      "pageEnd": 150,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 16,
+      "type": "hizb",
+      "start": "7:1",
+      "end": "7:87",
+      "verseCount": 87,
+      "pageStart": 151,
+      "pageEnd": 161,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 17,
+      "type": "hizb",
+      "start": "7:88",
+      "end": "7:170",
+      "verseCount": 83,
+      "pageStart": 162,
+      "pageEnd": 172,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 18,
+      "type": "hizb",
+      "start": "7:171",
+      "end": "8:40",
+      "verseCount": 76,
+      "pageStart": 173,
+      "pageEnd": 181,
+      "chapters": [
+        7,
+        8
+      ]
+    },
+    {
+      "number": 19,
+      "type": "hizb",
+      "start": "8:41",
+      "end": "9:33",
+      "verseCount": 68,
+      "pageStart": 182,
+      "pageEnd": 192,
+      "chapters": [
+        8,
+        9
+      ]
+    },
+    {
+      "number": 20,
+      "type": "hizb",
+      "start": "9:34",
+      "end": "9:92",
+      "verseCount": 59,
+      "pageStart": 192,
+      "pageEnd": 201,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 21,
+      "type": "hizb",
+      "start": "9:93",
+      "end": "10:25",
+      "verseCount": 62,
+      "pageStart": 201,
+      "pageEnd": 211,
+      "chapters": [
+        9,
+        10
+      ]
+    },
+    {
+      "number": 22,
+      "type": "hizb",
+      "start": "10:26",
+      "end": "11:5",
+      "verseCount": 89,
+      "pageStart": 212,
+      "pageEnd": 221,
+      "chapters": [
+        10,
+        11
+      ]
+    },
+    {
+      "number": 23,
+      "type": "hizb",
+      "start": "11:6",
+      "end": "11:83",
+      "verseCount": 78,
+      "pageStart": 222,
+      "pageEnd": 231,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "number": 24,
+      "type": "hizb",
+      "start": "11:84",
+      "end": "12:52",
+      "verseCount": 92,
+      "pageStart": 231,
+      "pageEnd": 241,
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "number": 25,
+      "type": "hizb",
+      "start": "12:53",
+      "end": "13:18",
+      "verseCount": 77,
+      "pageStart": 242,
+      "pageEnd": 251,
+      "chapters": [
+        12,
+        13
+      ]
+    },
+    {
+      "number": 26,
+      "type": "hizb",
+      "start": "13:19",
+      "end": "14:52",
+      "verseCount": 77,
+      "pageStart": 252,
+      "pageEnd": 261,
+      "chapters": [
+        13,
+        14
+      ]
+    },
+    {
+      "number": 27,
+      "type": "hizb",
+      "start": "15:1",
+      "end": "16:50",
+      "verseCount": 149,
+      "pageStart": 262,
+      "pageEnd": 272,
+      "chapters": [
+        15,
+        16
+      ]
+    },
+    {
+      "number": 28,
+      "type": "hizb",
+      "start": "16:51",
+      "end": "16:128",
+      "verseCount": 78,
+      "pageStart": 272,
+      "pageEnd": 281,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 29,
+      "type": "hizb",
+      "start": "17:1",
+      "end": "17:98",
+      "verseCount": 98,
+      "pageStart": 282,
+      "pageEnd": 292,
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "number": 30,
+      "type": "hizb",
+      "start": "17:99",
+      "end": "18:74",
+      "verseCount": 87,
+      "pageStart": 292,
+      "pageEnd": 301,
+      "chapters": [
+        17,
+        18
+      ]
+    },
+    {
+      "number": 31,
+      "type": "hizb",
+      "start": "18:75",
+      "end": "19:98",
+      "verseCount": 134,
+      "pageStart": 302,
+      "pageEnd": 312,
+      "chapters": [
+        18,
+        19
+      ]
+    },
+    {
+      "number": 32,
+      "type": "hizb",
+      "start": "20:1",
+      "end": "20:135",
+      "verseCount": 135,
+      "pageStart": 312,
+      "pageEnd": 321,
+      "chapters": [
+        20
+      ]
+    },
+    {
+      "number": 33,
+      "type": "hizb",
+      "start": "21:1",
+      "end": "21:112",
+      "verseCount": 112,
+      "pageStart": 322,
+      "pageEnd": 331,
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "number": 34,
+      "type": "hizb",
+      "start": "22:1",
+      "end": "22:78",
+      "verseCount": 78,
+      "pageStart": 332,
+      "pageEnd": 341,
+      "chapters": [
+        22
+      ]
+    },
+    {
+      "number": 35,
+      "type": "hizb",
+      "start": "23:1",
+      "end": "24:20",
+      "verseCount": 138,
+      "pageStart": 342,
+      "pageEnd": 351,
+      "chapters": [
+        23,
+        24
+      ]
+    },
+    {
+      "number": 36,
+      "type": "hizb",
+      "start": "24:21",
+      "end": "25:20",
+      "verseCount": 64,
+      "pageStart": 352,
+      "pageEnd": 361,
+      "chapters": [
+        24,
+        25
+      ]
+    },
+    {
+      "number": 37,
+      "type": "hizb",
+      "start": "25:21",
+      "end": "26:110",
+      "verseCount": 167,
+      "pageStart": 362,
+      "pageEnd": 371,
+      "chapters": [
+        25,
+        26
+      ]
+    },
+    {
+      "number": 38,
+      "type": "hizb",
+      "start": "26:111",
+      "end": "27:55",
+      "verseCount": 172,
+      "pageStart": 371,
+      "pageEnd": 381,
+      "chapters": [
+        26,
+        27
+      ]
+    },
+    {
+      "number": 39,
+      "type": "hizb",
+      "start": "27:56",
+      "end": "28:50",
+      "verseCount": 88,
+      "pageStart": 382,
+      "pageEnd": 391,
+      "chapters": [
+        27,
+        28
+      ]
+    },
+    {
+      "number": 40,
+      "type": "hizb",
+      "start": "28:51",
+      "end": "29:45",
+      "verseCount": 83,
+      "pageStart": 392,
+      "pageEnd": 401,
+      "chapters": [
+        28,
+        29
+      ]
+    },
+    {
+      "number": 41,
+      "type": "hizb",
+      "start": "29:46",
+      "end": "31:21",
+      "verseCount": 105,
+      "pageStart": 402,
+      "pageEnd": 413,
+      "chapters": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "number": 42,
+      "type": "hizb",
+      "start": "31:22",
+      "end": "33:30",
+      "verseCount": 73,
+      "pageStart": 413,
+      "pageEnd": 421,
+      "chapters": [
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 43,
+      "type": "hizb",
+      "start": "33:31",
+      "end": "34:23",
+      "verseCount": 66,
+      "pageStart": 422,
+      "pageEnd": 431,
+      "chapters": [
+        33,
+        34
+      ]
+    },
+    {
+      "number": 44,
+      "type": "hizb",
+      "start": "34:24",
+      "end": "36:27",
+      "verseCount": 103,
+      "pageStart": 431,
+      "pageEnd": 441,
+      "chapters": [
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "number": 45,
+      "type": "hizb",
+      "start": "36:28",
+      "end": "37:144",
+      "verseCount": 200,
+      "pageStart": 442,
+      "pageEnd": 451,
+      "chapters": [
+        36,
+        37
+      ]
+    },
+    {
+      "number": 46,
+      "type": "hizb",
+      "start": "37:145",
+      "end": "39:31",
+      "verseCount": 157,
+      "pageStart": 451,
+      "pageEnd": 461,
+      "chapters": [
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "number": 47,
+      "type": "hizb",
+      "start": "39:32",
+      "end": "40:40",
+      "verseCount": 84,
+      "pageStart": 462,
+      "pageEnd": 471,
+      "chapters": [
+        39,
+        40
+      ]
+    },
+    {
+      "number": 48,
+      "type": "hizb",
+      "start": "40:41",
+      "end": "41:46",
+      "verseCount": 91,
+      "pageStart": 472,
+      "pageEnd": 481,
+      "chapters": [
+        40,
+        41
+      ]
+    },
+    {
+      "number": 49,
+      "type": "hizb",
+      "start": "41:47",
+      "end": "43:23",
+      "verseCount": 84,
+      "pageStart": 482,
+      "pageEnd": 491,
+      "chapters": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "number": 50,
+      "type": "hizb",
+      "start": "43:24",
+      "end": "45:37",
+      "verseCount": 162,
+      "pageStart": 491,
+      "pageEnd": 502,
+      "chapters": [
+        43,
+        44,
+        45
+      ]
+    },
+    {
+      "number": 51,
+      "type": "hizb",
+      "start": "46:1",
+      "end": "48:17",
+      "verseCount": 90,
+      "pageStart": 502,
+      "pageEnd": 513,
+      "chapters": [
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "number": 52,
+      "type": "hizb",
+      "start": "48:18",
+      "end": "51:30",
+      "verseCount": 105,
+      "pageStart": 513,
+      "pageEnd": 521,
+      "chapters": [
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "number": 53,
+      "type": "hizb",
+      "start": "51:31",
+      "end": "54:55",
+      "verseCount": 196,
+      "pageStart": 522,
+      "pageEnd": 531,
+      "chapters": [
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "number": 54,
+      "type": "hizb",
+      "start": "55:1",
+      "end": "57:29",
+      "verseCount": 203,
+      "pageStart": 531,
+      "pageEnd": 541,
+      "chapters": [
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "number": 55,
+      "type": "hizb",
+      "start": "58:1",
+      "end": "61:14",
+      "verseCount": 73,
+      "pageStart": 542,
+      "pageEnd": 552,
+      "chapters": [
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "number": 56,
+      "type": "hizb",
+      "start": "62:1",
+      "end": "66:12",
+      "verseCount": 64,
+      "pageStart": 553,
+      "pageEnd": 561,
+      "chapters": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "number": 57,
+      "type": "hizb",
+      "start": "67:1",
+      "end": "71:28",
+      "verseCount": 206,
+      "pageStart": 562,
+      "pageEnd": 571,
+      "chapters": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "number": 58,
+      "type": "hizb",
+      "start": "72:1",
+      "end": "77:50",
+      "verseCount": 225,
+      "pageStart": 572,
+      "pageEnd": 581,
+      "chapters": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "number": 59,
+      "type": "hizb",
+      "start": "78:1",
+      "end": "86:17",
+      "verseCount": 276,
+      "pageStart": 582,
+      "pageEnd": 591,
+      "chapters": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ]
+    },
+    {
+      "number": 60,
+      "type": "hizb",
+      "start": "87:1",
+      "end": "114:6",
+      "verseCount": 288,
+      "pageStart": 591,
+      "pageEnd": 604,
+      "chapters": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ]
+    }
+  ],
+  "hizbQuarters": [
+    {
+      "number": 1,
+      "type": "hizbQuarter",
+      "start": "1:1",
+      "end": "2:25",
+      "verseCount": 32,
+      "pageStart": 1,
+      "pageEnd": 5,
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "number": 2,
+      "type": "hizbQuarter",
+      "start": "2:26",
+      "end": "2:43",
+      "verseCount": 18,
+      "pageStart": 5,
+      "pageEnd": 7,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 3,
+      "type": "hizbQuarter",
+      "start": "2:44",
+      "end": "2:59",
+      "verseCount": 16,
+      "pageStart": 7,
+      "pageEnd": 9,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 4,
+      "type": "hizbQuarter",
+      "start": "2:60",
+      "end": "2:74",
+      "verseCount": 15,
+      "pageStart": 9,
+      "pageEnd": 11,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 5,
+      "type": "hizbQuarter",
+      "start": "2:75",
+      "end": "2:91",
+      "verseCount": 17,
+      "pageStart": 11,
+      "pageEnd": 14,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 6,
+      "type": "hizbQuarter",
+      "start": "2:92",
+      "end": "2:105",
+      "verseCount": 14,
+      "pageStart": 14,
+      "pageEnd": 16,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 7,
+      "type": "hizbQuarter",
+      "start": "2:106",
+      "end": "2:123",
+      "verseCount": 18,
+      "pageStart": 17,
+      "pageEnd": 19,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 8,
+      "type": "hizbQuarter",
+      "start": "2:124",
+      "end": "2:141",
+      "verseCount": 18,
+      "pageStart": 19,
+      "pageEnd": 21,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 9,
+      "type": "hizbQuarter",
+      "start": "2:142",
+      "end": "2:157",
+      "verseCount": 16,
+      "pageStart": 22,
+      "pageEnd": 24,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 10,
+      "type": "hizbQuarter",
+      "start": "2:158",
+      "end": "2:176",
+      "verseCount": 19,
+      "pageStart": 24,
+      "pageEnd": 26,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 11,
+      "type": "hizbQuarter",
+      "start": "2:177",
+      "end": "2:188",
+      "verseCount": 12,
+      "pageStart": 27,
+      "pageEnd": 29,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 12,
+      "type": "hizbQuarter",
+      "start": "2:189",
+      "end": "2:202",
+      "verseCount": 14,
+      "pageStart": 29,
+      "pageEnd": 31,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 13,
+      "type": "hizbQuarter",
+      "start": "2:203",
+      "end": "2:218",
+      "verseCount": 16,
+      "pageStart": 32,
+      "pageEnd": 34,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 14,
+      "type": "hizbQuarter",
+      "start": "2:219",
+      "end": "2:232",
+      "verseCount": 14,
+      "pageStart": 34,
+      "pageEnd": 37,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 15,
+      "type": "hizbQuarter",
+      "start": "2:233",
+      "end": "2:242",
+      "verseCount": 10,
+      "pageStart": 37,
+      "pageEnd": 39,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 16,
+      "type": "hizbQuarter",
+      "start": "2:243",
+      "end": "2:252",
+      "verseCount": 10,
+      "pageStart": 39,
+      "pageEnd": 41,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 17,
+      "type": "hizbQuarter",
+      "start": "2:253",
+      "end": "2:262",
+      "verseCount": 10,
+      "pageStart": 42,
+      "pageEnd": 44,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 18,
+      "type": "hizbQuarter",
+      "start": "2:263",
+      "end": "2:271",
+      "verseCount": 9,
+      "pageStart": 44,
+      "pageEnd": 46,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 19,
+      "type": "hizbQuarter",
+      "start": "2:272",
+      "end": "2:282",
+      "verseCount": 11,
+      "pageStart": 46,
+      "pageEnd": 48,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "number": 20,
+      "type": "hizbQuarter",
+      "start": "2:283",
+      "end": "3:14",
+      "verseCount": 18,
+      "pageStart": 49,
+      "pageEnd": 51,
+      "chapters": [
+        2,
+        3
+      ]
+    },
+    {
+      "number": 21,
+      "type": "hizbQuarter",
+      "start": "3:15",
+      "end": "3:32",
+      "verseCount": 18,
+      "pageStart": 51,
+      "pageEnd": 54,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 22,
+      "type": "hizbQuarter",
+      "start": "3:33",
+      "end": "3:51",
+      "verseCount": 19,
+      "pageStart": 54,
+      "pageEnd": 56,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 23,
+      "type": "hizbQuarter",
+      "start": "3:52",
+      "end": "3:74",
+      "verseCount": 23,
+      "pageStart": 56,
+      "pageEnd": 59,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 24,
+      "type": "hizbQuarter",
+      "start": "3:75",
+      "end": "3:92",
+      "verseCount": 18,
+      "pageStart": 59,
+      "pageEnd": 62,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 25,
+      "type": "hizbQuarter",
+      "start": "3:93",
+      "end": "3:112",
+      "verseCount": 20,
+      "pageStart": 62,
+      "pageEnd": 64,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 26,
+      "type": "hizbQuarter",
+      "start": "3:113",
+      "end": "3:132",
+      "verseCount": 20,
+      "pageStart": 64,
+      "pageEnd": 66,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 27,
+      "type": "hizbQuarter",
+      "start": "3:133",
+      "end": "3:152",
+      "verseCount": 20,
+      "pageStart": 67,
+      "pageEnd": 69,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 28,
+      "type": "hizbQuarter",
+      "start": "3:153",
+      "end": "3:170",
+      "verseCount": 18,
+      "pageStart": 69,
+      "pageEnd": 72,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 29,
+      "type": "hizbQuarter",
+      "start": "3:171",
+      "end": "3:185",
+      "verseCount": 15,
+      "pageStart": 72,
+      "pageEnd": 74,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 30,
+      "type": "hizbQuarter",
+      "start": "3:186",
+      "end": "3:200",
+      "verseCount": 15,
+      "pageStart": 74,
+      "pageEnd": 76,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "number": 31,
+      "type": "hizbQuarter",
+      "start": "4:1",
+      "end": "4:11",
+      "verseCount": 11,
+      "pageStart": 77,
+      "pageEnd": 78,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 32,
+      "type": "hizbQuarter",
+      "start": "4:12",
+      "end": "4:23",
+      "verseCount": 12,
+      "pageStart": 79,
+      "pageEnd": 81,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 33,
+      "type": "hizbQuarter",
+      "start": "4:24",
+      "end": "4:35",
+      "verseCount": 12,
+      "pageStart": 82,
+      "pageEnd": 84,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 34,
+      "type": "hizbQuarter",
+      "start": "4:36",
+      "end": "4:57",
+      "verseCount": 22,
+      "pageStart": 84,
+      "pageEnd": 87,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 35,
+      "type": "hizbQuarter",
+      "start": "4:58",
+      "end": "4:73",
+      "verseCount": 16,
+      "pageStart": 87,
+      "pageEnd": 89,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 36,
+      "type": "hizbQuarter",
+      "start": "4:74",
+      "end": "4:87",
+      "verseCount": 14,
+      "pageStart": 89,
+      "pageEnd": 92,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 37,
+      "type": "hizbQuarter",
+      "start": "4:88",
+      "end": "4:99",
+      "verseCount": 12,
+      "pageStart": 92,
+      "pageEnd": 94,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 38,
+      "type": "hizbQuarter",
+      "start": "4:100",
+      "end": "4:113",
+      "verseCount": 14,
+      "pageStart": 94,
+      "pageEnd": 96,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 39,
+      "type": "hizbQuarter",
+      "start": "4:114",
+      "end": "4:134",
+      "verseCount": 21,
+      "pageStart": 97,
+      "pageEnd": 99,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 40,
+      "type": "hizbQuarter",
+      "start": "4:135",
+      "end": "4:147",
+      "verseCount": 13,
+      "pageStart": 100,
+      "pageEnd": 101,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 41,
+      "type": "hizbQuarter",
+      "start": "4:148",
+      "end": "4:162",
+      "verseCount": 15,
+      "pageStart": 102,
+      "pageEnd": 103,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 42,
+      "type": "hizbQuarter",
+      "start": "4:163",
+      "end": "4:176",
+      "verseCount": 14,
+      "pageStart": 104,
+      "pageEnd": 106,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "number": 43,
+      "type": "hizbQuarter",
+      "start": "5:1",
+      "end": "5:11",
+      "verseCount": 11,
+      "pageStart": 106,
+      "pageEnd": 109,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 44,
+      "type": "hizbQuarter",
+      "start": "5:12",
+      "end": "5:26",
+      "verseCount": 15,
+      "pageStart": 109,
+      "pageEnd": 112,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 45,
+      "type": "hizbQuarter",
+      "start": "5:27",
+      "end": "5:40",
+      "verseCount": 14,
+      "pageStart": 112,
+      "pageEnd": 114,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 46,
+      "type": "hizbQuarter",
+      "start": "5:41",
+      "end": "5:50",
+      "verseCount": 10,
+      "pageStart": 114,
+      "pageEnd": 116,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 47,
+      "type": "hizbQuarter",
+      "start": "5:51",
+      "end": "5:66",
+      "verseCount": 16,
+      "pageStart": 117,
+      "pageEnd": 119,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 48,
+      "type": "hizbQuarter",
+      "start": "5:67",
+      "end": "5:81",
+      "verseCount": 15,
+      "pageStart": 119,
+      "pageEnd": 121,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 49,
+      "type": "hizbQuarter",
+      "start": "5:82",
+      "end": "5:96",
+      "verseCount": 15,
+      "pageStart": 121,
+      "pageEnd": 124,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 50,
+      "type": "hizbQuarter",
+      "start": "5:97",
+      "end": "5:108",
+      "verseCount": 12,
+      "pageStart": 124,
+      "pageEnd": 125,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "number": 51,
+      "type": "hizbQuarter",
+      "start": "5:109",
+      "end": "6:12",
+      "verseCount": 24,
+      "pageStart": 126,
+      "pageEnd": 129,
+      "chapters": [
+        5,
+        6
+      ]
+    },
+    {
+      "number": 52,
+      "type": "hizbQuarter",
+      "start": "6:13",
+      "end": "6:35",
+      "verseCount": 23,
+      "pageStart": 129,
+      "pageEnd": 131,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 53,
+      "type": "hizbQuarter",
+      "start": "6:36",
+      "end": "6:58",
+      "verseCount": 23,
+      "pageStart": 132,
+      "pageEnd": 134,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 54,
+      "type": "hizbQuarter",
+      "start": "6:59",
+      "end": "6:73",
+      "verseCount": 15,
+      "pageStart": 134,
+      "pageEnd": 136,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 55,
+      "type": "hizbQuarter",
+      "start": "6:74",
+      "end": "6:94",
+      "verseCount": 21,
+      "pageStart": 137,
+      "pageEnd": 139,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 56,
+      "type": "hizbQuarter",
+      "start": "6:95",
+      "end": "6:110",
+      "verseCount": 16,
+      "pageStart": 140,
+      "pageEnd": 141,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 57,
+      "type": "hizbQuarter",
+      "start": "6:111",
+      "end": "6:126",
+      "verseCount": 16,
+      "pageStart": 142,
+      "pageEnd": 144,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 58,
+      "type": "hizbQuarter",
+      "start": "6:127",
+      "end": "6:140",
+      "verseCount": 14,
+      "pageStart": 144,
+      "pageEnd": 146,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 59,
+      "type": "hizbQuarter",
+      "start": "6:141",
+      "end": "6:150",
+      "verseCount": 10,
+      "pageStart": 146,
+      "pageEnd": 148,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 60,
+      "type": "hizbQuarter",
+      "start": "6:151",
+      "end": "6:165",
+      "verseCount": 15,
+      "pageStart": 148,
+      "pageEnd": 150,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "number": 61,
+      "type": "hizbQuarter",
+      "start": "7:1",
+      "end": "7:30",
+      "verseCount": 30,
+      "pageStart": 151,
+      "pageEnd": 153,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 62,
+      "type": "hizbQuarter",
+      "start": "7:31",
+      "end": "7:46",
+      "verseCount": 16,
+      "pageStart": 154,
+      "pageEnd": 156,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 63,
+      "type": "hizbQuarter",
+      "start": "7:47",
+      "end": "7:64",
+      "verseCount": 18,
+      "pageStart": 156,
+      "pageEnd": 158,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 64,
+      "type": "hizbQuarter",
+      "start": "7:65",
+      "end": "7:87",
+      "verseCount": 23,
+      "pageStart": 158,
+      "pageEnd": 161,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 65,
+      "type": "hizbQuarter",
+      "start": "7:88",
+      "end": "7:116",
+      "verseCount": 29,
+      "pageStart": 162,
+      "pageEnd": 164,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 66,
+      "type": "hizbQuarter",
+      "start": "7:117",
+      "end": "7:141",
+      "verseCount": 25,
+      "pageStart": 164,
+      "pageEnd": 167,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 67,
+      "type": "hizbQuarter",
+      "start": "7:142",
+      "end": "7:155",
+      "verseCount": 14,
+      "pageStart": 167,
+      "pageEnd": 169,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 68,
+      "type": "hizbQuarter",
+      "start": "7:156",
+      "end": "7:170",
+      "verseCount": 15,
+      "pageStart": 170,
+      "pageEnd": 172,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 69,
+      "type": "hizbQuarter",
+      "start": "7:171",
+      "end": "7:188",
+      "verseCount": 18,
+      "pageStart": 173,
+      "pageEnd": 175,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 70,
+      "type": "hizbQuarter",
+      "start": "7:189",
+      "end": "7:206",
+      "verseCount": 18,
+      "pageStart": 175,
+      "pageEnd": 176,
+      "chapters": [
+        7
+      ]
+    },
+    {
+      "number": 71,
+      "type": "hizbQuarter",
+      "start": "8:1",
+      "end": "8:21",
+      "verseCount": 21,
+      "pageStart": 177,
+      "pageEnd": 179,
+      "chapters": [
+        8
+      ]
+    },
+    {
+      "number": 72,
+      "type": "hizbQuarter",
+      "start": "8:22",
+      "end": "8:40",
+      "verseCount": 19,
+      "pageStart": 179,
+      "pageEnd": 181,
+      "chapters": [
+        8
+      ]
+    },
+    {
+      "number": 73,
+      "type": "hizbQuarter",
+      "start": "8:41",
+      "end": "8:60",
+      "verseCount": 20,
+      "pageStart": 182,
+      "pageEnd": 184,
+      "chapters": [
+        8
+      ]
+    },
+    {
+      "number": 74,
+      "type": "hizbQuarter",
+      "start": "8:61",
+      "end": "8:75",
+      "verseCount": 15,
+      "pageStart": 184,
+      "pageEnd": 186,
+      "chapters": [
+        8
+      ]
+    },
+    {
+      "number": 75,
+      "type": "hizbQuarter",
+      "start": "9:1",
+      "end": "9:18",
+      "verseCount": 18,
+      "pageStart": 187,
+      "pageEnd": 189,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 76,
+      "type": "hizbQuarter",
+      "start": "9:19",
+      "end": "9:33",
+      "verseCount": 15,
+      "pageStart": 189,
+      "pageEnd": 192,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 77,
+      "type": "hizbQuarter",
+      "start": "9:34",
+      "end": "9:45",
+      "verseCount": 12,
+      "pageStart": 192,
+      "pageEnd": 194,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 78,
+      "type": "hizbQuarter",
+      "start": "9:46",
+      "end": "9:59",
+      "verseCount": 14,
+      "pageStart": 194,
+      "pageEnd": 196,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 79,
+      "type": "hizbQuarter",
+      "start": "9:60",
+      "end": "9:74",
+      "verseCount": 15,
+      "pageStart": 196,
+      "pageEnd": 199,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 80,
+      "type": "hizbQuarter",
+      "start": "9:75",
+      "end": "9:92",
+      "verseCount": 18,
+      "pageStart": 199,
+      "pageEnd": 201,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 81,
+      "type": "hizbQuarter",
+      "start": "9:93",
+      "end": "9:110",
+      "verseCount": 18,
+      "pageStart": 201,
+      "pageEnd": 204,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 82,
+      "type": "hizbQuarter",
+      "start": "9:111",
+      "end": "9:121",
+      "verseCount": 11,
+      "pageStart": 204,
+      "pageEnd": 206,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "number": 83,
+      "type": "hizbQuarter",
+      "start": "9:122",
+      "end": "10:10",
+      "verseCount": 18,
+      "pageStart": 206,
+      "pageEnd": 209,
+      "chapters": [
+        9,
+        10
+      ]
+    },
+    {
+      "number": 84,
+      "type": "hizbQuarter",
+      "start": "10:11",
+      "end": "10:25",
+      "verseCount": 15,
+      "pageStart": 209,
+      "pageEnd": 211,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "number": 85,
+      "type": "hizbQuarter",
+      "start": "10:26",
+      "end": "10:52",
+      "verseCount": 27,
+      "pageStart": 212,
+      "pageEnd": 214,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "number": 86,
+      "type": "hizbQuarter",
+      "start": "10:53",
+      "end": "10:70",
+      "verseCount": 18,
+      "pageStart": 214,
+      "pageEnd": 216,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "number": 87,
+      "type": "hizbQuarter",
+      "start": "10:71",
+      "end": "10:89",
+      "verseCount": 19,
+      "pageStart": 217,
+      "pageEnd": 219,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "number": 88,
+      "type": "hizbQuarter",
+      "start": "10:90",
+      "end": "11:5",
+      "verseCount": 25,
+      "pageStart": 219,
+      "pageEnd": 221,
+      "chapters": [
+        10,
+        11
+      ]
+    },
+    {
+      "number": 89,
+      "type": "hizbQuarter",
+      "start": "11:6",
+      "end": "11:23",
+      "verseCount": 18,
+      "pageStart": 222,
+      "pageEnd": 224,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "number": 90,
+      "type": "hizbQuarter",
+      "start": "11:24",
+      "end": "11:40",
+      "verseCount": 17,
+      "pageStart": 224,
+      "pageEnd": 226,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "number": 91,
+      "type": "hizbQuarter",
+      "start": "11:41",
+      "end": "11:60",
+      "verseCount": 20,
+      "pageStart": 226,
+      "pageEnd": 228,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "number": 92,
+      "type": "hizbQuarter",
+      "start": "11:61",
+      "end": "11:83",
+      "verseCount": 23,
+      "pageStart": 228,
+      "pageEnd": 231,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "number": 93,
+      "type": "hizbQuarter",
+      "start": "11:84",
+      "end": "11:107",
+      "verseCount": 24,
+      "pageStart": 231,
+      "pageEnd": 233,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "number": 94,
+      "type": "hizbQuarter",
+      "start": "11:108",
+      "end": "12:6",
+      "verseCount": 22,
+      "pageStart": 233,
+      "pageEnd": 236,
+      "chapters": [
+        11,
+        12
+      ]
+    },
+    {
+      "number": 95,
+      "type": "hizbQuarter",
+      "start": "12:7",
+      "end": "12:29",
+      "verseCount": 23,
+      "pageStart": 236,
+      "pageEnd": 238,
+      "chapters": [
+        12
+      ]
+    },
+    {
+      "number": 96,
+      "type": "hizbQuarter",
+      "start": "12:30",
+      "end": "12:52",
+      "verseCount": 23,
+      "pageStart": 238,
+      "pageEnd": 241,
+      "chapters": [
+        12
+      ]
+    },
+    {
+      "number": 97,
+      "type": "hizbQuarter",
+      "start": "12:53",
+      "end": "12:76",
+      "verseCount": 24,
+      "pageStart": 242,
+      "pageEnd": 244,
+      "chapters": [
+        12
+      ]
+    },
+    {
+      "number": 98,
+      "type": "hizbQuarter",
+      "start": "12:77",
+      "end": "12:100",
+      "verseCount": 24,
+      "pageStart": 244,
+      "pageEnd": 247,
+      "chapters": [
+        12
+      ]
+    },
+    {
+      "number": 99,
+      "type": "hizbQuarter",
+      "start": "12:101",
+      "end": "13:4",
+      "verseCount": 15,
+      "pageStart": 247,
+      "pageEnd": 249,
+      "chapters": [
+        12,
+        13
+      ]
+    },
+    {
+      "number": 100,
+      "type": "hizbQuarter",
+      "start": "13:5",
+      "end": "13:18",
+      "verseCount": 14,
+      "pageStart": 249,
+      "pageEnd": 251,
+      "chapters": [
+        13
+      ]
+    },
+    {
+      "number": 101,
+      "type": "hizbQuarter",
+      "start": "13:19",
+      "end": "13:34",
+      "verseCount": 16,
+      "pageStart": 252,
+      "pageEnd": 253,
+      "chapters": [
+        13
+      ]
+    },
+    {
+      "number": 102,
+      "type": "hizbQuarter",
+      "start": "13:35",
+      "end": "14:9",
+      "verseCount": 18,
+      "pageStart": 254,
+      "pageEnd": 256,
+      "chapters": [
+        13,
+        14
+      ]
+    },
+    {
+      "number": 103,
+      "type": "hizbQuarter",
+      "start": "14:10",
+      "end": "14:27",
+      "verseCount": 18,
+      "pageStart": 256,
+      "pageEnd": 259,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "number": 104,
+      "type": "hizbQuarter",
+      "start": "14:28",
+      "end": "14:52",
+      "verseCount": 25,
+      "pageStart": 259,
+      "pageEnd": 261,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "number": 105,
+      "type": "hizbQuarter",
+      "start": "15:1",
+      "end": "15:49",
+      "verseCount": 49,
+      "pageStart": 262,
+      "pageEnd": 264,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "number": 106,
+      "type": "hizbQuarter",
+      "start": "15:50",
+      "end": "15:99",
+      "verseCount": 50,
+      "pageStart": 264,
+      "pageEnd": 267,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "number": 107,
+      "type": "hizbQuarter",
+      "start": "16:1",
+      "end": "16:29",
+      "verseCount": 29,
+      "pageStart": 267,
+      "pageEnd": 270,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 108,
+      "type": "hizbQuarter",
+      "start": "16:30",
+      "end": "16:50",
+      "verseCount": 21,
+      "pageStart": 270,
+      "pageEnd": 272,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 109,
+      "type": "hizbQuarter",
+      "start": "16:51",
+      "end": "16:74",
+      "verseCount": 24,
+      "pageStart": 272,
+      "pageEnd": 275,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 110,
+      "type": "hizbQuarter",
+      "start": "16:75",
+      "end": "16:89",
+      "verseCount": 15,
+      "pageStart": 275,
+      "pageEnd": 277,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 111,
+      "type": "hizbQuarter",
+      "start": "16:90",
+      "end": "16:110",
+      "verseCount": 21,
+      "pageStart": 277,
+      "pageEnd": 279,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 112,
+      "type": "hizbQuarter",
+      "start": "16:111",
+      "end": "16:128",
+      "verseCount": 18,
+      "pageStart": 280,
+      "pageEnd": 281,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "number": 113,
+      "type": "hizbQuarter",
+      "start": "17:1",
+      "end": "17:22",
+      "verseCount": 22,
+      "pageStart": 282,
+      "pageEnd": 284,
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "number": 114,
+      "type": "hizbQuarter",
+      "start": "17:23",
+      "end": "17:49",
+      "verseCount": 27,
+      "pageStart": 284,
+      "pageEnd": 286,
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "number": 115,
+      "type": "hizbQuarter",
+      "start": "17:50",
+      "end": "17:69",
+      "verseCount": 20,
+      "pageStart": 287,
+      "pageEnd": 289,
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "number": 116,
+      "type": "hizbQuarter",
+      "start": "17:70",
+      "end": "17:98",
+      "verseCount": 29,
+      "pageStart": 289,
+      "pageEnd": 292,
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "number": 117,
+      "type": "hizbQuarter",
+      "start": "17:99",
+      "end": "18:16",
+      "verseCount": 29,
+      "pageStart": 292,
+      "pageEnd": 295,
+      "chapters": [
+        17,
+        18
+      ]
+    },
+    {
+      "number": 118,
+      "type": "hizbQuarter",
+      "start": "18:17",
+      "end": "18:31",
+      "verseCount": 15,
+      "pageStart": 295,
+      "pageEnd": 297,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "number": 119,
+      "type": "hizbQuarter",
+      "start": "18:32",
+      "end": "18:50",
+      "verseCount": 19,
+      "pageStart": 297,
+      "pageEnd": 299,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "number": 120,
+      "type": "hizbQuarter",
+      "start": "18:51",
+      "end": "18:74",
+      "verseCount": 24,
+      "pageStart": 299,
+      "pageEnd": 301,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "number": 121,
+      "type": "hizbQuarter",
+      "start": "18:75",
+      "end": "18:98",
+      "verseCount": 24,
+      "pageStart": 302,
+      "pageEnd": 304,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "number": 122,
+      "type": "hizbQuarter",
+      "start": "18:99",
+      "end": "19:21",
+      "verseCount": 33,
+      "pageStart": 304,
+      "pageEnd": 306,
+      "chapters": [
+        18,
+        19
+      ]
+    },
+    {
+      "number": 123,
+      "type": "hizbQuarter",
+      "start": "19:22",
+      "end": "19:58",
+      "verseCount": 37,
+      "pageStart": 306,
+      "pageEnd": 309,
+      "chapters": [
+        19
+      ]
+    },
+    {
+      "number": 124,
+      "type": "hizbQuarter",
+      "start": "19:59",
+      "end": "19:98",
+      "verseCount": 40,
+      "pageStart": 309,
+      "pageEnd": 312,
+      "chapters": [
+        19
+      ]
+    },
+    {
+      "number": 125,
+      "type": "hizbQuarter",
+      "start": "20:1",
+      "end": "20:54",
+      "verseCount": 54,
+      "pageStart": 312,
+      "pageEnd": 315,
+      "chapters": [
+        20
+      ]
+    },
+    {
+      "number": 126,
+      "type": "hizbQuarter",
+      "start": "20:55",
+      "end": "20:82",
+      "verseCount": 28,
+      "pageStart": 315,
+      "pageEnd": 317,
+      "chapters": [
+        20
+      ]
+    },
+    {
+      "number": 127,
+      "type": "hizbQuarter",
+      "start": "20:83",
+      "end": "20:110",
+      "verseCount": 28,
+      "pageStart": 317,
+      "pageEnd": 319,
+      "chapters": [
+        20
+      ]
+    },
+    {
+      "number": 128,
+      "type": "hizbQuarter",
+      "start": "20:111",
+      "end": "20:135",
+      "verseCount": 25,
+      "pageStart": 319,
+      "pageEnd": 321,
+      "chapters": [
+        20
+      ]
+    },
+    {
+      "number": 129,
+      "type": "hizbQuarter",
+      "start": "21:1",
+      "end": "21:28",
+      "verseCount": 28,
+      "pageStart": 322,
+      "pageEnd": 324,
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "number": 130,
+      "type": "hizbQuarter",
+      "start": "21:29",
+      "end": "21:50",
+      "verseCount": 22,
+      "pageStart": 324,
+      "pageEnd": 326,
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "number": 131,
+      "type": "hizbQuarter",
+      "start": "21:51",
+      "end": "21:82",
+      "verseCount": 32,
+      "pageStart": 326,
+      "pageEnd": 329,
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "number": 132,
+      "type": "hizbQuarter",
+      "start": "21:83",
+      "end": "21:112",
+      "verseCount": 30,
+      "pageStart": 329,
+      "pageEnd": 331,
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "number": 133,
+      "type": "hizbQuarter",
+      "start": "22:1",
+      "end": "22:18",
+      "verseCount": 18,
+      "pageStart": 332,
+      "pageEnd": 334,
+      "chapters": [
+        22
+      ]
+    },
+    {
+      "number": 134,
+      "type": "hizbQuarter",
+      "start": "22:19",
+      "end": "22:37",
+      "verseCount": 19,
+      "pageStart": 334,
+      "pageEnd": 336,
+      "chapters": [
+        22
+      ]
+    },
+    {
+      "number": 135,
+      "type": "hizbQuarter",
+      "start": "22:38",
+      "end": "22:59",
+      "verseCount": 22,
+      "pageStart": 336,
+      "pageEnd": 339,
+      "chapters": [
+        22
+      ]
+    },
+    {
+      "number": 136,
+      "type": "hizbQuarter",
+      "start": "22:60",
+      "end": "22:78",
+      "verseCount": 19,
+      "pageStart": 339,
+      "pageEnd": 341,
+      "chapters": [
+        22
+      ]
+    },
+    {
+      "number": 137,
+      "type": "hizbQuarter",
+      "start": "23:1",
+      "end": "23:35",
+      "verseCount": 35,
+      "pageStart": 342,
+      "pageEnd": 344,
+      "chapters": [
+        23
+      ]
+    },
+    {
+      "number": 138,
+      "type": "hizbQuarter",
+      "start": "23:36",
+      "end": "23:74",
+      "verseCount": 39,
+      "pageStart": 344,
+      "pageEnd": 346,
+      "chapters": [
+        23
+      ]
+    },
+    {
+      "number": 139,
+      "type": "hizbQuarter",
+      "start": "23:75",
+      "end": "23:118",
+      "verseCount": 44,
+      "pageStart": 347,
+      "pageEnd": 349,
+      "chapters": [
+        23
+      ]
+    },
+    {
+      "number": 140,
+      "type": "hizbQuarter",
+      "start": "24:1",
+      "end": "24:20",
+      "verseCount": 20,
+      "pageStart": 350,
+      "pageEnd": 351,
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "number": 141,
+      "type": "hizbQuarter",
+      "start": "24:21",
+      "end": "24:34",
+      "verseCount": 14,
+      "pageStart": 352,
+      "pageEnd": 354,
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "number": 142,
+      "type": "hizbQuarter",
+      "start": "24:35",
+      "end": "24:52",
+      "verseCount": 18,
+      "pageStart": 354,
+      "pageEnd": 356,
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "number": 143,
+      "type": "hizbQuarter",
+      "start": "24:53",
+      "end": "24:64",
+      "verseCount": 12,
+      "pageStart": 356,
+      "pageEnd": 359,
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "number": 144,
+      "type": "hizbQuarter",
+      "start": "25:1",
+      "end": "25:20",
+      "verseCount": 20,
+      "pageStart": 359,
+      "pageEnd": 361,
+      "chapters": [
+        25
+      ]
+    },
+    {
+      "number": 145,
+      "type": "hizbQuarter",
+      "start": "25:21",
+      "end": "25:52",
+      "verseCount": 32,
+      "pageStart": 362,
+      "pageEnd": 364,
+      "chapters": [
+        25
+      ]
+    },
+    {
+      "number": 146,
+      "type": "hizbQuarter",
+      "start": "25:53",
+      "end": "25:77",
+      "verseCount": 25,
+      "pageStart": 364,
+      "pageEnd": 366,
+      "chapters": [
+        25
+      ]
+    },
+    {
+      "number": 147,
+      "type": "hizbQuarter",
+      "start": "26:1",
+      "end": "26:51",
+      "verseCount": 51,
+      "pageStart": 367,
+      "pageEnd": 369,
+      "chapters": [
+        26
+      ]
+    },
+    {
+      "number": 148,
+      "type": "hizbQuarter",
+      "start": "26:52",
+      "end": "26:110",
+      "verseCount": 59,
+      "pageStart": 369,
+      "pageEnd": 371,
+      "chapters": [
+        26
+      ]
+    },
+    {
+      "number": 149,
+      "type": "hizbQuarter",
+      "start": "26:111",
+      "end": "26:180",
+      "verseCount": 70,
+      "pageStart": 371,
+      "pageEnd": 374,
+      "chapters": [
+        26
+      ]
+    },
+    {
+      "number": 150,
+      "type": "hizbQuarter",
+      "start": "26:181",
+      "end": "26:227",
+      "verseCount": 47,
+      "pageStart": 374,
+      "pageEnd": 376,
+      "chapters": [
+        26
+      ]
+    },
+    {
+      "number": 151,
+      "type": "hizbQuarter",
+      "start": "27:1",
+      "end": "27:26",
+      "verseCount": 26,
+      "pageStart": 377,
+      "pageEnd": 379,
+      "chapters": [
+        27
+      ]
+    },
+    {
+      "number": 152,
+      "type": "hizbQuarter",
+      "start": "27:27",
+      "end": "27:55",
+      "verseCount": 29,
+      "pageStart": 379,
+      "pageEnd": 381,
+      "chapters": [
+        27
+      ]
+    },
+    {
+      "number": 153,
+      "type": "hizbQuarter",
+      "start": "27:56",
+      "end": "27:81",
+      "verseCount": 26,
+      "pageStart": 382,
+      "pageEnd": 384,
+      "chapters": [
+        27
+      ]
+    },
+    {
+      "number": 154,
+      "type": "hizbQuarter",
+      "start": "27:82",
+      "end": "28:11",
+      "verseCount": 23,
+      "pageStart": 384,
+      "pageEnd": 386,
+      "chapters": [
+        27,
+        28
+      ]
+    },
+    {
+      "number": 155,
+      "type": "hizbQuarter",
+      "start": "28:12",
+      "end": "28:28",
+      "verseCount": 17,
+      "pageStart": 386,
+      "pageEnd": 388,
+      "chapters": [
+        28
+      ]
+    },
+    {
+      "number": 156,
+      "type": "hizbQuarter",
+      "start": "28:29",
+      "end": "28:50",
+      "verseCount": 22,
+      "pageStart": 389,
+      "pageEnd": 391,
+      "chapters": [
+        28
+      ]
+    },
+    {
+      "number": 157,
+      "type": "hizbQuarter",
+      "start": "28:51",
+      "end": "28:75",
+      "verseCount": 25,
+      "pageStart": 392,
+      "pageEnd": 394,
+      "chapters": [
+        28
+      ]
+    },
+    {
+      "number": 158,
+      "type": "hizbQuarter",
+      "start": "28:76",
+      "end": "28:88",
+      "verseCount": 13,
+      "pageStart": 394,
+      "pageEnd": 396,
+      "chapters": [
+        28
+      ]
+    },
+    {
+      "number": 159,
+      "type": "hizbQuarter",
+      "start": "29:1",
+      "end": "29:25",
+      "verseCount": 25,
+      "pageStart": 396,
+      "pageEnd": 399,
+      "chapters": [
+        29
+      ]
+    },
+    {
+      "number": 160,
+      "type": "hizbQuarter",
+      "start": "29:26",
+      "end": "29:45",
+      "verseCount": 20,
+      "pageStart": 399,
+      "pageEnd": 401,
+      "chapters": [
+        29
+      ]
+    },
+    {
+      "number": 161,
+      "type": "hizbQuarter",
+      "start": "29:46",
+      "end": "29:69",
+      "verseCount": 24,
+      "pageStart": 402,
+      "pageEnd": 404,
+      "chapters": [
+        29
+      ]
+    },
+    {
+      "number": 162,
+      "type": "hizbQuarter",
+      "start": "30:1",
+      "end": "30:30",
+      "verseCount": 30,
+      "pageStart": 404,
+      "pageEnd": 407,
+      "chapters": [
+        30
+      ]
+    },
+    {
+      "number": 163,
+      "type": "hizbQuarter",
+      "start": "30:31",
+      "end": "30:53",
+      "verseCount": 23,
+      "pageStart": 407,
+      "pageEnd": 410,
+      "chapters": [
+        30
+      ]
+    },
+    {
+      "number": 164,
+      "type": "hizbQuarter",
+      "start": "30:54",
+      "end": "31:21",
+      "verseCount": 28,
+      "pageStart": 410,
+      "pageEnd": 413,
+      "chapters": [
+        30,
+        31
+      ]
+    },
+    {
+      "number": 165,
+      "type": "hizbQuarter",
+      "start": "31:22",
+      "end": "32:10",
+      "verseCount": 23,
+      "pageStart": 413,
+      "pageEnd": 415,
+      "chapters": [
+        31,
+        32
+      ]
+    },
+    {
+      "number": 166,
+      "type": "hizbQuarter",
+      "start": "32:11",
+      "end": "32:30",
+      "verseCount": 20,
+      "pageStart": 415,
+      "pageEnd": 417,
+      "chapters": [
+        32
+      ]
+    },
+    {
+      "number": 167,
+      "type": "hizbQuarter",
+      "start": "33:1",
+      "end": "33:17",
+      "verseCount": 17,
+      "pageStart": 418,
+      "pageEnd": 420,
+      "chapters": [
+        33
+      ]
+    },
+    {
+      "number": 168,
+      "type": "hizbQuarter",
+      "start": "33:18",
+      "end": "33:30",
+      "verseCount": 13,
+      "pageStart": 420,
+      "pageEnd": 421,
+      "chapters": [
+        33
+      ]
+    },
+    {
+      "number": 169,
+      "type": "hizbQuarter",
+      "start": "33:31",
+      "end": "33:50",
+      "verseCount": 20,
+      "pageStart": 422,
+      "pageEnd": 424,
+      "chapters": [
+        33
+      ]
+    },
+    {
+      "number": 170,
+      "type": "hizbQuarter",
+      "start": "33:51",
+      "end": "33:59",
+      "verseCount": 9,
+      "pageStart": 425,
+      "pageEnd": 426,
+      "chapters": [
+        33
+      ]
+    },
+    {
+      "number": 171,
+      "type": "hizbQuarter",
+      "start": "33:60",
+      "end": "34:9",
+      "verseCount": 23,
+      "pageStart": 426,
+      "pageEnd": 429,
+      "chapters": [
+        33,
+        34
+      ]
+    },
+    {
+      "number": 172,
+      "type": "hizbQuarter",
+      "start": "34:10",
+      "end": "34:23",
+      "verseCount": 14,
+      "pageStart": 429,
+      "pageEnd": 431,
+      "chapters": [
+        34
+      ]
+    },
+    {
+      "number": 173,
+      "type": "hizbQuarter",
+      "start": "34:24",
+      "end": "34:45",
+      "verseCount": 22,
+      "pageStart": 431,
+      "pageEnd": 433,
+      "chapters": [
+        34
+      ]
+    },
+    {
+      "number": 174,
+      "type": "hizbQuarter",
+      "start": "34:46",
+      "end": "35:14",
+      "verseCount": 23,
+      "pageStart": 433,
+      "pageEnd": 436,
+      "chapters": [
+        34,
+        35
+      ]
+    },
+    {
+      "number": 175,
+      "type": "hizbQuarter",
+      "start": "35:15",
+      "end": "35:40",
+      "verseCount": 26,
+      "pageStart": 436,
+      "pageEnd": 439,
+      "chapters": [
+        35
+      ]
+    },
+    {
+      "number": 176,
+      "type": "hizbQuarter",
+      "start": "35:41",
+      "end": "36:27",
+      "verseCount": 32,
+      "pageStart": 439,
+      "pageEnd": 441,
+      "chapters": [
+        35,
+        36
+      ]
+    },
+    {
+      "number": 177,
+      "type": "hizbQuarter",
+      "start": "36:28",
+      "end": "36:59",
+      "verseCount": 32,
+      "pageStart": 442,
+      "pageEnd": 444,
+      "chapters": [
+        36
+      ]
+    },
+    {
+      "number": 178,
+      "type": "hizbQuarter",
+      "start": "36:60",
+      "end": "37:21",
+      "verseCount": 45,
+      "pageStart": 444,
+      "pageEnd": 446,
+      "chapters": [
+        36,
+        37
+      ]
+    },
+    {
+      "number": 179,
+      "type": "hizbQuarter",
+      "start": "37:22",
+      "end": "37:82",
+      "verseCount": 61,
+      "pageStart": 446,
+      "pageEnd": 449,
+      "chapters": [
+        37
+      ]
+    },
+    {
+      "number": 180,
+      "type": "hizbQuarter",
+      "start": "37:83",
+      "end": "37:144",
+      "verseCount": 62,
+      "pageStart": 449,
+      "pageEnd": 451,
+      "chapters": [
+        37
+      ]
+    },
+    {
+      "number": 181,
+      "type": "hizbQuarter",
+      "start": "37:145",
+      "end": "38:20",
+      "verseCount": 58,
+      "pageStart": 451,
+      "pageEnd": 454,
+      "chapters": [
+        37,
+        38
+      ]
+    },
+    {
+      "number": 182,
+      "type": "hizbQuarter",
+      "start": "38:21",
+      "end": "38:51",
+      "verseCount": 31,
+      "pageStart": 454,
+      "pageEnd": 456,
+      "chapters": [
+        38
+      ]
+    },
+    {
+      "number": 183,
+      "type": "hizbQuarter",
+      "start": "38:52",
+      "end": "39:7",
+      "verseCount": 44,
+      "pageStart": 456,
+      "pageEnd": 459,
+      "chapters": [
+        38,
+        39
+      ]
+    },
+    {
+      "number": 184,
+      "type": "hizbQuarter",
+      "start": "39:8",
+      "end": "39:31",
+      "verseCount": 24,
+      "pageStart": 459,
+      "pageEnd": 461,
+      "chapters": [
+        39
+      ]
+    },
+    {
+      "number": 185,
+      "type": "hizbQuarter",
+      "start": "39:32",
+      "end": "39:52",
+      "verseCount": 21,
+      "pageStart": 462,
+      "pageEnd": 464,
+      "chapters": [
+        39
+      ]
+    },
+    {
+      "number": 186,
+      "type": "hizbQuarter",
+      "start": "39:53",
+      "end": "39:75",
+      "verseCount": 23,
+      "pageStart": 464,
+      "pageEnd": 467,
+      "chapters": [
+        39
+      ]
+    },
+    {
+      "number": 187,
+      "type": "hizbQuarter",
+      "start": "40:1",
+      "end": "40:20",
+      "verseCount": 20,
+      "pageStart": 467,
+      "pageEnd": 469,
+      "chapters": [
+        40
+      ]
+    },
+    {
+      "number": 188,
+      "type": "hizbQuarter",
+      "start": "40:21",
+      "end": "40:40",
+      "verseCount": 20,
+      "pageStart": 469,
+      "pageEnd": 471,
+      "chapters": [
+        40
+      ]
+    },
+    {
+      "number": 189,
+      "type": "hizbQuarter",
+      "start": "40:41",
+      "end": "40:65",
+      "verseCount": 25,
+      "pageStart": 472,
+      "pageEnd": 474,
+      "chapters": [
+        40
+      ]
+    },
+    {
+      "number": 190,
+      "type": "hizbQuarter",
+      "start": "40:66",
+      "end": "41:8",
+      "verseCount": 28,
+      "pageStart": 474,
+      "pageEnd": 477,
+      "chapters": [
+        40,
+        41
+      ]
+    },
+    {
+      "number": 191,
+      "type": "hizbQuarter",
+      "start": "41:9",
+      "end": "41:24",
+      "verseCount": 16,
+      "pageStart": 477,
+      "pageEnd": 479,
+      "chapters": [
+        41
+      ]
+    },
+    {
+      "number": 192,
+      "type": "hizbQuarter",
+      "start": "41:25",
+      "end": "41:46",
+      "verseCount": 22,
+      "pageStart": 479,
+      "pageEnd": 481,
+      "chapters": [
+        41
+      ]
+    },
+    {
+      "number": 193,
+      "type": "hizbQuarter",
+      "start": "41:47",
+      "end": "42:12",
+      "verseCount": 20,
+      "pageStart": 482,
+      "pageEnd": 484,
+      "chapters": [
+        41,
+        42
+      ]
+    },
+    {
+      "number": 194,
+      "type": "hizbQuarter",
+      "start": "42:13",
+      "end": "42:26",
+      "verseCount": 14,
+      "pageStart": 484,
+      "pageEnd": 486,
+      "chapters": [
+        42
+      ]
+    },
+    {
+      "number": 195,
+      "type": "hizbQuarter",
+      "start": "42:27",
+      "end": "42:50",
+      "verseCount": 24,
+      "pageStart": 486,
+      "pageEnd": 488,
+      "chapters": [
+        42
+      ]
+    },
+    {
+      "number": 196,
+      "type": "hizbQuarter",
+      "start": "42:51",
+      "end": "43:23",
+      "verseCount": 26,
+      "pageStart": 488,
+      "pageEnd": 491,
+      "chapters": [
+        42,
+        43
+      ]
+    },
+    {
+      "number": 197,
+      "type": "hizbQuarter",
+      "start": "43:24",
+      "end": "43:56",
+      "verseCount": 33,
+      "pageStart": 491,
+      "pageEnd": 493,
+      "chapters": [
+        43
+      ]
+    },
+    {
+      "number": 198,
+      "type": "hizbQuarter",
+      "start": "43:57",
+      "end": "44:16",
+      "verseCount": 49,
+      "pageStart": 493,
+      "pageEnd": 496,
+      "chapters": [
+        43,
+        44
+      ]
+    },
+    {
+      "number": 199,
+      "type": "hizbQuarter",
+      "start": "44:17",
+      "end": "45:11",
+      "verseCount": 54,
+      "pageStart": 496,
+      "pageEnd": 499,
+      "chapters": [
+        44,
+        45
+      ]
+    },
+    {
+      "number": 200,
+      "type": "hizbQuarter",
+      "start": "45:12",
+      "end": "45:37",
+      "verseCount": 26,
+      "pageStart": 499,
+      "pageEnd": 502,
+      "chapters": [
+        45
+      ]
+    },
+    {
+      "number": 201,
+      "type": "hizbQuarter",
+      "start": "46:1",
+      "end": "46:20",
+      "verseCount": 20,
+      "pageStart": 502,
+      "pageEnd": 504,
+      "chapters": [
+        46
+      ]
+    },
+    {
+      "number": 202,
+      "type": "hizbQuarter",
+      "start": "46:21",
+      "end": "47:9",
+      "verseCount": 24,
+      "pageStart": 505,
+      "pageEnd": 507,
+      "chapters": [
+        46,
+        47
+      ]
+    },
+    {
+      "number": 203,
+      "type": "hizbQuarter",
+      "start": "47:10",
+      "end": "47:32",
+      "verseCount": 23,
+      "pageStart": 507,
+      "pageEnd": 510,
+      "chapters": [
+        47
+      ]
+    },
+    {
+      "number": 204,
+      "type": "hizbQuarter",
+      "start": "47:33",
+      "end": "48:17",
+      "verseCount": 23,
+      "pageStart": 510,
+      "pageEnd": 513,
+      "chapters": [
+        47,
+        48
+      ]
+    },
+    {
+      "number": 205,
+      "type": "hizbQuarter",
+      "start": "48:18",
+      "end": "48:29",
+      "verseCount": 12,
+      "pageStart": 513,
+      "pageEnd": 515,
+      "chapters": [
+        48
+      ]
+    },
+    {
+      "number": 206,
+      "type": "hizbQuarter",
+      "start": "49:1",
+      "end": "49:13",
+      "verseCount": 13,
+      "pageStart": 515,
+      "pageEnd": 517,
+      "chapters": [
+        49
+      ]
+    },
+    {
+      "number": 207,
+      "type": "hizbQuarter",
+      "start": "49:14",
+      "end": "50:26",
+      "verseCount": 31,
+      "pageStart": 517,
+      "pageEnd": 519,
+      "chapters": [
+        49,
+        50
+      ]
+    },
+    {
+      "number": 208,
+      "type": "hizbQuarter",
+      "start": "50:27",
+      "end": "51:30",
+      "verseCount": 49,
+      "pageStart": 519,
+      "pageEnd": 521,
+      "chapters": [
+        50,
+        51
+      ]
+    },
+    {
+      "number": 209,
+      "type": "hizbQuarter",
+      "start": "51:31",
+      "end": "52:23",
+      "verseCount": 53,
+      "pageStart": 522,
+      "pageEnd": 524,
+      "chapters": [
+        51,
+        52
+      ]
+    },
+    {
+      "number": 210,
+      "type": "hizbQuarter",
+      "start": "52:24",
+      "end": "53:25",
+      "verseCount": 51,
+      "pageStart": 524,
+      "pageEnd": 526,
+      "chapters": [
+        52,
+        53
+      ]
+    },
+    {
+      "number": 211,
+      "type": "hizbQuarter",
+      "start": "53:26",
+      "end": "54:8",
+      "verseCount": 45,
+      "pageStart": 526,
+      "pageEnd": 529,
+      "chapters": [
+        53,
+        54
+      ]
+    },
+    {
+      "number": 212,
+      "type": "hizbQuarter",
+      "start": "54:9",
+      "end": "54:55",
+      "verseCount": 47,
+      "pageStart": 529,
+      "pageEnd": 531,
+      "chapters": [
+        54
+      ]
+    },
+    {
+      "number": 213,
+      "type": "hizbQuarter",
+      "start": "55:1",
+      "end": "55:78",
+      "verseCount": 78,
+      "pageStart": 531,
+      "pageEnd": 534,
+      "chapters": [
+        55
+      ]
+    },
+    {
+      "number": 214,
+      "type": "hizbQuarter",
+      "start": "56:1",
+      "end": "56:74",
+      "verseCount": 74,
+      "pageStart": 534,
+      "pageEnd": 536,
+      "chapters": [
+        56
+      ]
+    },
+    {
+      "number": 215,
+      "type": "hizbQuarter",
+      "start": "56:75",
+      "end": "57:15",
+      "verseCount": 37,
+      "pageStart": 536,
+      "pageEnd": 539,
+      "chapters": [
+        56,
+        57
+      ]
+    },
+    {
+      "number": 216,
+      "type": "hizbQuarter",
+      "start": "57:16",
+      "end": "57:29",
+      "verseCount": 14,
+      "pageStart": 539,
+      "pageEnd": 541,
+      "chapters": [
+        57
+      ]
+    },
+    {
+      "number": 217,
+      "type": "hizbQuarter",
+      "start": "58:1",
+      "end": "58:13",
+      "verseCount": 13,
+      "pageStart": 542,
+      "pageEnd": 544,
+      "chapters": [
+        58
+      ]
+    },
+    {
+      "number": 218,
+      "type": "hizbQuarter",
+      "start": "58:14",
+      "end": "59:10",
+      "verseCount": 19,
+      "pageStart": 544,
+      "pageEnd": 547,
+      "chapters": [
+        58,
+        59
+      ]
+    },
+    {
+      "number": 219,
+      "type": "hizbQuarter",
+      "start": "59:11",
+      "end": "60:6",
+      "verseCount": 20,
+      "pageStart": 547,
+      "pageEnd": 550,
+      "chapters": [
+        59,
+        60
+      ]
+    },
+    {
+      "number": 220,
+      "type": "hizbQuarter",
+      "start": "60:7",
+      "end": "61:14",
+      "verseCount": 21,
+      "pageStart": 550,
+      "pageEnd": 552,
+      "chapters": [
+        60,
+        61
+      ]
+    },
+    {
+      "number": 221,
+      "type": "hizbQuarter",
+      "start": "62:1",
+      "end": "63:3",
+      "verseCount": 14,
+      "pageStart": 553,
+      "pageEnd": 554,
+      "chapters": [
+        62,
+        63
+      ]
+    },
+    {
+      "number": 222,
+      "type": "hizbQuarter",
+      "start": "63:4",
+      "end": "64:18",
+      "verseCount": 26,
+      "pageStart": 554,
+      "pageEnd": 557,
+      "chapters": [
+        63,
+        64
+      ]
+    },
+    {
+      "number": 223,
+      "type": "hizbQuarter",
+      "start": "65:1",
+      "end": "65:12",
+      "verseCount": 12,
+      "pageStart": 558,
+      "pageEnd": 559,
+      "chapters": [
+        65
+      ]
+    },
+    {
+      "number": 224,
+      "type": "hizbQuarter",
+      "start": "66:1",
+      "end": "66:12",
+      "verseCount": 12,
+      "pageStart": 560,
+      "pageEnd": 561,
+      "chapters": [
+        66
+      ]
+    },
+    {
+      "number": 225,
+      "type": "hizbQuarter",
+      "start": "67:1",
+      "end": "67:30",
+      "verseCount": 30,
+      "pageStart": 562,
+      "pageEnd": 564,
+      "chapters": [
+        67
+      ]
+    },
+    {
+      "number": 226,
+      "type": "hizbQuarter",
+      "start": "68:1",
+      "end": "68:52",
+      "verseCount": 52,
+      "pageStart": 564,
+      "pageEnd": 566,
+      "chapters": [
+        68
+      ]
+    },
+    {
+      "number": 227,
+      "type": "hizbQuarter",
+      "start": "69:1",
+      "end": "70:18",
+      "verseCount": 70,
+      "pageStart": 566,
+      "pageEnd": 569,
+      "chapters": [
+        69,
+        70
+      ]
+    },
+    {
+      "number": 228,
+      "type": "hizbQuarter",
+      "start": "70:19",
+      "end": "71:28",
+      "verseCount": 54,
+      "pageStart": 569,
+      "pageEnd": 571,
+      "chapters": [
+        70,
+        71
+      ]
+    },
+    {
+      "number": 229,
+      "type": "hizbQuarter",
+      "start": "72:1",
+      "end": "73:19",
+      "verseCount": 47,
+      "pageStart": 572,
+      "pageEnd": 574,
+      "chapters": [
+        72,
+        73
+      ]
+    },
+    {
+      "number": 230,
+      "type": "hizbQuarter",
+      "start": "73:20",
+      "end": "74:56",
+      "verseCount": 57,
+      "pageStart": 575,
+      "pageEnd": 577,
+      "chapters": [
+        73,
+        74
+      ]
+    },
+    {
+      "number": 231,
+      "type": "hizbQuarter",
+      "start": "75:1",
+      "end": "76:18",
+      "verseCount": 58,
+      "pageStart": 577,
+      "pageEnd": 579,
+      "chapters": [
+        75,
+        76
+      ]
+    },
+    {
+      "number": 232,
+      "type": "hizbQuarter",
+      "start": "76:19",
+      "end": "77:50",
+      "verseCount": 63,
+      "pageStart": 579,
+      "pageEnd": 581,
+      "chapters": [
+        76,
+        77
+      ]
+    },
+    {
+      "number": 233,
+      "type": "hizbQuarter",
+      "start": "78:1",
+      "end": "79:46",
+      "verseCount": 86,
+      "pageStart": 582,
+      "pageEnd": 584,
+      "chapters": [
+        78,
+        79
+      ]
+    },
+    {
+      "number": 234,
+      "type": "hizbQuarter",
+      "start": "80:1",
+      "end": "81:29",
+      "verseCount": 71,
+      "pageStart": 585,
+      "pageEnd": 586,
+      "chapters": [
+        80,
+        81
+      ]
+    },
+    {
+      "number": 235,
+      "type": "hizbQuarter",
+      "start": "82:1",
+      "end": "83:36",
+      "verseCount": 55,
+      "pageStart": 587,
+      "pageEnd": 589,
+      "chapters": [
+        82,
+        83
+      ]
+    },
+    {
+      "number": 236,
+      "type": "hizbQuarter",
+      "start": "84:1",
+      "end": "86:17",
+      "verseCount": 64,
+      "pageStart": 589,
+      "pageEnd": 591,
+      "chapters": [
+        84,
+        85,
+        86
+      ]
+    },
+    {
+      "number": 237,
+      "type": "hizbQuarter",
+      "start": "87:1",
+      "end": "89:30",
+      "verseCount": 75,
+      "pageStart": 591,
+      "pageEnd": 594,
+      "chapters": [
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "number": 238,
+      "type": "hizbQuarter",
+      "start": "90:1",
+      "end": "93:11",
+      "verseCount": 67,
+      "pageStart": 594,
+      "pageEnd": 596,
+      "chapters": [
+        90,
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "number": 239,
+      "type": "hizbQuarter",
+      "start": "94:1",
+      "end": "100:8",
+      "verseCount": 64,
+      "pageStart": 596,
+      "pageEnd": 599,
+      "chapters": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "number": 240,
+      "type": "hizbQuarter",
+      "start": "100:9",
+      "end": "114:6",
+      "verseCount": 82,
+      "pageStart": 599,
+      "pageEnd": 604,
+      "chapters": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
+      ]
+    }
+  ]
+}

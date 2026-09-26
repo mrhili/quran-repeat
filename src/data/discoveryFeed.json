@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "excludedChapters": [],
+  "excludedVerses": [
+    "55:16", "55:18", "55:21", "55:23", "55:25", "55:28", "55:30", "55:32", "55:34", "55:36",
+    "55:38", "55:40", "55:42", "55:45", "55:47", "55:49", "55:51", "55:53", "55:55", "55:57",
+    "55:59", "55:61", "55:63", "55:65", "55:67", "55:69", "55:71", "55:73", "55:75", "55:77"
+  ],
+  "backgrounds": [
+    {
+      "id": "emerald-dusk",
+      "name": "سكون الزمرد",
+      "type": "gradient",
+      "themes": ["dark"],
+      "gradient": "radial-gradient(circle at 80% 15%, #17665b 0%, transparent 45%), linear-gradient(150deg, #081b25, #0d3435 55%, #06131e)",
+      "textColor": "#fff9e9",
+      "accentColor": "#eacb83",
+      "focalX": 50,
+      "focalY": 50,
+      "shieldX": 50,
+      "shieldY": 50,
+      "shieldStrength": 0.35,
+      "enabled": true
+    },
+    {
+      "id": "night-gold",
+      "name": "ليل ذهبي",
+      "type": "gradient",
+      "themes": ["dark"],
+      "gradient": "radial-gradient(circle at 15% 85%, #7a5734 0%, transparent 40%), linear-gradient(145deg, #131b2b, #263241 55%, #11151e)",
+      "textColor": "#fffaf0",
+      "accentColor": "#f5cf89",
+      "focalX": 50,
+      "focalY": 50,
+      "shieldX": 50,
+      "shieldY": 50,
+      "shieldStrength": 0.3,
+      "enabled": true
+    },
+    {
+      "id": "ivory-dawn",
+      "name": "فجر عاجي",
+      "type": "gradient",
+      "themes": ["light"],
+      "gradient": "radial-gradient(circle at 75% 20%, #f1d4a0 0%, transparent 42%), linear-gradient(155deg, #f6f0df, #d9e9df 58%, #ebdec5)",
+      "textColor": "#16332e",
+      "accentColor": "#315f4f",
+      "focalX": 50,
+      "focalY": 50,
+      "shieldX": 50,
+      "shieldY": 50,
+      "shieldStrength": 0.24,
+      "enabled": true
+    }
+  ]
+}

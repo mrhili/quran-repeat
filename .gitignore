@@ -1,0 +1,29 @@
+# Data-only contribution repository: local state and build output
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+*.local
+*.log
+
+# Never commit user learning state, downloaded recordings, or temporary media.
+*.mp3
+*.wav
+*.mp4
+*.tmp
+*.bak
+
+# Browser-facing Quran/audio files and word clusters are generated from source.
+public/audio/
+public/quran/
+public/quranWordClusters.json
+public/quranStructure.json
+public/challengeRules.json
+public/topicMap.json
+public/savedSearches.json
+public/discoveryFeed.json
+public/verseBackImages.json
+src/data/quranWordClusters.json
+
+# Do NOT ignore public/discovery-images/: its WebP files are source assets.

@@ -1,0 +1,4148 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-18T14:58:42.120Z",
+  "topics": [
+    {
+      "id": "أ",
+      "name": "أ",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:1"
+      ],
+      "links": []
+    },
+    {
+      "id": "إبليس",
+      "name": "إبليس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:34"
+      ],
+      "links": []
+    },
+    {
+      "id": "إتهام-المؤمنين",
+      "name": "إتهام المؤمنين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:13"
+      ],
+      "links": []
+    },
+    {
+      "id": "إتهام-المؤمنين-بالسفاهة",
+      "name": "إتهام المؤمنين بالسفاهة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:13"
+      ],
+      "links": []
+    },
+    {
+      "id": "إحياء-الموتى",
+      "name": "إحياء الموتى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "اختيار",
+      "name": "اختيار",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35"
+      ],
+      "links": []
+    },
+    {
+      "id": "اختيار-الله",
+      "name": "اختيار الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:20"
+      ],
+      "links": []
+    },
+    {
+      "id": "أداء-الزكاة",
+      "name": "أداء الزكاة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:43"
+      ],
+      "links": []
+    },
+    {
+      "id": "أدم",
+      "name": "أدم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:31",
+        "2:35",
+        "2:34",
+        "2:37"
+      ],
+      "links": []
+    },
+    {
+      "id": "أربعين-ليلة",
+      "name": "أربعين ليلة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:51"
+      ],
+      "links": []
+    },
+    {
+      "id": "أزواج-الجنة",
+      "name": "أزواج الجنة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:25"
+      ],
+      "links": []
+    },
+    {
+      "id": "استهزاء-الله",
+      "name": "استهزاء الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:15"
+      ],
+      "links": []
+    },
+    {
+      "id": "أسماء-الله-الحسنى",
+      "name": "أسماء الله الحسنى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:1",
+        "1:3",
+        "1:4",
+        "2:32",
+        "2:37",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "أصفر",
+      "name": "أصفر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:69"
+      ],
+      "links": []
+    },
+    {
+      "id": "افتخار-الله-بالمؤمنين",
+      "name": "افتخار الله بالمؤمنين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26"
+      ],
+      "links": []
+    },
+    {
+      "id": "إقامة-الصلاة",
+      "name": "إقامة الصلاة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:43"
+      ],
+      "links": []
+    },
+    {
+      "id": "أكل",
+      "name": "أكل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35"
+      ],
+      "links": []
+    },
+    {
+      "id": "ال-فرعون",
+      "name": "ال فرعون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:49",
+        "2:50"
+      ],
+      "links": []
+    },
+    {
+      "id": "الا-مبالات-الغير-الحميدة",
+      "name": "الا مبالات الغير الحميدة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:6",
+        "2:10",
+        "2:12",
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإبتداء",
+      "name": "الإبتداء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:1"
+      ],
+      "links": []
+    },
+    {
+      "id": "الأجر",
+      "name": "الأجر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "الأخرة",
+      "name": "الأخرة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4",
+        "2:7",
+        "2:8",
+        "2:24",
+        "2:25",
+        "2:28",
+        "2:46",
+        "2:48",
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "الأرض",
+      "name": "الأرض",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:27",
+        "2:29",
+        "2:30",
+        "2:33",
+        "2:35",
+        "2:36",
+        "2:38",
+        "2:60",
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستجابة-للدعاء",
+      "name": "الإستجابة للدعاء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستزادة",
+      "name": "الإستزادة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:68",
+        "2:69",
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستسقاء",
+      "name": "الإستسقاء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستعادة",
+      "name": "الإستعادة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:67"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستعانة",
+      "name": "الإستعانة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:5",
+        "2:45"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستكبار",
+      "name": "الإستكبار",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:34"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستهزاء-بالدين",
+      "name": "الإستهزاء بالدين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:14",
+        "2:2",
+        "2:26",
+        "2:67",
+        "2:68",
+        "2:69",
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإستواء",
+      "name": "الإستواء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:29"
+      ],
+      "links": []
+    },
+    {
+      "id": "الألوهية",
+      "name": "الألوهية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:2",
+        "2:8",
+        "2:9",
+        "2:21",
+        "2:22",
+        "2:26",
+        "2:27",
+        "2:28",
+        "2:62",
+        "2:72",
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإمتتال-للأمر",
+      "name": "الإمتتال للأمر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:34",
+        "2:38",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "الأمر",
+      "name": "الأمر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:21",
+        "2:27",
+        "2:35",
+        "2:34",
+        "2:43",
+        "2:44",
+        "2:45",
+        "2:58",
+        "2:59",
+        "2:63",
+        "2:67",
+        "2:68",
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "الأنبياء-و-الرسل",
+      "name": "الأنبياء و الرسل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4"
+      ],
+      "links": []
+    },
+    {
+      "id": "الأنداد",
+      "name": "الأنداد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:51",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإنذار",
+      "name": "الإنذار",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:6"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإنفاق",
+      "name": "الإنفاق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:3",
+        "2:16"
+      ],
+      "links": []
+    },
+    {
+      "id": "الإيمان",
+      "name": "الإيمان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:8",
+        "2:13",
+        "2:25",
+        "2:26",
+        "2:55",
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "البر",
+      "name": "البر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "البعت",
+      "name": "البعت",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:56"
+      ],
+      "links": []
+    },
+    {
+      "id": "البكم",
+      "name": "البكم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:18",
+        "2:19"
+      ],
+      "links": []
+    },
+    {
+      "id": "البلاء",
+      "name": "البلاء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:49"
+      ],
+      "links": []
+    },
+    {
+      "id": "البناء",
+      "name": "البناء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22"
+      ],
+      "links": []
+    },
+    {
+      "id": "التجارة",
+      "name": "التجارة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:16",
+        "2:41"
+      ],
+      "links": []
+    },
+    {
+      "id": "التجارة-مع-الله",
+      "name": "التجارة مع الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:41"
+      ],
+      "links": []
+    },
+    {
+      "id": "التجاهل",
+      "name": "التجاهل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22"
+      ],
+      "links": []
+    },
+    {
+      "id": "التحدير-من-العذاب",
+      "name": "التحدير من العذاب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:24",
+        "2:35",
+        "2:48",
+        "2:56"
+      ],
+      "links": []
+    },
+    {
+      "id": "التحريف",
+      "name": "التحريف",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "التحول-من-المكان",
+      "name": "التحول من المكان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:36",
+        "2:38",
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "التسلسل",
+      "name": "التسلسل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:7",
+        "2:9",
+        "2:18",
+        "2:19",
+        "2:26",
+        "2:28",
+        "2:29",
+        "2:33",
+        "2:39",
+        "2:38",
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "التسوية",
+      "name": "التسوية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:29"
+      ],
+      "links": []
+    },
+    {
+      "id": "التشابه",
+      "name": "التشابه",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "التصديق",
+      "name": "التصديق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "التفصيل",
+      "name": "التفصيل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:68"
+      ],
+      "links": []
+    },
+    {
+      "id": "التفضيل",
+      "name": "التفضيل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:47"
+      ],
+      "links": []
+    },
+    {
+      "id": "التقديس",
+      "name": "التقديس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:30"
+      ],
+      "links": []
+    },
+    {
+      "id": "التقوى",
+      "name": "التقوى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:2",
+        "2:3",
+        "2:5",
+        "2:21",
+        "2:31",
+        "2:41",
+        "2:48",
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "التكذيب",
+      "name": "التكذيب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:39"
+      ],
+      "links": []
+    },
+    {
+      "id": "التلاوة",
+      "name": "التلاوة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "التنزيل",
+      "name": "التنزيل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4"
+      ],
+      "links": []
+    },
+    {
+      "id": "التواب",
+      "name": "التواب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:37",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "التوبة",
+      "name": "التوبة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:37",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "التوحيد",
+      "name": "التوحيد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22"
+      ],
+      "links": []
+    },
+    {
+      "id": "التوعد-الدنيوي",
+      "name": "التوعد الدنيوي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:10"
+      ],
+      "links": []
+    },
+    {
+      "id": "التوعد-بالعذاب",
+      "name": "التوعد بالعذاب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:7",
+        "2:10",
+        "2:39"
+      ],
+      "links": []
+    },
+    {
+      "id": "التوقع",
+      "name": "التوقع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:24",
+        "2:64",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "الجزر",
+      "name": "الجزر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "الجزع",
+      "name": "الجزع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "الجنة",
+      "name": "الجنة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:25",
+        "2:35",
+        "2:38"
+      ],
+      "links": []
+    },
+    {
+      "id": "الجهل",
+      "name": "الجهل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:13",
+        "2:30",
+        "2:32",
+        "2:67"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحجة",
+      "name": "الحجة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:21",
+        "2:22",
+        "2:28"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحزن",
+      "name": "الحزن",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:38"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحق",
+      "name": "الحق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26",
+        "2:42",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحكيم",
+      "name": "الحكيم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:32"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحل-الإلهي",
+      "name": "الحل الإلهي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:72"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحمد",
+      "name": "الحمد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:2",
+        "2:30"
+      ],
+      "links": []
+    },
+    {
+      "id": "الحياة",
+      "name": "الحياة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:28"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخاسرون",
+      "name": "الخاسرون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:27",
+        "2:64"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخاشعون",
+      "name": "الخاشعون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:45"
+      ],
+      "links": []
+    },
+    {
+      "id": "الختم-على-السمع",
+      "name": "الختم على السمع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:7"
+      ],
+      "links": []
+    },
+    {
+      "id": "الختم-على-القلب",
+      "name": "الختم على القلب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:7"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخداع-مع-الله",
+      "name": "الخداع مع الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:9",
+        "2:17",
+        "2:20",
+        "2:61",
+        "2:64"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخداع-مع-المؤمنين",
+      "name": "الخداع مع المؤمنين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:9",
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخروج",
+      "name": "الخروج",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:35",
+        "2:36",
+        "2:72"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخسارة",
+      "name": "الخسارة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:16",
+        "2:27"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخلق",
+      "name": "الخلق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:21",
+        "2:28",
+        "2:29"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخلوة",
+      "name": "الخلوة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:14"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخلود",
+      "name": "الخلود",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:25",
+        "2:39"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخوف",
+      "name": "الخوف",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:19",
+        "2:38"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخوف-من-الله",
+      "name": "الخوف من الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:40"
+      ],
+      "links": []
+    },
+    {
+      "id": "الخير",
+      "name": "الخير",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "الدخول",
+      "name": "الدخول",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "الدعاء",
+      "name": "الدعاء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:60",
+        "2:61",
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "الدعوة",
+      "name": "الدعوة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:13",
+        "2:21",
+        "2:43",
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "الراكعون",
+      "name": "الراكعون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:43"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرؤية",
+      "name": "الرؤية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "الربوبية",
+      "name": "الربوبية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:5",
+        "2:21",
+        "2:20",
+        "2:22",
+        "2:30",
+        "2:31",
+        "2:32",
+        "2:37",
+        "2:46",
+        "2:61",
+        "2:62",
+        "2:68",
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرجز",
+      "name": "الرجز",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:59"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرجوع",
+      "name": "الرجوع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:28",
+        "2:46"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرجوع-لله",
+      "name": "الرجوع لله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:46"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرحمان",
+      "name": "الرحمان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:3"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرحيم",
+      "name": "الرحيم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:37",
+        "1:3",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرزق",
+      "name": "الرزق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:3",
+        "2:22",
+        "2:25",
+        "2:57",
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "الرسل",
+      "name": "الرسل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:31"
+      ],
+      "links": []
+    },
+    {
+      "id": "الزكاة",
+      "name": "الزكاة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:43"
+      ],
+      "links": []
+    },
+    {
+      "id": "الزلل",
+      "name": "الزلل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "الزمن",
+      "name": "الزمن",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4",
+        "2:21",
+        "2:24",
+        "2:28",
+        "2:30",
+        "2:34",
+        "2:35",
+        "2:36",
+        "2:51",
+        "2:52",
+        "2:64",
+        "2:65",
+        "2:66",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "الزيادة",
+      "name": "الزيادة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:10",
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "السبت",
+      "name": "السبت",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:65"
+      ],
+      "links": []
+    },
+    {
+      "id": "السجود",
+      "name": "السجود",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:34",
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "السرور",
+      "name": "السرور",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:69"
+      ],
+      "links": []
+    },
+    {
+      "id": "السماء",
+      "name": "السماء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:29",
+        "2:33",
+        "2:59"
+      ],
+      "links": []
+    },
+    {
+      "id": "الشجرة-المحرمة",
+      "name": "الشجرة المحرمة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "الشفاعة",
+      "name": "الشفاعة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:48"
+      ],
+      "links": []
+    },
+    {
+      "id": "الشكر",
+      "name": "الشكر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:52",
+        "2:56"
+      ],
+      "links": []
+    },
+    {
+      "id": "الشياطين",
+      "name": "الشياطين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:14",
+        "2:23",
+        "2:35",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصابئيين",
+      "name": "الصابئيين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصاعقة",
+      "name": "الصاعقة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:55"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصبر",
+      "name": "الصبر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:45"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصدق",
+      "name": "الصدق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:31"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصفات-الحميدة",
+      "name": "الصفات الحميدة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:3"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصلاة",
+      "name": "الصلاة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:3",
+        "2:43",
+        "2:45"
+      ],
+      "links": []
+    },
+    {
+      "id": "الصم",
+      "name": "الصم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:18",
+        "2:19"
+      ],
+      "links": []
+    },
+    {
+      "id": "الضالمون",
+      "name": "الضالمون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:51"
+      ],
+      "links": []
+    },
+    {
+      "id": "الضرب",
+      "name": "الضرب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "الضلالة",
+      "name": "الضلالة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:16",
+        "2:26"
+      ],
+      "links": []
+    },
+    {
+      "id": "الضلم",
+      "name": "الضلم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:54",
+        "2:57"
+      ],
+      "links": []
+    },
+    {
+      "id": "الطغيان",
+      "name": "الطغيان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:15"
+      ],
+      "links": []
+    },
+    {
+      "id": "الطمئنينة",
+      "name": "الطمئنينة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "الطمع",
+      "name": "الطمع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "الطور",
+      "name": "الطور",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "الظالين",
+      "name": "الظالين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7",
+        "2:16"
+      ],
+      "links": []
+    },
+    {
+      "id": "الظاهر-و-الباطن",
+      "name": "الظاهر و الباطن",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:33"
+      ],
+      "links": []
+    },
+    {
+      "id": "الظل",
+      "name": "الظل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:57"
+      ],
+      "links": []
+    },
+    {
+      "id": "الظن",
+      "name": "الظن",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:46"
+      ],
+      "links": []
+    },
+    {
+      "id": "العبادة",
+      "name": "العبادة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:5",
+        "2:21"
+      ],
+      "links": []
+    },
+    {
+      "id": "العجل",
+      "name": "العجل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:51",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "العداوة",
+      "name": "العداوة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "العدد",
+      "name": "العدد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:29",
+        "2:38",
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "العدوان",
+      "name": "العدوان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61",
+        "2:65"
+      ],
+      "links": []
+    },
+    {
+      "id": "العذاب-الدنيوي",
+      "name": "العذاب الدنيوي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:65",
+        "2:66"
+      ],
+      "links": []
+    },
+    {
+      "id": "العرض",
+      "name": "العرض",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:31"
+      ],
+      "links": []
+    },
+    {
+      "id": "العصيان",
+      "name": "العصيان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "العفو",
+      "name": "العفو",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:52"
+      ],
+      "links": []
+    },
+    {
+      "id": "العقاب",
+      "name": "العقاب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "العقل",
+      "name": "العقل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44",
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "العلم",
+      "name": "العلم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:26",
+        "2:29",
+        "2:31",
+        "2:63",
+        "2:65",
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "العليم",
+      "name": "العليم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:32"
+      ],
+      "links": []
+    },
+    {
+      "id": "العمل-الصالح",
+      "name": "العمل الصالح",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:25",
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "العمي",
+      "name": "العمي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:18",
+        "2:19"
+      ],
+      "links": []
+    },
+    {
+      "id": "العهد",
+      "name": "العهد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "الغشاوة-على-العين",
+      "name": "الغشاوة على العين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:7"
+      ],
+      "links": []
+    },
+    {
+      "id": "الغفران",
+      "name": "الغفران",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "الغيب",
+      "name": "الغيب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4",
+        "2:3",
+        "2:8",
+        "2:33"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفاسقون",
+      "name": "الفاسقون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26",
+        "2:27",
+        "2:59"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفرق-بين-الإيمان-و-الكفر",
+      "name": "الفرق بين الإيمان و الكفر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7",
+        "2:26",
+        "2:66"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفرق-بين-الذكور-و-اللإيناث",
+      "name": "الفرق بين الذكور و اللإيناث",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:49"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفرق-بين-الملائكة-و-الشياطين",
+      "name": "الفرق بين الملائكة و الشياطين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:34",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفساد",
+      "name": "الفساد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:12",
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفساد-في-الأرض",
+      "name": "الفساد في الأرض",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:27",
+        "2:30"
+      ],
+      "links": []
+    },
+    {
+      "id": "الفلاح",
+      "name": "الفلاح",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:5"
+      ],
+      "links": []
+    },
+    {
+      "id": "القران",
+      "name": "القران",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:2",
+        "2:4",
+        "2:23",
+        "2:41"
+      ],
+      "links": []
+    },
+    {
+      "id": "القربان",
+      "name": "القربان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:67"
+      ],
+      "links": []
+    },
+    {
+      "id": "القرية",
+      "name": "القرية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "القوة",
+      "name": "القوة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "القول",
+      "name": "القول",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:8",
+        "2:13",
+        "2:26",
+        "2:30",
+        "2:32",
+        "2:35",
+        "2:34",
+        "2:54",
+        "2:55",
+        "2:58",
+        "2:59",
+        "2:61",
+        "2:63",
+        "2:65",
+        "2:67",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "القيادة",
+      "name": "القيادة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكافرون",
+      "name": "الكافرون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7",
+        "2:6",
+        "2:24",
+        "2:34",
+        "2:39"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكتب-السماوية",
+      "name": "الكتب السماوية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4",
+        "2:41",
+        "2:44",
+        "2:53",
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكذب",
+      "name": "الكذب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:10"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكذب-على-النفس",
+      "name": "الكذب على النفس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:9",
+        "2:11",
+        "2:59",
+        "2:68",
+        "2:69",
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكفر",
+      "name": "الكفر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:6",
+        "2:8",
+        "2:28",
+        "2:39",
+        "2:41",
+        "2:51",
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكفر-بالقران",
+      "name": "الكفر بالقران",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:41"
+      ],
+      "links": []
+    },
+    {
+      "id": "الكيفية",
+      "name": "الكيفية",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:28"
+      ],
+      "links": []
+    },
+    {
+      "id": "اللقاء",
+      "name": "اللقاء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:14"
+      ],
+      "links": []
+    },
+    {
+      "id": "الله-لا-يستحيي",
+      "name": "الله لا يستحيي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26"
+      ],
+      "links": []
+    },
+    {
+      "id": "الماء",
+      "name": "الماء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "المؤمنون",
+      "name": "المؤمنون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7",
+        "2:4",
+        "2:25",
+        "2:26",
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "المتاع",
+      "name": "المتاع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "المتقين",
+      "name": "المتقين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:3",
+        "2:2",
+        "2:4",
+        "2:5",
+        "2:66"
+      ],
+      "links": []
+    },
+    {
+      "id": "المحسنين",
+      "name": "المحسنين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "المستقر",
+      "name": "المستقر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "المغضوب-عليهم",
+      "name": "المغضوب عليهم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7"
+      ],
+      "links": []
+    },
+    {
+      "id": "المفسدون",
+      "name": "المفسدون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:12",
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "المقارنة",
+      "name": "المقارنة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "المن-و-السلوى",
+      "name": "المن و السلوى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:57"
+      ],
+      "links": []
+    },
+    {
+      "id": "المنافقون",
+      "name": "المنافقون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:7"
+      ],
+      "links": []
+    },
+    {
+      "id": "الموت",
+      "name": "الموت",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:28",
+        "2:56"
+      ],
+      "links": []
+    },
+    {
+      "id": "الميثاق",
+      "name": "الميثاق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "النار",
+      "name": "النار",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:24",
+        "2:39"
+      ],
+      "links": []
+    },
+    {
+      "id": "الناس",
+      "name": "الناس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:8",
+        "2:13",
+        "2:21",
+        "2:24",
+        "2:26",
+        "2:44",
+        "2:60"
+      ],
+      "links": []
+    },
+    {
+      "id": "النبات",
+      "name": "النبات",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "النبوة",
+      "name": "النبوة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:33",
+        "2:37"
+      ],
+      "links": []
+    },
+    {
+      "id": "النجاة-في-لبدنيا",
+      "name": "النجاة في لبدنيا",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:49"
+      ],
+      "links": []
+    },
+    {
+      "id": "النجاة-من-العذاب-الدنيوي",
+      "name": "النجاة من العذاب الدنيوي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:49"
+      ],
+      "links": []
+    },
+    {
+      "id": "النداء",
+      "name": "النداء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:41",
+        "2:40",
+        "2:21",
+        "2:47",
+        "2:54"
+      ],
+      "links": []
+    },
+    {
+      "id": "النزول",
+      "name": "النزول",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:41"
+      ],
+      "links": []
+    },
+    {
+      "id": "النسيان",
+      "name": "النسيان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "النصارى",
+      "name": "النصارى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7",
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "النظر",
+      "name": "النظر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:69"
+      ],
+      "links": []
+    },
+    {
+      "id": "النعمة",
+      "name": "النعمة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:22",
+        "2:40",
+        "2:47"
+      ],
+      "links": []
+    },
+    {
+      "id": "النفاق",
+      "name": "النفاق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:8",
+        "2:14"
+      ],
+      "links": []
+    },
+    {
+      "id": "النهي-عن-المنكر",
+      "name": "النهي عن المنكر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:11"
+      ],
+      "links": []
+    },
+    {
+      "id": "الهبوط",
+      "name": "الهبوط",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:38"
+      ],
+      "links": []
+    },
+    {
+      "id": "الهدى",
+      "name": "الهدى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:2",
+        "2:5",
+        "2:26",
+        "2:38",
+        "2:16"
+      ],
+      "links": []
+    },
+    {
+      "id": "الوحي",
+      "name": "الوحي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:37",
+        "2:38",
+        "2:53"
+      ],
+      "links": []
+    },
+    {
+      "id": "الوفاء-بالعهد-مع-الله",
+      "name": "الوفاء بالعهد مع الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:40"
+      ],
+      "links": []
+    },
+    {
+      "id": "اليقين",
+      "name": "اليقين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:4",
+        "2:2"
+      ],
+      "links": []
+    },
+    {
+      "id": "اليهود",
+      "name": "اليهود",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:7",
+        "2:62"
+      ],
+      "links": []
+    },
+    {
+      "id": "أمر-الناس",
+      "name": "أمر الناس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "إن-شاء-الله",
+      "name": "إن شاء الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "أنهار-الجنة",
+      "name": "أنهار الجنة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:25"
+      ],
+      "links": []
+    },
+    {
+      "id": "أيات-الله",
+      "name": "أيات الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:39",
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "بعوضة",
+      "name": "بعوضة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26"
+      ],
+      "links": []
+    },
+    {
+      "id": "بقرة",
+      "name": "بقرة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:67",
+        "2:70",
+        "2:69",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "بني-إسرائيل",
+      "name": "بني إسرائيل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:40",
+        "2:41",
+        "2:42",
+        "2:44",
+        "2:47",
+        "2:50",
+        "2:54",
+        "2:55",
+        "2:60",
+        "2:61",
+        "2:66",
+        "2:65",
+        "2:64",
+        "2:63",
+        "2:62",
+        "2:69",
+        "2:67",
+        "2:70",
+        "2:74",
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "بيع-الأخرة-بالدنيا",
+      "name": "بيع الأخرة بالدنيا",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:41"
+      ],
+      "links": []
+    },
+    {
+      "id": "تبديل-القول",
+      "name": "تبديل القول",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:59"
+      ],
+      "links": []
+    },
+    {
+      "id": "تحدي-الله",
+      "name": "تحدي الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:23",
+        "2:24",
+        "2:31"
+      ],
+      "links": []
+    },
+    {
+      "id": "تحريف-كلام-الله",
+      "name": "تحريف كلام الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:75"
+      ],
+      "links": []
+    },
+    {
+      "id": "تحقير-ا��شأن",
+      "name": "تحقير الشأن",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:13"
+      ],
+      "links": []
+    },
+    {
+      "id": "تحقير-شأن-المؤمنين",
+      "name": "تحقير شأن المؤمنين",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:13"
+      ],
+      "links": []
+    },
+    {
+      "id": "تسبيح",
+      "name": "تسبيح",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:30",
+        "2:32"
+      ],
+      "links": []
+    },
+    {
+      "id": "ثمار-الجنة",
+      "name": "ثمار الجنة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:25",
+        "2:35"
+      ],
+      "links": []
+    },
+    {
+      "id": "جعل",
+      "name": "جعل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:30"
+      ],
+      "links": []
+    },
+    {
+      "id": "حب-الدنيا",
+      "name": "حب الدنيا",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "حجر",
+      "name": "حجر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "حروف-مقطعة",
+      "name": "حروف مقطعة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:1"
+      ],
+      "links": []
+    },
+    {
+      "id": "خاسؤون",
+      "name": "خاسؤون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:65"
+      ],
+      "links": []
+    },
+    {
+      "id": "خشية-الله",
+      "name": "خشية الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "خليفة",
+      "name": "خلي��ة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:30"
+      ],
+      "links": []
+    },
+    {
+      "id": "دعاء",
+      "name": "دعاء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:6"
+      ],
+      "links": []
+    },
+    {
+      "id": "دعوى-الإصلاح",
+      "name": "دعوى الإصلاح",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:11"
+      ],
+      "links": []
+    },
+    {
+      "id": "ذبح-البقرة",
+      "name": "ذبح البقرة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:67",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "ذكر-العلم",
+      "name": "ذكر العلم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "ذكر-النعمة",
+      "name": "ذكر النعمة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:40",
+        "2:47",
+        "2:63"
+      ],
+      "links": []
+    },
+    {
+      "id": "ذل",
+      "name": "ذل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:48",
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "رؤية-الله",
+      "name": "رؤية الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:55"
+      ],
+      "links": []
+    },
+    {
+      "id": "ربك",
+      "name": "ربك",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61",
+        "2:68",
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "رحمة-الله",
+      "name": "رحمة الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:64"
+      ],
+      "links": []
+    },
+    {
+      "id": "رغد",
+      "name": "رغد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35",
+        "2:58"
+      ],
+      "links": []
+    },
+    {
+      "id": "رفض-الأمر",
+      "name": "رفض الأمر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:34",
+        "2:59"
+      ],
+      "links": []
+    },
+    {
+      "id": "زواج",
+      "name": "زواج",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:35"
+      ],
+      "links": []
+    },
+    {
+      "id": "زوال-النعمة",
+      "name": "زوال النعمة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:20",
+        "2:36"
+      ],
+      "links": []
+    },
+    {
+      "id": "سؤال",
+      "name": "سؤال",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26",
+        "2:28"
+      ],
+      "links": []
+    },
+    {
+      "id": "سبحان-الله",
+      "name": "سبحان الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "شك",
+      "name": "شك",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:23"
+      ],
+      "links": []
+    },
+    {
+      "id": "صعوبة-الأمر",
+      "name": "صعوبة الأمر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:45"
+      ],
+      "links": []
+    },
+    {
+      "id": "ضرب-المثل",
+      "name": "ضرب المثل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26",
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "ظلم-النفس",
+      "name": "ظلم النفس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:54",
+        "2:57",
+        "2:59"
+      ],
+      "links": []
+    },
+    {
+      "id": "عدد",
+      "name": "عدد",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:26"
+      ],
+      "links": []
+    },
+    {
+      "id": "عدم-التوفيق",
+      "name": "عدم التوفيق",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:11",
+        "2:13",
+        "2:15",
+        "2:16",
+        "2:18"
+      ],
+      "links": []
+    },
+    {
+      "id": "عدم-الشعور",
+      "name": "عدم الشعور",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:9",
+        "2:12"
+      ],
+      "links": []
+    },
+    {
+      "id": "عدم-نفع-الأسباب",
+      "name": "عدم نفع الأسباب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:17"
+      ],
+      "links": []
+    },
+    {
+      "id": "عذاب",
+      "name": "عذاب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:55"
+      ],
+      "links": []
+    },
+    {
+      "id": "عذاب-الله-في-الأرض",
+      "name": "عذاب الله في الأرض",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [],
+      "links": []
+    },
+    {
+      "id": "علم-الأسماء",
+      "name": "علم الأسماء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:31",
+        "2:33"
+      ],
+      "links": []
+    },
+    {
+      "id": "علم-الله",
+      "name": "علم الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:19",
+        "2:30",
+        "2:31",
+        "2:32",
+        "2:33",
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "غضب-الله",
+      "name": "غضب الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "فرعون",
+      "name": "فرعون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:49",
+        "2:50"
+      ],
+      "links": []
+    },
+    {
+      "id": "فرق-البحر",
+      "name": "فرق البحر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:50",
+        "2:53"
+      ],
+      "links": []
+    },
+    {
+      "id": "فضل-الله",
+      "name": "فضل الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:64"
+      ],
+      "links": []
+    },
+    {
+      "id": "فقدان-البصيرة",
+      "name": "فقدان البصيرة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:17"
+      ],
+      "links": []
+    },
+    {
+      "id": "قتل-الأنبياء",
+      "name": "قتل الأنبياء",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "قتل-النفس",
+      "name": "قتل النفس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:54",
+        "2:72"
+      ],
+      "links": []
+    },
+    {
+      "id": "قدرة-الله",
+      "name": "قدرة الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:20"
+      ],
+      "links": []
+    },
+    {
+      "id": "قردة",
+      "name": "قردة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:65"
+      ],
+      "links": []
+    },
+    {
+      "id": "قسوة-القلب",
+      "name": "قسوة القلب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:74"
+      ],
+      "links": []
+    },
+    {
+      "id": "قطع-الوحي",
+      "name": "قطع الوحي",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:27"
+      ],
+      "links": []
+    },
+    {
+      "id": "كلمات",
+      "name": "كلمات",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:37"
+      ],
+      "links": []
+    },
+    {
+      "id": "ل",
+      "name": "ل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:1"
+      ],
+      "links": []
+    },
+    {
+      "id": "لا-تلملك-نفس-لنفس-شيئا",
+      "name": "لا تلملك نفس لنفس شيئا",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:48"
+      ],
+      "links": []
+    },
+    {
+      "id": "لبس-الحق-بالباطل",
+      "name": "لبس الحق بالباطل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:42",
+        "2:71"
+      ],
+      "links": []
+    },
+    {
+      "id": "لعل",
+      "name": "لعل",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:63",
+        "2:73"
+      ],
+      "links": []
+    },
+    {
+      "id": "لقاء-الله",
+      "name": "لقاء الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:46"
+      ],
+      "links": []
+    },
+    {
+      "id": "لون",
+      "name": "لون",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:69"
+      ],
+      "links": []
+    },
+    {
+      "id": "م",
+      "name": "م",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:1"
+      ],
+      "links": []
+    },
+    {
+      "id": "محمد-صلى-الله-عليه-و-سلم",
+      "name": "محمد صلى الله عليه و سلم",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:23"
+      ],
+      "links": []
+    },
+    {
+      "id": "مدد-الله",
+      "name": "مدد الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:15"
+      ],
+      "links": []
+    },
+    {
+      "id": "مرض-القلب",
+      "name": "مرض القلب",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:10"
+      ],
+      "links": []
+    },
+    {
+      "id": "مشيئة-الله",
+      "name": "مشيئة الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:20",
+        "2:70"
+      ],
+      "links": []
+    },
+    {
+      "id": "مصر",
+      "name": "مصر",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:61"
+      ],
+      "links": []
+    },
+    {
+      "id": "معجزة",
+      "name": "معجزة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:50"
+      ],
+      "links": []
+    },
+    {
+      "id": "معجزة-مشهودة",
+      "name": "معجزة مشهودة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:50",
+        "2:55",
+        "2:57",
+        "2:60",
+        "2:63",
+        "2:65"
+      ],
+      "links": []
+    },
+    {
+      "id": "معية-الشيطان",
+      "name": "معية الشيطان",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:14"
+      ],
+      "links": []
+    },
+    {
+      "id": "ملائكة",
+      "name": "ملائكة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:30",
+        "2:31"
+      ],
+      "links": []
+    },
+    {
+      "id": "من-هو-الله",
+      "name": "من هو الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "2:21",
+        "2:22",
+        "2:37"
+      ],
+      "links": []
+    },
+    {
+      "id": "موسى",
+      "name": "موسى",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:53",
+        "2:55",
+        "2:60",
+        "2:67"
+      ],
+      "links": []
+    },
+    {
+      "id": "موعظة",
+      "name": "موعظة",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:66"
+      ],
+      "links": []
+    },
+    {
+      "id": "نزاع",
+      "name": "نزاع",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:72"
+      ],
+      "links": []
+    },
+    {
+      "id": "نسيان-النفس",
+      "name": "نسيان النفس",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:44"
+      ],
+      "links": []
+    },
+    {
+      "id": "نفض-العهد-مع-الله",
+      "name": "نفض العهد مع الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:27",
+        "2:51",
+        "2:64"
+      ],
+      "links": []
+    },
+    {
+      "id": "نور-الله",
+      "name": "نور الله",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:17"
+      ],
+      "links": []
+    },
+    {
+      "id": "وقود-النار",
+      "name": "وقود النار",
+      "description": "",
+      "parentTopicId": "",
+      "tags": [],
+      "color": "#10b981",
+      "verses": [
+        "2:24"
+      ],
+      "links": []
+    }
+  ],
+  "chains": [
+    {
+      "id": "مسار-1-1-1-7",
+      "title": "مسار 1:1 → 1:7",
+      "description": "",
+      "tags": [],
+      "topicIds": [
+        "أسماء-الله-الحسنى",
+        "الإبتداء",
+        "الإستعانة",
+        "الألوهية",
+        "الحمد",
+        "الظالين",
+        "العبادة",
+        "الفرق-بين-الإيمان-و-الكفر",
+        "الكافرون",
+        "المؤمنون",
+        "المغضوب-عليهم",
+        "النصارى",
+        "اليهود",
+        "دعاء",
+        "من-هو-الله"
+      ],
+      "verses": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ]
+    },
+    {
+      "id": "مسار-2-1-2-1",
+      "title": "مسار 2:1 → 2:1",
+      "description": "",
+      "tags": [],
+      "topicIds": [
+        "أ",
+        "حروف-مقطعة",
+        "ل",
+        "م"
+      ],
+      "verses": [
+        "2:1"
+      ]
+    },
+    {
+      "id": "مسار-2-2-2-5",
+      "title": "مسار 2:2 → 2:5",
+      "description": "",
+      "tags": [],
+      "topicIds": [
+        "الأخرة",
+        "الإستهزاء-بالدين",
+        "الأنبياء-و-الرسل",
+        "الإنفاق",
+        "الإيمان",
+        "التقوى",
+        "التنزيل",
+        "الربوبية",
+        "الرزق",
+        "الزمن",
+        "الصفات-الحميدة",
+        "الصلاة",
+        "الغيب",
+        "الفلاح",
+        "القران",
+        "الكتب-السماوية",
+        "المؤمنون",
+        "المتقين",
+        "الهدى",
+        "اليقين"
+      ],
+      "verses": [
+        "2:2",
+        "2:3",
+        "2:4",
+        "2:5"
+      ]
+    },
+    {
+      "id": "مسار-2-21-2-25",
+      "title": "مسار 2:21 → 2:25",
+      "description": "",
+      "tags": [],
+      "topicIds": [
+        "أزواج-الجنة",
+        "الأخرة",
+        "الأرض",
+        "الألوهية",
+        "الأمر",
+        "الأنداد",
+        "الإيمان",
+        "البناء",
+        "التجاهل",
+        "التحدير-من-العذاب",
+        "التقوى",
+        "التوحيد",
+        "التوقع",
+        "الجنة",
+        "الحجة",
+        "الخروج",
+        "الخلق",
+        "الخلود",
+        "الدعوة",
+        "الربوبية",
+        "الرزق",
+        "الزمن",
+        "السماء",
+        "الشياطين",
+        "العبادة",
+        "العلم",
+        "العمل-الصالح",
+        "القران",
+        "الكافرون",
+        "الماء",
+        "المؤمنون",
+        "النار",
+        "الناس",
+        "النبات",
+        "النزول",
+        "النعمة",
+        "أنهار-الجنة",
+        "تحدي-الله",
+        "ثمار-الجنة",
+        "شك",
+        "محمد-صلى-الله-عليه-و-سلم",
+        "من-هو-الله",
+        "وقود-النار"
+      ],
+      "verses": [
+        "2:21",
+        "2:22",
+        "2:23",
+        "2:24",
+        "2:25"
+      ]
+    },
+    {
+      "id": "مسار-2-6-2-7",
+      "title": "مسار 2:6 → 2:7",
+      "description": "",
+      "tags": [],
+      "topicIds": [
+        "الا-مبالات-الغير-الحميدة",
+        "الأخرة",
+        "الإنذار",
+        "التسلسل",
+        "التوعد-بالعذاب",
+        "الختم-على-السمع",
+        "الختم-على-القلب",
+        "الغشاوة-على-العين",
+        "الكافرون",
+        "الكفر",
+        "المنافقون"
+      ],
+      "verses": [
+        "2:6",
+        "2:7"
+      ]
+    },
+    {
+      "id": "مسار-2-8-2-20",
+      "title": "مسار 2:8 → 2:20",
+      "description": "",
+      "tags": [],
+      "topicIds": [
+        "إتهام-المؤمنين",
+        "إتهام-المؤمنين-بالسفاهة",
+        "اختيار-الله",
+        "استهزاء-الله",
+        "الا-مبالات-الغير-الحميدة",
+        "الأخرة",
+        "الإستهزاء-بالدين",
+        "الألوهية",
+        "الإنفاق",
+        "الإيمان",
+        "البكم",
+        "التجارة",
+        "التسلسل",
+        "التوعد-الدنيوي",
+        "التوعد-بالعذاب",
+        "الجهل",
+        "الخداع-مع-الله",
+        "الخداع-مع-المؤمنين",
+        "الخسارة",
+        "الخلوة",
+        "الخوف",
+        "الدعوة",
+        "الربوبية",
+        "الزيادة",
+        "الشياطين",
+        "الصم",
+        "الضلالة",
+        "الطغيان",
+        "الظالين",
+        "العمي",
+        "الغيب",
+        "الفساد",
+        "القول",
+        "الكذب",
+        "الكذب-على-النفس",
+        "الكفر",
+        "اللقاء",
+        "المفسدون",
+        "الناس",
+        "النفاق",
+        "النهي-عن-المنكر",
+        "تحقير-الشأن",
+        "تحقير-شأن-المؤمنين",
+        "دعوى-الإصلاح",
+        "زوال-النعمة",
+        "عدم-التوفيق",
+        "عدم-الشعور",
+        "عدم-نفع-الأسباب",
+        "علم-الله",
+        "فقدان-البصيرة",
+        "قدرة-الله",
+        "مدد-الله",
+        "مرض-القلب",
+        "مشيئة-الله",
+        "معية-الشيطان",
+        "نور-الله"
+      ],
+      "verses": [
+        "2:8",
+        "2:9",
+        "2:10",
+        "2:11",
+        "2:12",
+        "2:13",
+        "2:14",
+        "2:15",
+        "2:16",
+        "2:17",
+        "2:18",
+        "2:19",
+        "2:20"
+      ]
+    }
+  ],
+  "chapterTopics": {}
+}
