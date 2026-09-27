@@ -122,6 +122,35 @@ main {
 .intro p {
   margin-top: 8px;
 }
+.builder-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: 12px;
+}
+.builder-links a {
+  display: grid;
+  gap: 6px;
+  min-height: 104px;
+  padding: 17px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  color: inherit;
+  background: color-mix(in srgb, var(--panel) 88%, var(--accent));
+  text-decoration: none;
+}
+.builder-links a:hover,
+.builder-links a:focus-visible {
+  border-color: var(--accent);
+  outline: 2px solid transparent;
+}
+.builder-links a span {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.builder-links a[aria-disabled="true"] {
+  opacity: 0.45;
+  pointer-events: none;
+}
 .steps {
   display: flex;
   gap: 8px;

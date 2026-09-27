@@ -8,19 +8,26 @@
   <link rel="stylesheet" href="style.css">
   <script defer src="validation.js"></script>
   <script defer src="zip.js"></script>
+  <script defer src="data-snapshot.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand"><span class="brand-mark" aria-hidden="true">۞</span><div><strong>ورشة بيانات ورتّل</strong><small>أداة مساهمة محلية · لا تصل إلى التطبيق</small></div></div>
-    <button id="choose-folder" class="button primary" type="button">اختيار مجلد المشروع</button>
-    <input id="folder-input" type="file" webkitdirectory directory multiple hidden>
+    <div class="brand"><span class="brand-mark" aria-hidden="true">۞</span><div><strong>ورشة بيانات ورتّل</strong><small id="data-status" role="status">جارٍ فحص البيانات…</small></div></div>
+    <button id="builder-home" class="button secondary" type="button" hidden>الأقسام</button>
   </header>
 
   <main>
     <section id="intro" class="intro panel">
-      <div><h1>ابنِ المساهمة وراجعها بأمان</h1><p>اختر مجلد نسخة المستودع التي تحتوي على <code>src/data</code>. سترى الملفات القابلة للتعديل فقط؛ نص القرآن وبياناته المرجعية للقراءة والتحقق ولا تُكتب عليها أي تغييرات.</p></div>
-      <div class="steps"><span>١ · افتح المجلد</span><span>٢ · حرّر مسودة</span><span>٣ · افحصها</span><span>٤ · نزّل النسخة الأصلية والمقترحة معًا</span></div>
+      <div><h1>ماذا تريد أن تبني؟</h1><p>اختر قسمًا وابدأ مباشرة.</p></div>
+      <nav class="builder-links" aria-label="أقسام الورشة">
+        <a href="#challenge" data-section="challenge"><strong>قواعد التحدي</strong><span>المتشابهات والممنوعات</span></a>
+        <a href="#topics" data-section="topics"><strong>الموضوعات والمسارات</strong><span>الوسوم والروابط الأفقية</span></a>
+        <a href="#searches" data-section="searches"><strong>البحوث المحفوظة</strong><span>استعلامات جاهزة للقارئ</span></a>
+        <a href="#cinema" data-section="cinema"><strong>مشاهد السينما</strong><span>الخلفيات والقوالب</span></a>
+        <a href="#discovery" data-section="discovery"><strong>خلفيات التصفح</strong><span>الصور والاستبعادات</span></a>
+        <a href="#backs" data-section="backs"><strong>صور الآيات</strong><span>وجه البطاقة الخلفي</span></a>
+      </nav>
     </section>
 
     <section id="workspace" hidden>
@@ -40,6 +47,5 @@
       <div class="editor-actions"><button id="add-confirm" class="button primary" type="button">إضافة إلى المسودة</button><button id="add-cancel" class="button secondary" type="button">إلغاء</button></div>
     </section>
   </div>
-  <footer>لا يُحفظ شيء في المستودع من هذه الصفحة. حزمة المراجعة تضم <b>الأصل</b> و<b>المقترح</b>؛ انسخ المقترح إلى فرعك فقط بعد الفحص.</footer>
 </body>
 </html>

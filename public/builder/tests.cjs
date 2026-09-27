@@ -2,6 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
+const vm = require('node:vm');
 const V = require('./validation.js');
 const Z = require('./zip.js');
 
@@ -12,6 +13,23 @@ const counts = Object.fromEntries(metadata.map(item => [item.number, item.verses
 const assets = new Set(fs.readdirSync(path.join(root, 'public/discovery-images')).map(name => `public/discovery-images/${name}`));
 const clone = value => JSON.parse(JSON.stringify(value));
 const check = docs => V.validateWorkspace(docs, original, counts, assets);
+
+test('offline snapshot matches the checked-in contribution data', () => {
+  const context = { window: {} };
+  vm.runInNewContext(fs.readFileSync(path.join(__dirname, 'data-snapshot.js'), 'utf8'), context);
+  const snapshot = context.window.BuilderSnapshot;
+  assert.equal(snapshot.version, 1);
+  assert.equal(Object.keys(snapshot.verses).length, 6236);
+  for (const name of Object.values(V.editableFiles)) {
+    assert.equal(snapshot.originalFiles[name], fs.readFileSync(path.join(root, name), 'utf8'), name);
+  }
+  assert.equal(JSON.stringify(snapshot.metadata), JSON.stringify(metadata));
+  for (const name of fs.readdirSync(path.join(root, 'src/data/verses')).filter(name => /^\d{3}_\d{3}\.json$/.test(name))) {
+    const ref = `${Number(name.slice(0, 3))}:${Number(name.slice(4, 7))}`;
+    assert.equal(snapshot.verses[ref], JSON.parse(fs.readFileSync(path.join(root, 'src/data/verses', name), 'utf8')).text.ar, ref);
+  }
+  assert.equal(JSON.stringify(snapshot.assets), JSON.stringify([...assets].filter(name => name.endsWith('.webp')).sort()));
+});
 
 test('current contribution data validates without blocking old issues', () => {
   const before = JSON.stringify(original);

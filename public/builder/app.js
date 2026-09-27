@@ -11,7 +11,7 @@
   const state = {
     files: new Map(), assets: new Set(), newAssets: new Map(), objectUrls: new Map(),
     originals: {}, docs: {}, counts: {}, chapterNames: {}, active: 'challenge',
-    selected: '', query: '', previewText: '', previewRef: '1:1', loaded: false,
+    selected: '', query: '', previewText: '', previewRef: '1:1', loaded: false, verseTexts: {},
   };
   const byId = id => document.getElementById(id);
   const element = (tag, className, text) => {
@@ -24,14 +24,6 @@
   const slug = value => String(value || '').trim().toLowerCase().replace(/[^\p{L}\p{N}_-]+/gu, '-').replace(/^-+|-+$/g, '');
   const csv = value => String(value || '').split(/[,،\n]+/).map(part => part.trim()).filter(Boolean);
   const refsText = value => (Array.isArray(value) ? value : []).join('، ');
-  const filePath = file => {
-    const raw = String(file.webkitRelativePath || file.name).replace(/\\/g, '/');
-    for (const root of ['src/data/', 'public/discovery-images/']) {
-      const at = raw.indexOf(root);
-      if (at >= 0) return raw.slice(at);
-    }
-    return '';
-  };
   const changedKeys = () => Object.keys(V.editableFiles).filter(key => JSON.stringify(state.docs[key]) !== JSON.stringify(state.originals[key]));
   const markDraft = () => {
     const count = changedKeys().length;
@@ -48,21 +40,19 @@
     state.objectUrls.clear();
   };
 
-  async function importFolder(fileList) {
+  function loadSnapshot() {
+    const snapshot = window.BuilderSnapshot;
+    if (!V || !Z || !snapshot || snapshot.version !== 1) throw new Error('ملف بيانات الورشة غير موجود أو غير صالح.');
     const files = new Map();
-    for (const file of fileList) {
-      const path = filePath(file);
-      if (path) files.set(path, file);
-    }
-    const required = [...Object.values(V.editableFiles), 'src/data/metadata.json'];
-    const missing = required.filter(path => !files.has(path));
-    if (missing.length) throw new Error(`هذا ليس مجلد مستودع البيانات الكامل. ملفات مفقودة: ${missing.join('، ')}`);
     const originals = {};
-    for (const [key, path] of Object.entries(V.editableFiles)) {
-      try { originals[key] = JSON.parse(await files.get(path).text()); }
-      catch { throw new Error(`لا يمكن قراءة JSON الأصلي: ${path}`); }
+    for (const [key, name] of Object.entries(V.editableFiles)) {
+      const raw = snapshot.originalFiles?.[name];
+      if (typeof raw !== 'string') throw new Error(`ملف مفقود من بيانات الورشة: ${name}`);
+      try { originals[key] = JSON.parse(raw); }
+      catch { throw new Error(`JSON غير صالح في بيانات الورشة: ${name}`); }
+      files.set(name, new Blob([raw], { type: 'application/json' }));
     }
-    const metadata = JSON.parse(await files.get('src/data/metadata.json').text());
+    const metadata = snapshot.metadata;
     if (!Array.isArray(metadata) || metadata.length !== 114) throw new Error('بيانات السور المرجعية غير مكتملة.');
     const counts = {};
     const chapterNames = {};
@@ -71,21 +61,33 @@
       chapterNames[Number(chapter.number)] = chapter.name?.ar || chapter.name?.en || '';
     });
     if (Object.values(counts).reduce((sum, count) => sum + count, 0) !== 6236) throw new Error('عدد الآيات في بيانات السور لا يطابق هذه النسخة (6236).');
-    if ([...files.keys()].filter(path => /^src\/data\/verses\/\d{3}_\d{3}\.json$/.test(path)).length !== 6236) throw new Error('مجلد الآيات غير مكتمل؛ اختر جذر المستودع لا مجلد JSON منفرداً.');
+    if (!snapshot.verses || Object.keys(snapshot.verses).length !== 6236) throw new Error('بيانات الآيات في الورشة غير مكتملة.');
+    if (!Array.isArray(snapshot.assets)) throw new Error('قائمة صور الورشة غير موجودة.');
     clearObjectUrls();
     state.files = files;
-    state.assets = new Set([...files.keys()].filter(path => path.startsWith('public/discovery-images/') && path.endsWith('.webp')));
+    state.assets = new Set(snapshot.assets);
     state.newAssets = new Map();
     state.originals = originals;
     state.docs = clone(originals);
     state.counts = counts;
     state.chapterNames = chapterNames;
+    state.verseTexts = snapshot.verses;
     state.selected = '';
     state.loaded = true;
+    byId('data-status').textContent = 'البيانات جاهزة';
+  }
+
+  function openSection(key) {
+    if (!state.loaded) return;
+    state.active = key;
+    state.selected = '';
+    state.query = '';
+    byId('list-search').value = '';
     byId('intro').hidden = true;
     byId('workspace').hidden = false;
+    byId('builder-home').hidden = false;
     render();
-    await showVerse('1:1');
+    showVerse('1:1');
   }
 
   function field(parent, label, value, save, options = {}) {
@@ -384,8 +386,8 @@
   function imageUrl(src) {
     const path = `public/${String(src).replace(/^\//, '')}`;
     if (state.objectUrls.has(path)) return state.objectUrls.get(path);
-    const data = state.newAssets.get(path) || state.files.get(path);
-    if (!data) return '';
+    const data = state.newAssets.get(path);
+    if (!data) return state.assets.has(path) ? `../discovery-images/${encodeURIComponent(path.split('/').pop())}` : '';
     const url = URL.createObjectURL(data);
     state.objectUrls.set(path, url);
     return url;
@@ -424,15 +426,8 @@
     state.previewRef = ref;
     if (ref !== query) byId('preview-ref').value = ref;
     if (!V.validRef(ref, state.counts)) { state.previewText = 'مرجع الآية غير صالح.'; renderVisualPreview(); return; }
-    const [chapter, verse] = ref.split(':').map(Number);
-    const path = `src/data/verses/${String(chapter).padStart(3, '0')}_${String(verse).padStart(3, '0')}.json`;
-    const source = state.files.get(path);
-    if (!source) { state.previewText = `ملف الآية ${ref} غير موجود في المجلد المختار.`; renderVisualPreview(); return; }
-    try {
-      const data = JSON.parse(await source.text());
-      state.previewText = data.text?.ar || 'لا يوجد نص عربي في ملف الآية.';
-      renderVisualPreview();
-    } catch { state.previewText = `تعذّرت قراءة الآية ${ref}.`; renderVisualPreview(); }
+    state.previewText = state.verseTexts[ref] || `بيانات الآية ${ref} غير موجودة.`;
+    renderVisualPreview();
   }
 
   const addOptions = {
@@ -561,12 +556,21 @@
     } catch (error) { message(`تعذّر التصدير: ${error.message}`); byId('draft-status').classList.add('status-error'); }
   }
 
-  byId('choose-folder').addEventListener('click', () => byId('folder-input').click());
-  byId('folder-input').addEventListener('change', async event => {
-    message('نقرأ الملفات المختارة...');
-    try { await importFolder(event.target.files); }
-    catch (error) { window.alert(error.message); message('تعذّر فتح المجلد. اختر جذر مستودع البيانات الكامل.'); }
+  byId('builder-home').addEventListener('click', () => {
+    byId('workspace').hidden = true;
+    byId('intro').hidden = false;
+    byId('builder-home').hidden = true;
   });
+  document.querySelectorAll('[data-section]').forEach(link => link.addEventListener('click', event => {
+    event.preventDefault();
+    openSection(link.dataset.section);
+  }));
+  try { loadSnapshot(); }
+  catch (error) {
+    byId('data-status').textContent = error.message;
+    byId('data-status').classList.add('status-error');
+    document.querySelectorAll('[data-section]').forEach(link => link.setAttribute('aria-disabled', 'true'));
+  }
   byId('add-button').addEventListener('click', openAddDialog);
   byId('add-kind').addEventListener('change', updateAddHint);
   byId('add-confirm').addEventListener('click', addItem);
