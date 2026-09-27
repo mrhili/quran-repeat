@@ -11,7 +11,7 @@
   const state = {
     files: new Map(), assets: new Set(), newAssets: new Map(), objectUrls: new Map(),
     originals: {}, docs: {}, counts: {}, chapterNames: {}, active: 'challenge',
-    selected: '', query: '', previewText: '', previewRef: '1:1', loaded: false,
+    selected: '', query: '', previewText: '', previewRef: '1:1', loaded: false, remote: false,
   };
   const byId = id => document.getElementById(id);
   const element = (tag, className, text) => {
@@ -48,12 +48,7 @@
     state.objectUrls.clear();
   };
 
-  async function importFolder(fileList) {
-    const files = new Map();
-    for (const file of fileList) {
-      const path = filePath(file);
-      if (path) files.set(path, file);
-    }
+  async function importFiles(files, verseCount, remote = false) {
     const required = [...Object.values(V.editableFiles), 'src/data/metadata.json'];
     const missing = required.filter(path => !files.has(path));
     if (missing.length) throw new Error(`هذا ليس مجلد مستودع البيانات الكامل. ملفات مفقودة: ${missing.join('، ')}`);
@@ -71,9 +66,10 @@
       chapterNames[Number(chapter.number)] = chapter.name?.ar || chapter.name?.en || '';
     });
     if (Object.values(counts).reduce((sum, count) => sum + count, 0) !== 6236) throw new Error('عدد الآيات في بيانات السور لا يطابق هذه النسخة (6236).');
-    if ([...files.keys()].filter(path => /^src\/data\/verses\/\d{3}_\d{3}\.json$/.test(path)).length !== 6236) throw new Error('مجلد الآيات غير مكتمل؛ اختر جذر المستودع لا مجلد JSON منفرداً.');
+    if (verseCount !== 6236) throw new Error('مجلد الآيات غير مكتمل (6236 آية مطلوبة).');
     clearObjectUrls();
     state.files = files;
+    state.remote = remote;
     state.assets = new Set([...files.keys()].filter(path => path.startsWith('public/discovery-images/') && path.endsWith('.webp')));
     state.newAssets = new Map();
     state.originals = originals;
@@ -86,6 +82,31 @@
     byId('workspace').hidden = false;
     render();
     await showVerse('1:1');
+  }
+
+  async function importFolder(fileList) {
+    const files = new Map();
+    for (const file of fileList) {
+      const path = filePath(file);
+      if (path) files.set(path, file);
+    }
+    await importFiles(files, [...files.keys()].filter(path => /^src\/data\/verses\/\d{3}_\d{3}\.json$/.test(path)).length);
+  }
+
+  async function importRepository() {
+    const response = await fetch('/__builder_manifest', { cache: 'no-store' });
+    if (!response.ok || !response.headers.get('content-type')?.includes('application/json')) throw new Error('الخادم المحلي غير متاح.');
+    const manifest = await response.json();
+    if (manifest.verseCount !== 6236 || !Array.isArray(manifest.assets)) throw new Error('بيانات المستودع غير مكتملة.');
+    const files = new Map();
+    const required = [...Object.values(V.editableFiles), 'src/data/metadata.json'];
+    await Promise.all(required.map(async path => {
+      const fileResponse = await fetch(`/__builder_file/${path}`, { cache: 'no-store' });
+      if (!fileResponse.ok) throw new Error(`ملف مفقود: ${path}`);
+      files.set(path, new Blob([await fileResponse.arrayBuffer()], { type: 'application/json' }));
+    }));
+    for (const path of manifest.assets) files.set(path, { remotePath: path });
+    await importFiles(files, manifest.verseCount, true);
   }
 
   function field(parent, label, value, save, options = {}) {
@@ -386,6 +407,7 @@
     if (state.objectUrls.has(path)) return state.objectUrls.get(path);
     const data = state.newAssets.get(path) || state.files.get(path);
     if (!data) return '';
+    if (data.remotePath) return `/__builder_file/${data.remotePath}`;
     const url = URL.createObjectURL(data);
     state.objectUrls.set(path, url);
     return url;
@@ -426,7 +448,13 @@
     if (!V.validRef(ref, state.counts)) { state.previewText = 'مرجع الآية غير صالح.'; renderVisualPreview(); return; }
     const [chapter, verse] = ref.split(':').map(Number);
     const path = `src/data/verses/${String(chapter).padStart(3, '0')}_${String(verse).padStart(3, '0')}.json`;
-    const source = state.files.get(path);
+    const source = state.remote
+      ? { text: async () => {
+          const response = await fetch(`/__builder_file/${path}`, { cache: 'no-store' });
+          if (!response.ok) throw new Error('Verse unavailable');
+          return response.text();
+        } }
+      : state.files.get(path);
     if (!source) { state.previewText = `ملف الآية ${ref} غير موجود في المجلد المختار.`; renderVisualPreview(); return; }
     try {
       const data = JSON.parse(await source.text());
@@ -562,6 +590,13 @@
   }
 
   byId('choose-folder').addEventListener('click', () => byId('folder-input').click());
+  if (location.protocol === 'http:' && location.hostname === '127.0.0.1') {
+    message('نقرأ ملفات المستودع تلقائياً...');
+    importRepository().catch(error => {
+      message(`تعذّر تحميل بيانات المستودع: ${error.message}`);
+      byId('intro-error').textContent = 'تعذّر التحميل التلقائي. شغّل الخادم من جذر المستودع أو اختر مجلد المشروع يدوياً.';
+    });
+  }
   byId('folder-input').addEventListener('change', async event => {
     message('نقرأ الملفات المختارة...');
     try { await importFolder(event.target.files); }
