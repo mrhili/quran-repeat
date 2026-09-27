@@ -13,6 +13,9 @@ dist/
 *.mp4
 *.tmp
 *.bak
+warttil-review-*.zip
+backup/
+proposed/
 
 # Browser-facing Quran/audio files and word clusters are generated from source.
 public/audio/

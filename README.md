@@ -4,6 +4,8 @@ This repository collects carefully reviewed Quran-related data and creative asse
 
 [Try the app](https://quran-repeat.vercel.app/) · [Propose a change](https://github.com/mrhili/quran-repeat/issues) · [Developer on GitHub](https://github.com/mrhili)
 
+**Build a data contribution without editing JSON by hand:** open the standalone [Arabic contributor builder](builder/README.md). It runs locally with plain HTML/CSS/JavaScript, checks references and links, and downloads the unchanged originals together with your proposed changes. It does not contain or expose the private React app.
+
 ## Why this project needs you
 
 ورتّل helps people return to the Quran through reading, memorization, listening, comparison, discovery, and reflection. Software can present an ayah, but it cannot decide alone whether two ayat are genuinely helpful to compare, whether a distractor teaches or confuses, whether a topic is responsibly named, or whether a visual design protects the legibility of the Quranic text.

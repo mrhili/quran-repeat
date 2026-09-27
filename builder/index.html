@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>ورشة بيانات ورتّل</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="validation.js"></script>
+  <script defer src="zip.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">۞</span><div><strong>ورشة بيانات ورتّل</strong><small>أداة مساهمة محلية · لا تصل إلى التطبيق</small></div></div>
+    <button id="choose-folder" class="button primary" type="button">اختيار مجلد المشروع</button>
+    <input id="folder-input" type="file" webkitdirectory directory multiple hidden>
+  </header>
+
+  <main>
+    <section id="intro" class="intro panel">
+      <div><h1>ابنِ المساهمة وراجعها بأمان</h1><p>اختر مجلد نسخة المستودع التي تحتوي على <code>src/data</code>. سترى الملفات القابلة للتعديل فقط؛ نص القرآن وبياناته المرجعية للقراءة والتحقق ولا تُكتب عليها أي تغييرات.</p></div>
+      <div class="steps"><span>١ · افتح المجلد</span><span>٢ · حرّر مسودة</span><span>٣ · افحصها</span><span>٤ · نزّل النسخة الأصلية والمقترحة معًا</span></div>
+    </section>
+
+    <section id="workspace" hidden>
+      <div class="workspace-head panel"><div><h1>ملفات المساهمة</h1><p id="draft-status" role="status">لا تغييرات بعد.</p></div><div class="head-actions"><button id="validate-button" class="button secondary" type="button">فحص الملفات</button><button id="export-button" class="button primary" type="button">تنزيل حزمة المراجعة</button></div></div>
+      <nav id="tabs" class="tabs" aria-label="أقسام البناء"></nav>
+      <div class="workspace-grid"><aside class="panel list-panel"><div class="list-head"><h2 id="section-title"></h2><button id="add-button" class="button compact" type="button">إضافة</button></div><input id="list-search" class="search" type="search" placeholder="ابحث في هذا القسم" aria-label="بحث في القائمة"><div id="item-list" class="item-list"></div></aside><section class="panel editor-panel"><div id="editor"></div></section></div>
+      <section class="panel preview-panel"><div><h2>معاينة الآية والسياق</h2><p>ابحث باسم السورة أو مرجع مثل <code>2:18</code>. الآيات هنا للقراءة فقط.</p><div class="reference-row"><input id="preview-ref" dir="ltr" inputmode="text" list="reference-suggestions" value="1:1" aria-label="مرجع الآية للمعاينة"><datalist id="reference-suggestions"></datalist><button id="preview-button" class="button secondary" type="button">اعرض الآية</button></div></div><div id="verse-preview" class="verse-preview" lang="ar"></div></section>
+      <section class="panel validation-panel"><h2>سلامة الملفات</h2><div id="validation-summary">اضغط «فحص الملفات» قبل التصدير.</div><ul id="validation-errors"></ul><ul id="validation-warnings"></ul></section>
+    </section>
+  </main>
+  <div id="add-overlay" class="add-overlay" hidden>
+    <section class="add-dialog panel" role="dialog" aria-modal="true" aria-labelledby="add-title">
+      <h2 id="add-title">إضافة عنصر</h2>
+      <label class="field" id="add-kind-row"><span>النوع</span><select id="add-kind"></select></label>
+      <label class="field"><span id="add-value-label">الاسم أو المرجع</span><input id="add-value" autocomplete="off"></label>
+      <p id="add-help"></p>
+      <div class="editor-actions"><button id="add-confirm" class="button primary" type="button">إضافة إلى المسودة</button><button id="add-cancel" class="button secondary" type="button">إلغاء</button></div>
+    </section>
+  </div>
+  <footer>لا يُحفظ شيء في المستودع من هذه الصفحة. حزمة المراجعة تضم <b>الأصل</b> و<b>المقترح</b>؛ انسخ المقترح إلى فرعك فقط بعد الفحص.</footer>
+</body>
+</html>
