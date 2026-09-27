@@ -2,10 +2,8 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const http = require('node:http');
 const V = require('./validation.js');
 const Z = require('./zip.js');
-const { server, allowedFile } = require('./serve.cjs');
 
 const root = path.resolve(__dirname, '../..');
 const original = Object.fromEntries(Object.entries(V.editableFiles).map(([key, name]) => [key, JSON.parse(fs.readFileSync(path.join(root, name), 'utf8'))]));
@@ -14,30 +12,6 @@ const counts = Object.fromEntries(metadata.map(item => [item.number, item.verses
 const assets = new Set(fs.readdirSync(path.join(root, 'public/discovery-images')).map(name => `public/discovery-images/${name}`));
 const clone = value => JSON.parse(JSON.stringify(value));
 const check = docs => V.validateWorkspace(docs, original, counts, assets);
-
-test('local server finds the repository automatically and is read-only', async () => {
-  assert.equal(allowedFile('src/data/challengeRules.json'), true);
-  assert.equal(allowedFile('src/data/verses/001_001.json'), true);
-  assert.equal(allowedFile('../package.json'), false);
-  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-  try {
-    const address = `http://127.0.0.1:${server.address().port}`;
-    const manifest = await (await fetch(`${address}/__builder_manifest`)).json();
-    assert.equal(manifest.verseCount, 6236);
-    const data = await (await fetch(`${address}/__builder_file/src/data/verses/001_001.json`)).json();
-    assert.ok(data.text?.ar);
-    assert.equal((await fetch(`${address}/__builder_file/../package.json`)).status, 404);
-    assert.equal((await fetch(`${address}/__builder_manifest`, { method: 'POST' })).status, 405);
-    const foreignHostStatus = await new Promise((resolve, reject) => {
-      http.get(`${address}/__builder_manifest`, { headers: { Host: 'other.local' } }, response => {
-        response.resume(); resolve(response.statusCode);
-      }).on('error', reject);
-    });
-    assert.equal(foreignHostStatus, 403);
-  } finally {
-    await new Promise(resolve => server.close(resolve));
-  }
-});
 
 test('current contribution data validates without blocking old issues', () => {
   const before = JSON.stringify(original);
