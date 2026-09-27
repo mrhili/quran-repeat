@@ -30,3 +30,4 @@ public/verseBackImages.json
 src/data/quranWordClusters.json
 
 # Do NOT ignore public/discovery-images/: its WebP files are source assets.
+# Do NOT ignore public/builder/: it is the standalone contributor editor.

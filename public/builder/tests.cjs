@@ -5,7 +5,7 @@ const path = require('node:path');
 const V = require('./validation.js');
 const Z = require('./zip.js');
 
-const root = path.resolve(__dirname, '..');
+const root = path.resolve(__dirname, '../..');
 const original = Object.fromEntries(Object.entries(V.editableFiles).map(([key, name]) => [key, JSON.parse(fs.readFileSync(path.join(root, name), 'utf8'))]));
 const metadata = JSON.parse(fs.readFileSync(path.join(root, 'src/data/metadata.json'), 'utf8'));
 const counts = Object.fromEntries(metadata.map(item => [item.number, item.verses_count]));
