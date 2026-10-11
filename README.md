@@ -31,6 +31,7 @@ The paths mirror the app so reviewed data can be integrated without guessing whi
 | `src/data/verseBackImages.json` | Ayah-to-back-image mapping | Keep each reference paired with its image |
 | `public/discovery-images/` | WebP assets referenced by discovery JSON | Include the asset and its source/permission |
 | `src/data/cinemaScenes.json` | Cinematic scene designs and templates | Keep the ayah readable on every screen |
+| `src/data/verseMemoryPlan.json` | Review difficulty and word-boundary chunk suggestions for all 6,236 ayat | Refine one ayah at a time with the contributor builder; do not copy Quran text into this file |
 
 The deployed app also has files under `public/` that the browser fetches. Most are **generated copies**, not a second place to edit: for example, source ayah files are packed into chapter JSON, and source challenge rules are normalized for runtime. Do not submit the same edit twice in `src/data/` and generated `public/` files. The maintainer runs the preparation/build process after review. The audio snapshot is intentionally retained as a fallback; `public/audio/` is its browser-facing copy, not a second editorial source. MP3 recordings are streamed from their providers and are not stored here.
 

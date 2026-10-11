@@ -27,13 +27,14 @@
         <a href="#cinema" data-section="cinema"><strong>مشاهد السينما</strong><span>الخلفيات والقوالب</span></a>
         <a href="#discovery" data-section="discovery"><strong>خلفيات التصفح</strong><span>الصور والاستبعادات</span></a>
         <a href="#backs" data-section="backs"><strong>صور الآيات</strong><span>وجه البطاقة الخلفي</span></a>
+        <a href="#memoryPlan" data-section="memoryPlan"><strong>أجزاء المراجعة</strong><span>تقدير الصعوبة وفواصل الكلمات</span></a>
       </nav>
     </section>
 
     <section id="workspace" hidden>
       <div class="workspace-head panel"><div><h1>ملفات المساهمة</h1><p id="draft-status" role="status">لا تغييرات بعد.</p></div><div class="head-actions"><button id="validate-button" class="button secondary" type="button">فحص الملفات</button><button id="export-button" class="button primary" type="button">تنزيل حزمة المراجعة</button></div></div>
       <nav id="tabs" class="tabs" aria-label="أقسام البناء"></nav>
-      <div class="workspace-grid"><aside class="panel list-panel"><div class="list-head"><h2 id="section-title"></h2><button id="add-button" class="button compact" type="button">إضافة</button></div><input id="list-search" class="search" type="search" placeholder="ابحث في هذا القسم" aria-label="بحث في القائمة"><div id="item-list" class="item-list"></div></aside><section class="panel editor-panel"><div id="editor"></div></section></div>
+      <div class="workspace-grid"><aside class="panel list-panel"><div class="list-head"><h2 id="section-title"></h2><button id="add-button" class="button compact" type="button">إضافة</button></div><div id="memory-plan-stats" class="memory-plan-stats" hidden></div><input id="list-search" class="search" type="search" placeholder="ابحث في هذا القسم" aria-label="بحث في القائمة"><div id="item-list" class="item-list"></div><div id="memory-plan-pagination" class="memory-plan-pagination" hidden></div></aside><section class="panel editor-panel"><div id="editor"></div></section></div>
       <section class="panel preview-panel"><div><h2>معاينة الآية والسياق</h2><p>ابحث باسم السورة أو مرجع مثل <code>2:18</code>. الآيات هنا للقراءة فقط.</p><div class="reference-row"><input id="preview-ref" dir="ltr" inputmode="text" list="reference-suggestions" value="1:1" aria-label="مرجع الآية للمعاينة"><datalist id="reference-suggestions"></datalist><button id="preview-button" class="button secondary" type="button">اعرض الآية</button></div></div><div id="verse-preview" class="verse-preview" lang="ar"></div></section>
       <section class="panel validation-panel"><h2>سلامة الملفات</h2><div id="validation-summary">اضغط «فحص الملفات» قبل التصدير.</div><ul id="validation-errors"></ul><ul id="validation-warnings"></ul></section>
     </section>

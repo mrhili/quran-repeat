@@ -87,6 +87,22 @@ test('safe gradients and cinema fields are checked', () => {
   assert.ok(result.errors.some(item => item.includes('حجم الخط')));
 });
 
+test('verse review plan preserves all references and rejects broken boundaries', () => {
+  const docs = clone(original);
+  assert.equal(docs.memoryPlan.verses.length, 6236);
+  const hard = docs.memoryPlan.verses.find(item => item.difficulty === 'hard');
+  hard.chunkEnds = [hard.wordCount - 1, hard.wordCount - 1, hard.wordCount];
+  assert.ok(check(docs).errors.some(item => item.includes(hard.ref)));
+  hard.chunkEnds = [Math.floor(hard.wordCount / 2), hard.wordCount];
+  hard.chunkSource = 'curated';
+  assert.deepEqual(check(docs).errors, []);
+  hard.fingerprint = 'wrong';
+  assert.ok(check(docs).errors.some(item => item.includes(hard.ref)));
+  hard.fingerprint = original.memoryPlan.verses.find(item => item.ref === hard.ref).fingerprint;
+  docs.memoryPlan.verses[1].ref = docs.memoryPlan.verses[0].ref;
+  assert.ok(check(docs).errors.some(item => item.includes('مكرر')));
+});
+
 test('single ZIP contains byte-exact backup and parsed proposal', async () => {
   const source = fs.readFileSync(path.join(root, V.editableFiles.challenge));
   const proposal = JSON.stringify({ ...original.challenge, marker: 'test' }, null, 2);

@@ -3,15 +3,18 @@
 
   const V = window.BuilderValidation;
   const Z = window.BuilderZip;
+  const MEMORY_PAGE_SIZE = 80;
   const sections = [
     ['challenge', 'قواعد التحدي'], ['topics', 'الموضوعات والمسارات'],
     ['searches', 'البحوث المحفوظة'], ['cinema', 'مشاهد السينما'],
     ['discovery', 'خلفيات التصفح'], ['backs', 'صور الآيات'],
+    ['memoryPlan', 'أجزاء المراجعة'],
   ];
   const state = {
     files: new Map(), assets: new Set(), newAssets: new Map(), objectUrls: new Map(),
     originals: {}, docs: {}, counts: {}, chapterNames: {}, active: 'challenge',
-    selected: '', query: '', previewText: '', previewRef: '1:1', loaded: false, verseTexts: {},
+    selected: '', query: '', memoryLevel: 'all', memoryPage: 0,
+    previewText: '', previewRef: '1:1', loaded: false, verseTexts: {},
   };
   const byId = id => document.getElementById(id);
   const element = (tag, className, text) => {
@@ -82,12 +85,14 @@
     state.active = key;
     state.selected = '';
     state.query = '';
+    state.memoryLevel = 'all';
+    state.memoryPage = 0;
     byId('list-search').value = '';
     byId('intro').hidden = true;
     byId('workspace').hidden = false;
     byId('builder-home').hidden = false;
     render();
-    showVerse('1:1');
+    showVerse(key === 'memoryPlan' ? state.selected : '1:1');
   }
 
   function field(parent, label, value, save, options = {}) {
@@ -129,9 +134,22 @@
     if (end < start || end - start > 285) return [token];
     return Array.from({ length: end - start + 1 }, (_, index) => `${range[1]}:${start + index}`);
   });
+  const suggestMemoryEnds = (words, difficulty) => {
+    if (difficulty === 'easy' || words.length < 2) return [];
+    const count = difficulty === 'medium' ? 2 : Math.min(10, Math.max(3, Math.ceil(words.length / 12)));
+    const parts = Math.min(count, words.length);
+    const ends = [];
+    for (let index = 1; index <= parts; index += 1) ends.push(Math.round(index * words.length / parts));
+    return [...new Set(ends)];
+  };
 
   function entriesForSection() {
     const docs = state.docs;
+    if (state.active === 'memoryPlan') return docs.memoryPlan.verses.map(item => ({
+      id: item.ref, label: item.ref,
+      difficulty: item.difficulty,
+      subtitle: `${{ easy: 'سهل', medium: 'متوسط', hard: 'صعب' }[item.difficulty]} · ${item.wordCount} كلمة · ${item.difficulty}`,
+    }));
     if (state.active === 'challenge') return [
       ...Object.keys(docs.challenge.chapters || {}).map(id => ({ id: `c:${id}`, label: `سورة ${id} · حظر عام`, subtitle: state.chapterNames[id] || '' })),
       ...Object.keys(docs.challenge.verses || {}).map(id => ({ id: `v:${id}`, label: id, subtitle: 'قاعدة آية' })),
@@ -161,27 +179,74 @@
     for (const [key, title] of sections) {
       const button = element('button', '', title); button.type = 'button';
       if (state.active === key) button.setAttribute('aria-current', 'page');
-      button.addEventListener('click', () => { state.active = key; state.selected = ''; state.query = ''; byId('list-search').value = ''; render(); });
+      button.addEventListener('click', () => { state.active = key; state.selected = ''; state.query = ''; state.memoryLevel = 'all'; state.memoryPage = 0; byId('list-search').value = ''; render(); });
       tabBar.append(button);
     }
     byId('section-title').textContent = sections.find(item => item[0] === state.active)[1];
+    byId('add-button').hidden = state.active === 'memoryPlan';
     const items = entriesForSection();
-    if (!items.some(item => item.id === state.selected)) state.selected = items[0]?.id || '';
+    const memory = state.active === 'memoryPlan';
+    const stats = byId('memory-plan-stats');
+    stats.hidden = !memory;
+    if (memory) {
+      stats.replaceChildren();
+      const counts = state.docs.memoryPlan.verses.reduce((result, item) => {
+        result.all += 1; if (Object.hasOwn(result, item.difficulty)) result[item.difficulty] += 1;
+        return result;
+      }, { all: 0, hard: 0, medium: 0, easy: 0 });
+      for (const [key, label] of [['all', 'الكل'], ['hard', 'صعب'], ['medium', 'متوسط'], ['easy', 'سهل']]) {
+        const button = element('button', '', `${label} · ${counts[key]}`);
+        button.type = 'button'; button.setAttribute('aria-pressed', state.memoryLevel === key ? 'true' : 'false');
+        button.addEventListener('click', () => { state.memoryLevel = key; state.memoryPage = 0; render(); });
+        stats.append(button);
+      }
+    }
     const list = byId('item-list'); list.replaceChildren();
     const query = state.query.trim().toLocaleLowerCase('ar');
-    const filtered = items.filter(item => `${item.label} ${item.id} ${item.subtitle}`.toLocaleLowerCase('ar').includes(query));
+    const filtered = items.filter(item => (!memory || state.memoryLevel === 'all' || item.difficulty === state.memoryLevel)
+      && `${item.label} ${item.id} ${item.subtitle}`.toLocaleLowerCase('ar').includes(query));
+    const pageCount = Math.max(1, Math.ceil(filtered.length / MEMORY_PAGE_SIZE));
+    state.memoryPage = Math.min(state.memoryPage, pageCount - 1);
+    const pageItems = memory ? filtered.slice(state.memoryPage * MEMORY_PAGE_SIZE, (state.memoryPage + 1) * MEMORY_PAGE_SIZE) : filtered;
+    if ((memory && !pageItems.some(item => item.id === state.selected))
+      || (!memory && !items.some(item => item.id === state.selected))) {
+      state.selected = (memory ? pageItems[0] : items[0])?.id || '';
+      if (memory && state.selected) {
+        state.previewRef = state.selected;
+        state.previewText = state.verseTexts[state.selected] || '';
+        byId('preview-ref').value = state.selected;
+      }
+    }
     if (!filtered.length) list.append(element('p', 'empty', 'لا توجد نتائج.'));
-    for (const item of filtered) {
+    for (const item of pageItems) {
       const button = element('button', item.id === state.selected ? 'selected' : '', item.label);
       button.type = 'button'; button.append(element('small', '', item.subtitle));
       button.addEventListener('click', () => {
         state.selected = item.id; render();
-        const ref = state.active === 'challenge' && item.id.startsWith('v:') ? item.id.slice(2)
+        const ref = state.active === 'memoryPlan' ? item.id : state.active === 'challenge' && item.id.startsWith('v:') ? item.id.slice(2)
           : state.active === 'topics' && item.id.startsWith('t:') ? state.docs.topics.topics.find(entry => entry.id === item.id.slice(2))?.verses?.[0]
             : state.active === 'topics' && item.id.startsWith('p:') ? state.docs.topics.chains.find(entry => entry.id === item.id.slice(2))?.verses?.[0] : '';
         if (ref && V.validRef(ref, state.counts)) { byId('preview-ref').value = ref; showVerse(ref); }
       });
       list.append(button);
+    }
+    const pagination = byId('memory-plan-pagination');
+    pagination.hidden = !memory;
+    if (memory) {
+      pagination.replaceChildren();
+      const previous = action(pagination, 'السابق', () => { state.memoryPage -= 1; render(); });
+      previous.disabled = state.memoryPage === 0;
+      const pageLabel = element('label', '', 'صفحة ');
+      const select = element('select'); select.setAttribute('aria-label', 'الانتقال إلى صفحة');
+      for (let index = 0; index < pageCount; index += 1) {
+        const option = element('option', '', String(index + 1)); option.value = String(index); select.append(option);
+      }
+      select.value = String(state.memoryPage);
+      select.addEventListener('change', () => { state.memoryPage = Number(select.value); render(); });
+      pageLabel.append(select, document.createTextNode(` من ${pageCount}`)); pagination.append(pageLabel);
+      const next = action(pagination, 'التالي', () => { state.memoryPage += 1; render(); });
+      next.disabled = state.memoryPage >= pageCount - 1;
+      pagination.append(element('small', '', `${filtered.length} نتيجة · ${filtered.length ? state.memoryPage * MEMORY_PAGE_SIZE + 1 : 0}–${Math.min(filtered.length, (state.memoryPage + 1) * MEMORY_PAGE_SIZE)}`));
     }
     renderEditor();
     renderVisualPreview();
@@ -203,6 +268,54 @@
     const root = byId('editor'); root.replaceChildren();
     if (!state.selected) { root.append(element('p', 'empty', 'اختر عنصراً أو أضف واحداً.')); return; }
     const grid = element('div', 'editor-grid');
+    if (state.active === 'memoryPlan') {
+      const item = state.docs.memoryPlan.verses.find(entry => entry.ref === state.selected);
+      const words = String(state.verseTexts[item.ref] || '').match(/\S+/gu) || [];
+      editorHead(root, `الآية ${item.ref}`, `${item.wordCount} كلمة · ${item.difficultySource === 'curated' ? 'تصنيف محرر' : 'تقدير آلي'} · ${item.chunkSource === 'curated' ? 'تقسيم محرر' : 'اقتراح آلي'}`);
+      info(root, 'الفواصل الآلية اقتراح للمراجعة وليست تقسيمًا تفسيريًا. اقرأ المعنى قبل اعتمادها. نص القرآن للمعاينة فقط.');
+      if (words.length !== item.wordCount || V.fingerprint(state.verseTexts[item.ref]) !== item.fingerprint) {
+        info(root, 'تغيّر نص الآية أو عدد كلماتها عن النسخة المعتمدة. اعتمد النص الجديد صراحةً بعد قراءته، ثم راجع الفواصل.');
+        action(root, 'اعتماد النص الحالي ومراجعة الفواصل', () => {
+          if (!window.confirm('ستُستبدل الفواصل القديمة باقتراح جديد. هل قرأت نص الآية وتريد المتابعة؟')) return;
+          item.wordCount = words.length;
+          item.fingerprint = V.fingerprint(state.verseTexts[item.ref]);
+          if (item.difficultySource === 'generated') item.difficulty = words.length <= 10 ? 'easy' : words.length <= 24 ? 'medium' : 'hard';
+          item.chunkEnds = suggestMemoryEnds(words, item.difficulty);
+          item.chunkSource = 'suggested';
+          render();
+        }, 'button primary');
+        return;
+      }
+      field(grid, 'الصعوبة التقديرية', item.difficulty, value => {
+        item.difficulty = value;
+        item.difficultySource = 'curated';
+        if (value === 'easy') item.chunkEnds = [];
+        else if (item.chunkEnds.length < 2) item.chunkEnds = item.wordCount < 2 ? [] : [Math.max(1, Math.floor(item.wordCount / 2)), item.wordCount];
+        item.chunkSource = 'curated';
+        render();
+      }, { type: 'select', choices: [['easy', 'سهل'], ['medium', 'متوسط'], ['hard', 'صعب']] });
+      root.append(grid);
+      const tokens = element('div', 'memory-plan-tokens');
+      words.forEach((word, index) => {
+        tokens.append(element('span', '', word));
+        if (index < words.length - 1) {
+          const end = index + 1;
+          const boundary = action(tokens, '│', () => {
+            const ends = new Set(item.chunkEnds.filter(value => value < item.wordCount));
+            if (ends.has(end)) ends.delete(end); else ends.add(end);
+            if (item.difficulty !== 'easy' && ends.size === 0) { window.alert('اترك فاصلًا واحدًا على الأقل لتكوين جزأين.'); return; }
+            item.chunkEnds = ends.size ? [...ends].sort((a, b) => a - b).concat(item.wordCount) : [];
+            item.chunkSource = 'curated';
+            markDraft(); renderEditor();
+          }, `memory-boundary${item.chunkEnds.includes(end) ? ' active' : ''}`);
+          boundary.setAttribute('aria-pressed', item.chunkEnds.includes(end) ? 'true' : 'false');
+          boundary.setAttribute('aria-label', `فاصل بعد الكلمة ${end}`);
+        }
+        tokens.append(document.createTextNode(' '));
+      });
+      root.append(tokens);
+      return;
+    }
     if (state.active === 'challenge') {
       const [type, id] = [state.selected[0], state.selected.slice(2)];
       const doc = state.docs.challenge;
@@ -502,7 +615,7 @@
   }
 
   function runValidation() {
-    const result = V.validateWorkspace(state.docs, state.originals, state.counts, state.assets);
+    const result = V.validateWorkspace(state.docs, state.originals, state.counts, state.assets, state.verseTexts);
     const errors = byId('validation-errors'); const warnings = byId('validation-warnings');
     errors.replaceChildren(); warnings.replaceChildren();
     result.errors.forEach(item => errors.append(element('li', '', item)));
@@ -576,7 +689,7 @@
   byId('add-confirm').addEventListener('click', addItem);
   byId('add-cancel').addEventListener('click', () => { byId('add-overlay').hidden = true; });
   byId('add-value').addEventListener('keydown', event => { if (event.key === 'Enter') addItem(); });
-  byId('list-search').addEventListener('input', event => { state.query = event.target.value; render(); byId('list-search').focus(); });
+  byId('list-search').addEventListener('input', event => { state.query = event.target.value; state.memoryPage = 0; render(); byId('list-search').focus(); });
   byId('validate-button').addEventListener('click', runValidation);
   byId('export-button').addEventListener('click', exportReview);
   byId('preview-button').addEventListener('click', () => showVerse(byId('preview-ref').value));

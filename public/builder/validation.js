@@ -8,6 +8,7 @@
     cinema: 'src/data/cinemaScenes.json',
     discovery: 'src/data/discoveryFeed.json',
     backs: 'src/data/verseBackImages.json',
+    memoryPlan: 'src/data/verseMemoryPlan.json',
   };
 
   const isObject = value => value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -24,7 +25,18 @@
   const validGradient = value => /^(linear-gradient|radial-gradient|conic-gradient)\([\s\S]+\)$/i.test(String(value || '').trim())
     && !/(url\(|expression\(|@import|javascript:|;)/i.test(value);
 
-  function validateWorkspace(docs, originals, counts, assets) {
+  const fingerprint = text => {
+    const value = String(text || '');
+    let hash = 2166136261;
+    for (let index = 0; index < value.length; index += 1) {
+      hash ^= value.charCodeAt(index);
+      hash = Math.imul(hash, 16777619);
+    }
+    return `${value.length}:${(hash >>> 0).toString(16)}`;
+  };
+  const words = text => String(text || '').match(/\S+/gu) || [];
+
+  function validateWorkspace(docs, originals, counts, assets, verseTexts) {
     const errors = [];
     const warnings = [];
     const fail = (area, message) => errors.push(`${area}: ${message}`);
@@ -185,10 +197,50 @@
       });
     }
 
+    const plan = docs.memoryPlan;
+    const originalPlan = originals?.memoryPlan;
+    if (!isObject(plan) || plan.version !== 1 || plan.editionId !== 'asim-hafs-uthmani'
+      || JSON.stringify(plan.thresholds) !== JSON.stringify(originalPlan?.thresholds)
+      || !Array.isArray(plan.verses) || plan.verses.length !== 6236) {
+      fail('خطة المراجعة', 'يلزم وجود 6236 سجلًا للنسخة القرآنية الحالية.');
+    } else {
+      const seen = new Set();
+      plan.verses.forEach((entry, index) => {
+        if (!isObject(entry)) { fail('خطة المراجعة', `سجل غير صالح في الموضع ${index + 1}`); return; }
+        const original = originalPlan?.verses?.[index];
+        if (!validRef(entry?.ref, counts) || seen.has(entry.ref)) fail('خطة المراجعة', `مرجع ناقص أو مكرر: ${entry?.ref}`);
+        seen.add(entry.ref);
+        if (!original || entry.ref !== original.ref) fail('خطة المراجعة', `ترتيب أو مرجع متغير قرب ${entry.ref}`);
+        const text = verseTexts?.[entry.ref];
+        const count = text ? words(text).length : original?.wordCount;
+        const hash = text ? fingerprint(text) : original?.fingerprint;
+        if (entry.wordCount !== count || entry.fingerprint !== hash) fail('خطة المراجعة', `عدد الكلمات أو بصمة النص لا يطابقان ${entry.ref}`);
+        if (!['easy', 'medium', 'hard'].includes(entry.difficulty) || !['generated', 'curated'].includes(entry.difficultySource)
+          || !['suggested', 'curated'].includes(entry.chunkSource)) fail('خطة المراجعة', `تصنيف غير صالح: ${entry.ref}`);
+        if (entry.difficultySource === 'generated') {
+          const expected = count <= plan.thresholds?.easyMaxWords ? 'easy' : count <= plan.thresholds?.mediumMaxWords ? 'medium' : 'hard';
+          if (entry.difficulty !== expected) fail('خطة المراجعة', `المستوى الآلي لا يطابق العتبة: ${entry.ref}`);
+        }
+        const ends = entry.chunkEnds;
+        if (!Array.isArray(ends) || (entry.difficulty !== 'easy' && count > 1 && ends.length < 2)
+          || (ends.length > 0 && (ends.length < 2 || ends.at(-1) !== count))
+          || (Array.isArray(ends) && ends.some((end, position) => !Number.isInteger(end) || end <= (ends[position - 1] || 0) || end > count))) {
+          fail('خطة المراجعة', `حدود أجزاء غير صالحة: ${entry.ref}`);
+        }
+        const previous = plan.verses[index - 1];
+        if (previous && (previous.wordCount < entry.wordCount || (previous.wordCount === entry.wordCount
+          && (Number(previous.ref.split(':')[0]) > Number(entry.ref.split(':')[0])
+            || (previous.ref.split(':')[0] === entry.ref.split(':')[0] && Number(previous.ref.split(':')[1]) > Number(entry.ref.split(':')[1])))))) {
+          fail('خطة المراجعة', `ترتيب الأطوال غير صحيح قرب ${entry.ref}`);
+        }
+      });
+      if (seen.size !== 6236) fail('خطة المراجعة', 'تغطية الآيات غير مكتملة.');
+    }
+
     return { errors, warnings };
   }
 
-  const api = { editableFiles, validRef, validChapter, validAsset, validGradient, validateWorkspace };
+  const api = { editableFiles, validRef, validChapter, validAsset, validGradient, fingerprint, validateWorkspace };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   root.BuilderValidation = api;
 })(typeof window === 'undefined' ? globalThis : window);

@@ -563,3 +563,15 @@ footer {
     color: #285b43;
   }
 }
+/* Quran word-boundary editor: the text is read-only, only dividers are buttons. */
+.memory-plan-tokens { margin-top:1rem; font-size:clamp(1.4rem,2.3vw,2rem); line-height:2.7; direction:rtl; }
+.memory-boundary { display:inline-flex; align-items:center; justify-content:center; min-width:32px; min-height:44px; padding:0 2px; border:0; background:transparent; color:var(--muted); opacity:.4; cursor:pointer; }
+.memory-boundary.active { color:var(--accent); opacity:1; font-weight:900; }
+.memory-plan-stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; margin:12px 0; }
+.memory-plan-stats button { min-height:44px; padding:8px; border:1px solid var(--border); border-radius:10px; background:var(--panel); color:inherit; font-weight:750; }
+.memory-plan-stats button[aria-pressed='true'] { border-color:var(--accent); color:var(--accent); background:color-mix(in srgb,var(--panel) 88%,var(--accent)); }
+.memory-plan-pagination { display:flex; align-items:center; justify-content:space-between; gap:7px; flex-wrap:wrap; margin-top:12px; }
+.memory-plan-pagination button { min-height:44px; padding:7px 10px; border:1px solid var(--border); border-radius:10px; background:var(--panel); color:inherit; }
+.memory-plan-pagination label { display:flex; align-items:center; gap:5px; white-space:nowrap; }
+.memory-plan-pagination select { min-height:44px; max-width:70px; }
+.memory-plan-pagination small { flex-basis:100%; color:var(--muted); text-align:center; }

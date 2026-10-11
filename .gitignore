@@ -27,6 +27,7 @@ public/topicMap.json
 public/savedSearches.json
 public/discoveryFeed.json
 public/verseBackImages.json
+public/verseMemoryPlan.json
 src/data/quranWordClusters.json
 
 # Do NOT ignore public/discovery-images/: its WebP files are source assets.
