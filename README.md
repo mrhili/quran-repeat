@@ -1,6 +1,6 @@
-# ورتّل — Quran learning data
+# القرآن العظيم — Quran learning data
 
-This repository collects carefully reviewed Quran-related data and creative assets for the ورتّل app. It is a data-contribution repository, not a copy of the React application.
+This repository collects carefully reviewed Quran-related data and creative assets for the app **القرآن العظيم**. It is a data-contribution repository, not a copy of the React application.
 
 [Try the app](https://quran-repeat.vercel.app/) · [Propose a change](https://github.com/mrhili/quran-repeat/issues) · [Developer on GitHub](https://github.com/mrhili)
 
@@ -8,7 +8,7 @@ This repository collects carefully reviewed Quran-related data and creative asse
 
 ## Why this project needs you
 
-ورتّل helps people return to the Quran through reading, memorization, listening, comparison, discovery, and reflection. Software can present an ayah, but it cannot decide alone whether two ayat are genuinely helpful to compare, whether a distractor teaches or confuses, whether a topic is responsibly named, or whether a visual design protects the legibility of the Quranic text.
+The app helps people return to the Quran through reading, memorization, listening, comparison, discovery, and reflection. Software can present an ayah, but it cannot decide alone whether two ayat are genuinely helpful to compare, whether a distractor teaches or confuses, whether a topic is responsibly named, or whether a visual design protects the legibility of the Quranic text.
 
 That is why this repository welcomes different kinds of contributors. A small, well-evidenced correction is more valuable than thousands of unreviewed tags. The aim is to help a learner recognize connections and keep studying—not to change the Quranic text to suit a game.
 
