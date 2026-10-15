@@ -643,7 +643,7 @@
     const timestamp = new Date().toISOString();
     const files = [];
     const notes = [
-      'ورتّل — حزمة مراجعة مساهمة', `التاريخ: ${timestamp}`, '',
+      'القرآن العظيم — حزمة مراجعة مساهمة', `التاريخ: ${timestamp}`, '',
       'backup/ هي الملفات الأصلية دون تغيير. احتفظ بها للاستعادة أو المقارنة.',
       'proposed/ هي الملفات المقترحة. افحص الفروقات ثم انسخها إلى فرعك فقط.',
       'لا تَنسخ مجلد backup/ إلى التطبيق.', '', 'ملفات JSON المعدّلة:',
@@ -662,7 +662,7 @@
       message('نُجهّز حزمة المراجعة...');
       const zip = await Z.createZip(files);
       const url = URL.createObjectURL(zip);
-      const link = element('a'); link.href = url; link.download = `warttil-review-${timestamp.slice(0, 10)}.zip`;
+      const link = element('a'); link.href = url; link.download = `contribution-review-${timestamp.slice(0, 10)}.zip`;
       document.body.append(link); link.click(); link.remove();
       setTimeout(() => URL.revokeObjectURL(url), 60_000);
       message('نُزّلت حزمة المراجعة. لم تتغير ملفات المشروع؛ افحصها قبل نسخ المقترح.');
